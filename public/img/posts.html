@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://localhost:8000/panel/posts/edit?modify=1 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="http://localhost:8000/packages/serverfireteam/panel/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="http://localhost:8000/packages/serverfireteam/panel/favicon.ico" type="image/x-icon">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link media="all" type="text/css" rel="stylesheet" href="./posts_files/style.css">
+    <!--link media="all" type="text/css" rel="stylesheet" href="http://localhost:8000/packages/zofe/rapyd/assets/redactor/css/redactor.css"-->
+    <link media="all" type="text/css" rel="stylesheet" href="./posts_files/datepicker3.css">
+    <link media="all" type="text/css" rel="stylesheet" href="./posts_files/autocomplete.css">
+    <link media="all" type="text/css" rel="stylesheet" href="./posts_files/bootstrap-tagsinput.css">
+    <link media="all" type="text/css" rel="stylesheet" href="./posts_files/bootstrap-colorpicker.min.css">
+    <!--link media="all" type="text/css" rel="stylesheet" href="http://localhost:8000/packages/serverfireteam/rapyd-laravel/assets/colorpicker/css/bootstrap-colorpicker.min.css" -->
+
+    <title>posts</title>
+    <!-- compiled styles -->
+
+ 
+    <link href="./posts_files/styles.css" rel="stylesheet" type="text/css">
+    <link href="./posts_files/style(1).css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="./posts_files/css" rel="stylesheet" type="text/css">
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="./posts_files/jquery-1.11.0.js"></script>
+
+</head>
+
+<body class="dashboard
+">
+    
+
+         
+       
+    <div class="loading" style="display: none;">
+        <h1> Carregando... </h1>
+        <div class="spinner">
+          <div class="rect1"></div>
+          <div class="rect2"></div>
+          <div class="rect3"></div>
+          <div class="rect4"></div>
+          <div class="rect5"></div>
+        </div>
+    </div>
+
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top " role="navigation" style="margin-bottom: 0">
+            
+            <!-- /.navbar-header -->
+             <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed btn-resp-sidebar" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                
+              </div>
+
+            
+            <!-- /.navbar-top-links -->
+
+            <div class="navbar-default sidebar " role="navigation">
+                <div class="sidebar-nav navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <div class="grav center"><img src="./posts_files/e42629133ce58ae28749ec71fd9a062f"><a href="https://www.gravatar.com/"><span> trocar</span></a></div>
+                      <div class="user-info">Ronaldo Lima</div>
+                      <a class="visit-site" href="http://localhost:8000/">Visitar Site  </a>
+                      <ul class="nav" id="side-menu">
+                              <li class="">
+                                  <a href="http://localhost:8000/panel"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                              </li>
+                              
+                              
+                               
+                                                                                                 <li>
+                                      <a href="http://localhost:8000/panel/Link/all" class=" s-link "><i class="fa fa-edit fa-fw"></i> Controle de menu  </a>   <span class="badge pull-right">6</span> <div class="items-bar"> <a href="http://localhost:8000/panel/Link/edit" class="ic-plus" title="Adicionar"></a> <a title="List" class="ic-lines" href="http://localhost:8000/panel/Link/all">  </a>  </div>    
+                                           
+                                  </li>
+                                                              
+                               
+      			                                    
+                             <li class="s-link active">
+                                      <a href="http://localhost:8000/panel/posts/all" class="active"><i class="fa fa-edit fa-fw"></i> Postagens  </a>   <span class="badge pull-right">1</span> <div class="items-bar"> <a href="http://localhost:8000/panel/posts/edit" class="ic-plus" title="Adicionar"></a> <a title="List" class="ic-lines" href="http://localhost:8000/panel/posts/all">  </a>  </div>        
+                                  </li>
+                                                              
+                               
+      			                                    
+                             <li class="s-link ">
+                                      <a href="http://localhost:8000/panel/Newsletter/all" class=""><i class="fa fa-edit fa-fw"></i> Newsletters  </a>   <span class="badge pull-right">2</span> <div class="items-bar"> <a href="http://localhost:8000/panel/Newsletter/edit" class="ic-plus" title="Adicionar"></a> <a title="List" class="ic-lines" href="http://localhost:8000/panel/Newsletter/all">  </a>  </div>        
+                                  </li>
+                                                              
+                               
+      			                                    
+                             <li class="s-link ">
+                                      <a href="http://localhost:8000/panel/Users/all" class=""><i class="fa fa-edit fa-fw"></i> Redatores  </a>   <span class="badge pull-right">1</span> <div class="items-bar"> <a href="http://localhost:8000/panel/Users/edit" class="ic-plus" title="Adicionar"></a> <a title="List" class="ic-lines" href="http://localhost:8000/panel/Users/all">  </a>  </div>        
+                                  </li>
+                                                              
+                               
+      			                                    
+                             <li class="s-link ">
+                                      <a href="http://localhost:8000/panel/Admins/all" class=""><i class="fa fa-edit fa-fw"></i> Administradores  </a>   <span class="badge pull-right">1</span> <div class="items-bar"> <a href="http://localhost:8000/panel/Admins/edit" class="ic-plus" title="Adicionar"></a> <a title="List" class="ic-lines" href="http://localhost:8000/panel/Admins/all">  </a>  </div>        
+                                  </li>
+                                                              
+                               
+      			                                    
+                             <li class="s-link ">
+                                      <a href="http://localhost:8000/panel/Mensagem/all" class=""><i class="fa fa-edit fa-fw"></i> Mensagens  </a>   <span class="badge pull-right">2</span> <div class="items-bar"> <a href="http://localhost:8000/panel/Mensagem/edit" class="ic-plus" title="Adicionar"></a> <a title="List" class="ic-lines" href="http://localhost:8000/panel/Mensagem/all">  </a>  </div>        
+                                  </li>
+                                                                                    </ul>     
+                      
+                        
+                    
+                </div>
+               
+             
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+        <div class="powered-by"><a href="http://sotaquepropaganda.com.br/">STQ Digital</a></div> 
+        <div id="page-wrapper" style="min-height: 768px;">
+            
+
+            <!-- Menu Bar -->
+            <div class="row">
+                <div class="col-xs-12 text-a top-icon-bar">
+                    <div class="btn-group" role="group" aria-label="...">
+                        <div class="btn-group" role="group">
+                            <a type="button" class="btn btn-default dropdown-toggle main-link" data-toggle="dropdown" aria-expanded="false">
+                                Opções 
+                                <span class="caret"></span>
+                            </a>
+                          <ul class="dropdown-menu" role="menu">
+                            <li><a href="http://localhost:8000/panel/edit"><span class="icon  ic-users "></span>Editar Perfil</a></li>
+                            <li><a href="http://localhost:8000/panel/changePassword"><span class="icon ic-cog"></span>Mudar Senha</a></li>
+                          </ul>
+                        </div>
+                        <a href="http://localhost:8000/panel/logout" type="button" class="btn btn-default main-link">Sair<span class="icon  ic-switch"></span></a>
+                      </div>
+                </div>
+            </div>
+            
+                <p>
+        </p><form method="POST" action="http://localhost:8000/panel/posts/edit?update=1" accept-charset="UTF-8" class="form-horizontal" role="form"><input name="_method" type="hidden" value="PATCH"><input name="_token" type="hidden" value="KByhrZMl3xpuAHUrbVrDBFDdZLf3U4DC63ULRi5E">
+
+    <div class="btn-toolbar" role="toolbar">
+
+        <div class="pull-left">
+        <h2>Editar Postagem</h2>
+    </div>
+        </div>
+ <br>
+
+
+
+        <div class="form-group">
+
+        <label for="nome" class="col-sm-2 control-label">Nome</label>
+        <div class="col-sm-10" id="div_nome">
+
+            
+<input class="form-control form-control" type="text" id="nome" name="nome" value="Hospital de Clínicas Municipal ">
+
+
+
+            
+        </div>
+
+    </div>
+<div class="form-group">
+
+        <label for="categoria" class="col-sm-2 control-label">Categoria</label>
+        <div class="col-sm-10" id="div_categoria">
+
+            
+<input class="form-control form-control" type="text" id="categoria" name="categoria" value="saude">
+
+
+
+            
+        </div>
+
+    </div>
+<div class="form-group">
+
+        <label for="resumo" class="col-sm-2 control-label required">Resumo</label>
+        <div class="col-sm-10" id="div_resumo">
+
+            
+<input class="form-control form-control" type="text" id="resumo" name="resumo" value="&lt;p&gt;Moderno complexo hospitalar com oferta de exames, cirurgias e tratamentos e projetado para acomodar 293 leitos.&lt;/p&gt;">
+
+
+
+            
+        </div>
+
+    </div>
+<div class="form-group">
+
+        <label for="foto" class="col-sm-2 control-label required">Foto</label>
+        <div class="col-sm-10" id="div_foto">
+
+            
+<input class="form-control form-control" type="text" id="foto" name="foto" value="hc.png">
+
+
+
+            
+        </div>
+
+    </div>
+<div class="form-group">
+
+        <label for="descricao" class="col-sm-2 control-label required">Descrição</label>
+        <div class="col-sm-10" id="div_descricao">
+
+            
+<input class="form-control form-control" type="text" id="descricao" name="descricao" value="&lt;p&gt;Moderno complexo hospitalar com oferta de exames, cirurgias e tratamentos e projetado para acomodar 293 leitos.&lt;/p&gt;">
+
+
+
+            
+        </div>
+
+    </div>
+<div class="form-group">
+
+        <label for="descricao2" class="col-sm-2 control-label required">Descrição 2</label>
+        <div class="col-sm-10" id="div_descricao2">
+
+            
+<input class="form-control form-control" type="text" id="descricao2" name="descricao2" value="&lt;p&gt;Moderno complexo hospitalar com oferta de exames, cirurgias e tratamentos e projetado para acomodar 293 leitos.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Olá olá olá &lt;em&gt;rerereara&lt;/em&gt;&lt;/strong&gt;&lt;em&gt; rearearea&lt;/em&gt;&lt;/p&gt;">
+
+
+
+            
+        </div>
+
+    </div>
+
+
+    <div class="btn-toolbar" role="toolbar">
+
+            <div class="pull-left">
+         <input class="btn btn-primary" type="submit" value="Salvar">
+            </div>
+    </div>
+ <br>
+    <input name="save" type="hidden" value="1"></form>
+
+    <p></p>
+            
+        </div>
+        </div>
+        <!-- /#page-wrapper -->
+
+    
+    <!-- /#wrapper -->
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./posts_files/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="./posts_files/sb-admin-2.js"></script>
+
+    <!--script src="http://localhost:8000/packages/zofe/rapyd/assets/redactor/jquery.browser.min.js"></script-->
+    <!--script src="http://localhost:8000/packages/zofe/rapyd/assets/redactor/redactor.min.js"></script-->
+    <script src="./posts_files/bootstrap-datepicker.js"></script>
+    <script src="./posts_files/bootstrap-datepicker.it.js"></script>
+    <script src="./posts_files/typeahead.bundle.min.js"></script>
+    <script src="./posts_files/handlebars.js"></script>
+    <script src="./posts_files/bootstrap-tagsinput.min.js"></script>
+    <script src="./posts_files/bootstrap-colorpicker.min.js"></script>
+    <!--script src="http://localhost:8000/packages/serverfireteam/rapyd-laravel/assets/colorpicker/js/bootstrap-colorpicker.min.js"></script-->
+
+    
+    
+ 
+    
+
+
+
+</body></html>
