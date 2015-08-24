@@ -5,7 +5,7 @@
 <section class="sect-hero center-all" style="background-color: {{$cor}};"  >
     <div class="row g-full" >
         <header >
-            <h1 class="intro-title dk">Vídeos </h1>
+            <h1 class="intro-title dk">Postagens </h1>
             <hr class="sep">
             
         </header>
@@ -28,13 +28,13 @@
 						    <th class="tg-e3zv">foto</th>
 						    <th class="tg-e3zv">#</th>
 						  </tr>
-						   @forelse ($video as $video)  
+						   @forelse ($post as $post)  
 						  <tr>
-						    <td class="tg-031e">{{$video->nome}}</td>
-						    <td class="tg-031e">{{$video->url}}</td>
-						    <td class="tg-031e">{{$video->vid_categoria}}</td>
-						    <td class="tg-031e">{{$video->foto}}</td>
-						    <td class="tg-031e"><a href="video/{{$video->id}}/editar">Editar</a><a href="video/{{$video->id}}/deletar">| Deletar</a></td>
+						    <td class="tg-031e">{{$post->nome}}</td>
+						    <td class="tg-031e">{{$post->categoria}}</td>
+						    <td class="tg-031e">{{$post->resumo}}</td>
+						    <td class="tg-031e">{{$post->foto}}</td>
+						    <td class="tg-031e"><a href="postagem/{{$post->id}}/editar"><i class="fa fa-pencil-square-o"> </i></a> | <a href="postagem/{{$post->id}}/deletar"><i class="fa fa-trash-o"></i></a></td>
 						  </tr>
 						  @empty
 				             <p>Nenhuma postagem</p>

@@ -42,12 +42,7 @@
 
 
             </div>
-            <div class="row hide update">
-                <div class="alert alert-warning" role="alert">
-                    <a href="http://laravelpanel.com/docs/master/update" class="alert-link"></a>
-                </div>
-            </div>
-
+           
 <script>
     $(function(){
         var color = ['primary','green','orange','red','purple','green2','blue2','yellow'];

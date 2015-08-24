@@ -18,15 +18,16 @@ class PostController extends Controller
      */
     public function index()
     {   
-        /*$cor = '#F6ACB3'; 
+        $cor = '#60a69d';
 
 
-        $posts = DB::table('posts')
-            ->take(4)
+        $post = DB::table('posts')
+            
+            ->take(10)
             ->orderBy('id', 'desc')
             ->get();
 
-        return view('welcome', compact('posts', 'cor' ));*/
+        return view('programas/lista', compact('post','cor' ));
     }
 
     /**
@@ -120,6 +121,10 @@ class PostController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $post = Post::find($id);
+
+        $post->delete();
+
+        return redirect("artigos");
     }
 }

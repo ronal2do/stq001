@@ -59,16 +59,21 @@ Route::group(['middleware' => 'auth' ], function()
     Route::get('home', function () {
         return view('home');
     });
+    Route::get('artigos', 'PostController@index');
     Route::get('cadastrar', 'PostController@create');
     Route::post('cadastrar', 'PostController@store');
     Route::get('postagem/{id}/editar', 'PostController@edit');
     Route::post('postagem/{id}/editar', 'PostController@update');
+    Route::get('postagem/{id}/deletar', 'PostController@destroy');
+    Route::post('postagem/{id}/deletar', 'PostController@destroy');
 // video
     Route::get('editarvideo', 'VdController@lista');
     Route::get('cadastrarvideo', 'VdController@create');
     Route::post('cadastrarvideo', 'VdController@store');
     Route::get('video/{id}/editar', 'VdController@edit');
     Route::post('video/{id}/editar', 'VdController@update');
+    Route::get('video/{id}/deletar', 'VdController@destroy');
+    Route::post('video/{id}/deletar', 'VdController@destroy');
 
      
 });

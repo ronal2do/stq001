@@ -32,7 +32,7 @@
        	<ul>
        		<li><a href="cadastrar">Cadastrar Artigos</a></li>
        		<li><a href="cadastrarvideo">Cadastrar Vídeos</a></li>
-       		<li><a href="">Listar artigos para edição | Exclusão</a></li>
+       		<li><a href="artigos">Listar artigos para edição | Exclusão</a></li>
        		<li><a href="editarvideo">Listar vídeos para edição | Exclusão</a></li>
 
        	</ul>

@@ -150,6 +150,10 @@ class VdController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $post = Video::find($id);
+
+        $post->delete();
+
+        return redirect("editarvideo");
     }
 }
