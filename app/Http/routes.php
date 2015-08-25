@@ -73,7 +73,16 @@ Route::group(['middleware' => 'auth' ], function()
     Route::get('video/{id}/editar', 'VdController@edit');
     Route::post('video/{id}/editar', 'VdController@update');
     Route::get('video/{id}/deletar', 'VdController@destroy');
-    Route::post('video/{id}/deletar', 'VdController@destroy');
-
-     
+    Route::post('video/{id}/deletar', 'VdController@destroy');  
 });
+
+Route::get('email', function(){
+    
+    Mail::raw('Mensagem de teste', function($m){
+        $m->from('us@example.com', 'Laravel')->to('faq@sotaquepropaganda.com.br','Sotaque')->subject('#SomosSBC - Nova mensagem');
+        
+    });
+
+});
+
+

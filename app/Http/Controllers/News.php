@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Newsletter;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-
+use Mail;
 class News extends Controller
 {
     /**
@@ -40,7 +40,9 @@ class News extends Controller
        //dd($request->all());
         $dadosForm = $request->all();
 
-        Newsletter::create($dadosForm);        
+        Newsletter::create($dadosForm);     
+
+        $this->disparaEmail($dadosForm['name']);   
         
         return redirect("contato");
     }
@@ -84,8 +86,16 @@ class News extends Controller
      * @param  int  $id
      * @return Response
      */
-    public function destroy($id)
-    {
-        //
+    private function disparaEmail($nome){
+
+        Mail::send('mail.news', ['name' => $nome], function($m){
+            $m->to('faq@sotaquepropaganda.com.br','#Sotaque')
+              ->from('faq@sotaquepropaganda.com.br', '#SomosSBC')
+              ->sender('faq@sotaquepropaganda.com.br', '#SomosSBC')
+              ->bcc('faq@sotaquepropaganda.com.br', '#SomosSBC')
+              ->subject('#SomosSBC - Nova mensagem');
+            
+        });
+
     }
 }

@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Mensagem;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Mail;
 
 class MenController extends Controller
 {
@@ -41,8 +42,10 @@ class MenController extends Controller
        //dd($request->all());
         $dadosForm = $request->all();
 
-        Mensagem::create($dadosForm);        
-        
+        Mensagem::create($dadosForm); 
+
+        $this->disparaEmail($dadosForm['name']);
+       
         return redirect("contato");
     }
 
@@ -52,6 +55,17 @@ class MenController extends Controller
      * @param  int  $id
      * @return Response
      */
-    
+    private function disparaEmail($nome){
+
+        Mail::send('mail.novousuario', ['name' => $nome], function($m){
+            $m->to('faq@sotaquepropaganda.com.br','#Sotaque')
+              ->from('faq@sotaquepropaganda.com.br', '#SomosSBC')
+              ->sender('faq@sotaquepropaganda.com.br', '#SomosSBC')
+              ->bcc('faq@sotaquepropaganda.com.br', '#SomosSBC')
+              ->subject('#SomosSBC - Nova mensagem');
+            
+        });
+
+    }
 
 }
