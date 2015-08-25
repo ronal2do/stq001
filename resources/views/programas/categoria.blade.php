@@ -13,8 +13,7 @@
                         <a href="infraestrutura">Infraestrutura |</a>
                         <a href="meioambiente">Meio Ambiente |</a>
                         <a href="cidadania">cidadania |</a>
-                        <a href="esporte">esporte </a>
-                     
+                        <a href="esporte">esporte </a>  
             </div>
         </header>
     </div>

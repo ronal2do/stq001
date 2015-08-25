@@ -11,17 +11,13 @@
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><![endif]-->
     <title>#somosSBC</title>
     <meta name="author" content="Somossbc">
-    <meta name="description" content="Somossbc" />
-    <meta name="keywords" content="Somossbc" />
-    <meta content='Somossbc' name='copyright'>
+    <meta name="description" content="Hotsite da campanha #somosSBC" />
+    <meta name="keywords" content="#somossbc, saúde, educação, esporte, desenvolvimento social, infraestutura urbana, prefeitura de são bernardo do campo" />
+    <meta content='Somossbc' name='copyright Prefeitura de São Bernardo do Campo'>
     <!-- Mobile================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale = 1, maximum-scale=1, user-scalable=no" />
     <!-- Fav and icons================================================== -->
     <link rel="shortcut icon" type="image/ico" href="/img/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144x144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-precomposed.png">
     <!-- CSS & Js================================================== -->
     <script type="text/javascript">
         window._wpemojiSettings = {
@@ -74,15 +70,15 @@
     <link rel="stylesheet" href="assets/css/fonts.min.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel='canonical' href='#' />
-    <!-- Google Analytics================================================== -->
-
-    <!-- Img Preloader================================================== -->
+   
     <script>
         function imgLoaded(img) {
             var imgWrapper = img.parentNode;
             imgWrapper.className += imgWrapper.className ? ' loaded' : 'loaded';
         };
     </script>
+    @include('ga')
+    
 </head>
 
 
@@ -92,6 +88,7 @@
 
 
 <body id="top" class="home page page-template page-template-homepage page-template-homepage-php">
+@include('aw')
     <div class='mobile-nav-toggle right'>
         <a class='toggle' id='trigger-nav'>
             <div class='menubars'></div>

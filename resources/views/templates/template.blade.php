@@ -97,6 +97,8 @@
             imgWrapper.className += imgWrapper.className ? ' loaded' : 'loaded';
         };
     </script>
+    @include('ga')
+
 </head>
 
 
@@ -106,6 +108,7 @@
 
 
 <body id="top" class="home page page-template page-template-homepage page-template-homepage-php">
+     @include('aw')
     <!-- Mobile Nav: Toggle================================================== -->
     <div class='mobile-nav-toggle right'>
         <a class='toggle' id='trigger-nav'>

@@ -1,35 +1,27 @@
 @extends('templates.template')
 
 @section('content')
-<!-- Contact
-================================================== -->
 <section class="sect-hero center-all" style="background-color: #f4b812;" >
     <div class="row g-full" >
         <header >
             <h1>Seja São Bernardo </h1>
             <hr class="sep">
-            
         </header>
     </div>
 </section>
 <section class="sect-contact cf">
   <div class="block-wrap">
-  
     <div class="block-half block-contact sect-dark">
       <div>             
        <h3>Contato</h3>
        <hr class="sep-left">
-               
-                    <a class="link-line link-invert" href="mailto:email@email.com">email@email.com</a> <br/>
-                   
+                    <a class="link-line link-invert" href="mailto:faq@sotaquepropaganda.com.br">faq@sotaquepropaganda.com.br</a> <br/>  
       </div>
     </div>
-  
     <div class="block-half block-form">
       <div>             
        <h3>Fale conosco</h3>
-       <hr class="sep">
-       <!-- Contact Form -->           
+       <hr class="sep">     
                     {!!Form::open( ['url' => '/mensagem'])!!}
                         <div class="g-6 cols">
                           <span class="wpcf7-form-control-wrap first-name">
@@ -62,8 +54,7 @@
                           <input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit btn btn-dark" />
                         </p>
                         </div>
-                    {!!Form::close()!!}
-
+                 {!!Form::close()!!}
         </div>     
       </div>
     </div>
