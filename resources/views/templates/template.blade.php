@@ -98,6 +98,7 @@
         };
     </script>
     @include('ga')
+     @include('fb')
 
 </head>
 

@@ -78,7 +78,8 @@
         };
     </script>
     @include('ga')
-    
+    @include('fb')
+
 </head>
 
 
@@ -170,15 +171,7 @@
                 </header>
             </div>
         </section>
-<!--  = teste
-=================================  -->
-
-<!--  = teste
-=================================  -->
-
-
         <div class="culture center-all">
-
         <section id="realizacoes" class="sect-work sect-peeps bg-white" >                                   
             <div class="peep-wrap"> 
                 <div class="row">
