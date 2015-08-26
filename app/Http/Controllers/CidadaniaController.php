@@ -20,7 +20,7 @@ class CidadaniaController extends Controller
         $titulo = 'Desenvolvimento social e cidadania';  
         $cor = '#f6acb3'; 
 
-        $posts = DB::table('posts')->where('categoria', '=', 'cidadania')->get();
+        $posts = DB::table('posts')->where('categoria', '=', 3)->get();
 
         return view('programas.categoria', compact('posts', 'titulo', 'cor'));
 

@@ -20,7 +20,7 @@ class MeioController extends Controller
         $titulo = 'Meio ambiente';  
         $cor = '#fdbf2f';
 
-        $posts = DB::table('posts')->where('categoria', '=', 'meio')->get();
+        $posts = DB::table('posts')->where('categoria', '=', 6)->get();
 
         return view('programas.categoria', compact('posts', 'titulo', 'cor'));
 
