@@ -40,8 +40,6 @@ class CategoriaController extends CrudController{
 
 			$this->edit->add('name', 'Nome', 'text');
 
-
-		
         return $this->returnEditView();
     }    
 }
