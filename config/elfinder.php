@@ -10,7 +10,7 @@ return array(
     | The dir where to store the images (relative from public)
     |
     */
-    'dir' => ['files'],
+    'dir' => ['assets/img/upload'],
 
     /*
     |--------------------------------------------------------------------------
@@ -40,7 +40,7 @@ return array(
 
     'route' => [
         'prefix' => 'elfinder',
-        'middleware' => 'replace-this-with-your-middleware', //Set to null to disable middleware filter
+        'middleware' => 'auth', //Set to null to disable middleware filter
     ],
 
     /*
