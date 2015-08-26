@@ -86,7 +86,7 @@
     </style>
     
     <link rel="stylesheet" href="{{ URL::asset('assets/css/app.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/gotham.css') }}">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ URL::asset('assets/css/fonts.min.css') }}">
     <link rel='canonical' href='#' />
     <!-- Google Analytics================================================== -->
@@ -97,6 +97,9 @@
             imgWrapper.className += imgWrapper.className ? ' loaded' : 'loaded';
         };
     </script>
+    @include('ga')
+     @include('fb')
+
 </head>
 
 
@@ -106,6 +109,7 @@
 
 
 <body id="top" class="home page page-template page-template-homepage page-template-homepage-php">
+     @include('aw')
     <!-- Mobile Nav: Toggle================================================== -->
     <div class='mobile-nav-toggle right'>
         <a class='toggle' id='trigger-nav'>
@@ -118,7 +122,7 @@
             <ul>
                     <li><a href="/">Home</a>
                     </li>
-                    <li><a href="/realizacoes">Realizações</a>
+                   <li><a href="{{ URL::route('welcome', '#realizacoes') }}">Realizações</a>
                     </li>
                     <li><a href="/videos">Vídeos</a>
                     </li>
@@ -150,7 +154,7 @@
                 <ul>
                     <li><a href="/">Home</a>
                     </li>
-                    <li><a href="/realizacoes">Realizações</a>
+                    <li><a href="{{ URL::route('welcome', '#realizacoes') }}">Realizações</a>
                     </li>
                     <li><a href="/videos">Vídeos</a>
                     </li>
@@ -189,13 +193,15 @@
             <aside></aside>
             <nav>
                 <ul class="social">
-                    <li><a href="https://twitter.com/#" title="Twitter" target="_blank"><i class="icon icon-twitters"></i></a>
+                    <li><a href="https://twitter.com/@pref_sbc" title="Twitter" target="_blank"><i class="icon icon-twitters"></i></a>
                     </li>
-                    <li><a href="https://www.facebook.com/#" title="Facebook" target="_blank"><i class="icon icon-facebooks"></i></a>
+                    <li><a href="https://www.facebook.com/prefsbc" title="Facebook" target="_blank"><i class="icon icon-facebooks"></i></a>
                     </li>
                     <li><a href="http://instagram.com/#" title="Instagram" target="_blank"><i class="icon icon-instagram"></i></a>
                     </li>
-                    <li><a href="https://plus.google.com/+#" title="google plus" target="_blank"><i class="icon icon-googleplus"></i></a>
+                    <li><a href="https://www.youtube.com/channel/UCDPNAIYv6IvCkCNiFGDPynw" title="Youtube" target="_blank"><i class="fa fa-youtube"></i></a>
+                    </li>
+                    <li><a href="https://plus.google.com/u/0/b/113442766031187118400/dashboard/overview" title="google plus" target="_blank"><i class="icon icon-googleplus"></i></a>
                     </li>
                 </ul>
             </nav>

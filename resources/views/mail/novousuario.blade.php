@@ -1,8 +1,3 @@
-@extends('templates.template')
+<h1>Nova mensagem</h1>
+<p>Mensagem de {{$name}}</p>
 
-@section('content')
-
-<h1>New user</h1>
-
- 
-@endsection
