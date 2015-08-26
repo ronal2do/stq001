@@ -19,6 +19,7 @@ class Posts extends Migration
             $table->string('foto');
             $table->string('resumo');
             $table->string('descricao');
+            $table->string('descricao2');
             $table->timestamps();
         });
     }

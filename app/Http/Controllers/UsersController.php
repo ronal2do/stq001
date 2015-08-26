@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use \Serverfireteam\Panel\CrudController;
-
+use Hash;
 use Illuminate\Http\Request;
 
 class UsersController extends CrudController{
@@ -21,6 +21,9 @@ class UsersController extends CrudController{
 
 			$this->grid = \DataGrid::source($this->filter);
 			$this->grid->add('name', 'Nome');
+			$this->grid->add('email', 'Email');
+			$this->grid->add('created_at', 'Criado em:'); 
+
 		
 			$this->addStylesToGrid();
     
@@ -38,12 +41,9 @@ class UsersController extends CrudController{
 			$this->edit->label('Editar redatores');
 
 			$this->edit->add('name', 'Nome', 'text');
+			$this->edit->add('email', 'Nome', 'text');
+			$this->edit->add('password', 'Senha', 'text')->rule('required');
 		
-			
-
-
-      
-       
         return $this->returnEditView();
     }    
 }
