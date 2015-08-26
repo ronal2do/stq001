@@ -34,14 +34,16 @@ class UsersController extends CrudController{
         
         parent::edit($entity);
 
-       
+        	\App\Users::creating(function($data) {
+		        $data->password = Hash::make(\Request::input('password'));
+		    });       
 	
 			$this->edit = \DataEdit::source(new \App\Users());
 
 			$this->edit->label('Editar redatores');
 
 			$this->edit->add('name', 'Nome', 'text');
-			$this->edit->add('email', 'Nome', 'text');
+			$this->edit->add('email', 'Email', 'text');
 			$this->edit->add('password', 'Senha', 'text')->rule('required');
 		
         return $this->returnEditView();
