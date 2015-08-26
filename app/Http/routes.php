@@ -48,6 +48,7 @@ Route::get('/postagem', function () {
 Route::post('mensagem', 'MenController@store');
 
 Route::post('news', 'News@store');
+Route::get('news', 'News@store');
 
 //fim do contatos
 
