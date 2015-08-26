@@ -62,6 +62,11 @@ return [
             // 'timeout'  => 30,
         ],
 
+        'public' => [
+            'driver' => 'local',
+            'root'   => base_path().'/public',
+        ],
+
         's3' => [
             'driver' => 's3',
             'key'    => 'your-key',
