@@ -8,6 +8,6 @@ class Mensagem extends Model {
 
     protected $guarded = ['id'];
 
-    protected $table = 'Mensagem';
+    protected $table = 'mensagem';
 
 }
