@@ -21,7 +21,7 @@ class PostsController extends CrudController{
 			$this->filter->build();
 
 			$this->grid = \DataGrid::source($this->filter);
-			$this->grid->add('id', 'ID');
+			$this->grid->add('id', 'ID', 'id');
 			$this->grid->add('nome', 'Nome');
 			$this->grid->add('categoria', 'Categoria');
 			$this->grid->add('resumo', 'Resumo');
@@ -43,11 +43,11 @@ class PostsController extends CrudController{
 		$this->edit->label('Editar Postagem');
 
 			$this->edit->add('nome', 'Nome', 'text');
-			$this->edit->add('categoria', 'Categoria', 'text'); 
+			$this->edit->add('categoria','Categoria','select')->options(\App\Categoria::lists("name", "id")->all());
 			$this->edit->add('resumo', 'Resumo', 'text')->rule('required'); 
-			$this->edit->add('foto', 'Foto', 'image')->move('img/upload/')->preview(80,80);
-			$this->edit->add('descricao', 'Descrição', 'text')->rule('required');
-			$this->edit->add('descricao2', 'Descrição 2', 'text')->rule('required');
+			$this->edit->add('foto', 'Foto', 'image')->move('img/upload/');
+			$this->edit->add('descricao', 'Descrição', 'redactor')->rule('required');
+			$this->edit->add('descricao2', 'Descrição 2', 'redactor')->rule('required');
        
         return $this->returnEditView();
     }    
