@@ -13,7 +13,8 @@
                         <a href="infraestrutura">Infraestrutura |</a>
                         <a href="meioambiente">Meio Ambiente |</a>
                         <a href="cidadania">cidadania |</a>
-                        <a href="esporte">esporte </a>  
+                        <a href="esporte">esporte </a>
+                     
             </div>
         </header>
     </div>
@@ -25,7 +26,7 @@
                 <div class="content">
                     <h3>{{$post->nome}}</h3>
                     <hr class="sep"/>
-                    <p>{!!$post->resumo!!}</p>
+                    <p>{{$post->resumo}}</p>
                 </div>                
                <div class="overlay green"></div>
         </a>

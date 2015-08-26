@@ -6,7 +6,7 @@
 <div>
 		<div class="row">
 			<div class="g-10 cols centered">
-				<h1 style="color:#000;"> {!!$post->nome!!}</h1>
+				<h1 style="color:#000;"> {{$post->nome}}</h1>
 			</div>
 	</div>
 </div>
@@ -20,7 +20,7 @@
  <div class="row">
 <div class="g-10 cols centered"><br />
 <h2>Resumo</h2>
-<p>{!!$post->resumo!!}</p>
+<p>{{$post->resumo}}</p>
 </div>
 </div>
 </section>
@@ -36,10 +36,10 @@
 	<img src="{{ URL::asset('/') }}img/upload/{{$post->foto}}">
 </div>
 <div class="g-6 cols">
-<p>{!!$post->descricao!!}</p>
+<p>{{$post->descricao}}</p>
 </div>
 <div class="g-6 cols">
-<p>{!!$post->descricao2!!}</p>
+<p>{{$post->descricao2}}</p>
 </div>
 
 </div>

@@ -8,6 +8,7 @@
         <header >
             <h1>Cadastro </h1>
             <hr class="sep">
+            <p>Somos #saúde em SBC.</p>
         </header>
     </div>
 </section>
@@ -31,10 +32,7 @@
                 {!!Form::text('nome', isset($post->nome) ? $post->nome : null , ['placeholder' => 'Título da postagem'] )!!}
               </div>
              <div class="g-6 cols">
-                {!!Form::select('categoria', $categoria, isset($post->categoria) ? $post->categoria : null )!!}
-             </div>
-             <div class="g-6 cols">
-                 {!!Form::file('foto' )!!}
+                {!!Form::text('categoria', isset($post->categoria) ? $post->categoria : null , ['placeholder' => 'Categoria'] )!!}
              </div>
               <div class="g-12 cols">
                 {!!Form::text('resumo', isset($post->resumo) ? $post->resumo : null , ['placeholder' => 'Resumo do post'] )!!}
@@ -45,14 +43,16 @@
               <div class="g-12 cols">
                 {!!Form::text('descricao2', isset($post->descricao2) ? $post->descricao2 : null , ['placeholder' => 'Descrição bloco 2', 'rows' => '20' ] )!!}
              </div>
-             
-              <div class="g-12 cols">
+             <div class="g-6 cols">
+                 {!!Form::file('foto' )!!}
+             </div>
+              <div class="g-6 cols">
                  {!!Form::submit('Publicar')!!}
              </div>
         {!!Form::close()!!}
        </div>
 
-       <a href="{{ URL::route('logout') }}">Sair</a>
+       <a href="auth/logout">Sair</a>
 
     </div>
   </div>                

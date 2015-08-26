@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'timezone' => 'America/Sao_Paulo',
+    'timezone' => 'UTC',
 
     /*
     |--------------------------------------------------------------------------
@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'locale' => 'pt-br',
+    'locale' => 'en',
 
     /*
     |--------------------------------------------------------------------------
@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'pt-br',
+    'fallback_locale' => 'en',
 
     /*
     |--------------------------------------------------------------------------
@@ -148,7 +148,7 @@ return [
 
         /* painel */
         Serverfireteam\Panel\PanelServiceProvider::class,
-        'Intervention\Image\ImageServiceProvider',
+        
         
 
     ],
@@ -200,7 +200,7 @@ return [
         'View'      => Illuminate\Support\Facades\View::class,
         'Form'      => 'Illuminate\Html\FormFacade',
         'HTML'      => 'Illuminate\Html\HtmlFacade',
-        'Image'     => 'Intervention\Image\Facades\Image',
+
     ],
 
 ];

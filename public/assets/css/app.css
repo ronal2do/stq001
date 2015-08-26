@@ -5917,43 +5917,30 @@ ul.instagram li img:hover {
     margin: 0;
     height: 3rem
 }
-.sect-signup input[type=text] {
-    letter-spacing: .1em;
-    text-transform: uppercase;
-    font-size: .7em;
-    padding: .3em .6em .15em;
-    margin: 0;
-    height: 3rem
-}
 @media (min-width: 89em) {
     .sect-signup input[type=email] {
-        height: 3rem
-    }
-}
-@media (min-width: 89em) {
-    .sect-signup input[type=text] {
-        height: 3rem
+        height: 4rem
     }
 }
 .sect-signup .btn {
     margin: 0;
-    padding: .4em 1.5em .45em;
+    padding: .5em 1.5em .45em;
     background: #292929;
     border: 0;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: .2em;
     font-size: 95%;
-    height: 2.8rem
+    height: 3rem
 }
 @media screen and (device-aspect-ratio: 40 / 71) {
     .sect-signup .btn {
-        padding: .4em 1em .45em
+        padding: .5em 1em .45em
     }
 }
 @media (min-width: 89em) {
     .sect-signup .btn {
-        height: 2.8rem;
+        height: 4rem;
         font-size: 1.1em
     }
 }

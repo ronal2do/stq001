@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Post;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\Categoria;
+
 
 class PostController extends Controller
 {
@@ -18,16 +18,15 @@ class PostController extends Controller
      */
     public function index()
     {   
-        $cor = '#60a69d';
+        $cor = '#F6ACB3'; 
 
 
-        $post = DB::table('posts')
-            
-            ->take(10)
+        $posts = DB::table('posts')
+            ->take(4)
             ->orderBy('id', 'desc')
             ->get();
 
-        return view('programas/lista', compact('post','cor' ));
+        return view('welcome', compact('posts', 'cor' ));
     }
 
     /**
@@ -37,8 +36,8 @@ class PostController extends Controller
      */
     public function create()
     {
-        $categoria = Categoria::lists('name');
-        return view('cadastrar.cadastrar', compact('categoria'));
+
+        return view('cadastrar.cadastrar');
     }
 
     /**
@@ -76,9 +75,8 @@ class PostController extends Controller
     public function show($id)
     {
         $post = Post::find($id);
-        $categoria = Categoria::lists('name');
 
-        return view('templates.post', compact('post', 'categoria'));
+        return view('templates.post', compact('post'));
     }
 
     /**
@@ -90,11 +88,10 @@ class PostController extends Controller
     public function edit($id)
     {
         $post = Post::find($id);
-        $categoria = Categoria::lists('name');
 
       //  dd($post);
 
-        return view('cadastrar.cadastrar', compact('post', 'categoria'));
+        return view('cadastrar.cadastrar', compact('post'));
     }
 
     /**
@@ -108,9 +105,8 @@ class PostController extends Controller
     {
         $dadosForm = $request->except('_token');
         Post::where('id',$id)->update($dadosForm);
-        $categoria = Categoria::lists('name');
 
-        return redirect("postagem");
+        return view('cadastrar.cadastrar');
     }
 
     /**
@@ -121,10 +117,6 @@ class PostController extends Controller
      */
     public function destroy($id)
     {
-        $post = Post::find($id);
-
-        $post->delete();
-
-        return redirect("artigos");
+        //
     }
 }

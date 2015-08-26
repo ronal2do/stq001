@@ -11,13 +11,17 @@
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><![endif]-->
     <title>#somosSBC</title>
     <meta name="author" content="Somossbc">
-    <meta name="description" content="Hotsite da campanha #somosSBC" />
-    <meta name="keywords" content="#somossbc, saúde, educação, esporte, desenvolvimento social, infraestutura urbana, prefeitura de são bernardo do campo" />
-    <meta content='Somossbc' name='copyright Prefeitura de São Bernardo do Campo'>
+    <meta name="description" content="Somossbc" />
+    <meta name="keywords" content="Somossbc" />
+    <meta content='Somossbc' name='copyright'>
     <!-- Mobile================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale = 1, maximum-scale=1, user-scalable=no" />
     <!-- Fav and icons================================================== -->
     <link rel="shortcut icon" type="image/ico" href="/img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-precomposed.png">
     <!-- CSS & Js================================================== -->
     <script type="text/javascript">
         window._wpemojiSettings = {
@@ -68,18 +72,16 @@
 
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="stylesheet" href="assets/css/fonts.min.css">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel='canonical' href='#' />
-   
+    <!-- Google Analytics================================================== -->
+
+    <!-- Img Preloader================================================== -->
     <script>
         function imgLoaded(img) {
             var imgWrapper = img.parentNode;
             imgWrapper.className += imgWrapper.className ? ' loaded' : 'loaded';
         };
     </script>
-    @include('ga')
-    @include('fb')
-
 </head>
 
 
@@ -89,7 +91,6 @@
 
 
 <body id="top" class="home page page-template page-template-homepage page-template-homepage-php">
-@include('aw')
     <div class='mobile-nav-toggle right'>
         <a class='toggle' id='trigger-nav'>
             <div class='menubars'></div>
@@ -100,7 +101,7 @@
              <ul>
                     <li><a href="/">Home</a>
                     </li>
-                    <li><a href="{{ URL::route('welcome', '#realizacoes') }}">Realizações</a>
+                    <li><a href="/realizacoes">Realizações</a>
                     </li>
                     <li><a href="/videos">Vídeos</a>
                     </li>
@@ -111,9 +112,9 @@
         <footer class="mobile-nav-footer">
             <nav>
                 <ul>
-                    <li><a href="https://www.facebook.com/prefsbc" target="_blank">Facebook</a>
+                    <li><a href="https://www.facebook.com/#" target="_blank">Facebook</a>
                     </li>
-                    <li><a href="https://twitter.com/@pref_sbc" target="_blank">Twitter</a>
+                    <li><a href="https://twitter.com/#" target="_blank">Twitter</a>
                     </li>
                     <li><a href="http://instagram.com/#" target="_blank">Instagram</a>
                     </li>
@@ -130,7 +131,7 @@
                 <ul>
                     <li><a href="/">Home</a>
                     </li>
-                    <li><a href="{{ URL::route('welcome', '#realizacoes') }}">Realizações</a>
+                    <li><a href="/realizacoes">Realizações</a>
                     </li>
                     <li><a href="/videos">Vídeos</a>
                     </li>
@@ -150,10 +151,10 @@
                     <h4>Uma cidade cada vez melhor de se viver</h4>
                     <br />
                     <div>      
-                        <a href="https://www.facebook.com/prefsbc"><img src="img/social.png" style="width:40px;"  alt="#somossbc"></a>
-                        <a href="https://twitter.com/@pref_sbc"><img src="img/social2.png" style="width:40px;"  alt="#somossbc"></a>
+                        <a href=""><img src="img/social.png" style="width:40px;"  alt="#somossbc"></a>
+                        <a href=""><img src="img/social2.png" style="width:40px;"  alt="#somossbc"></a>
                         <a href=""><img src="img/social3.png" style="width:39px;"  alt="#somossbc"></a>
-                        <a href="https://www.youtube.com/channel/UCDPNAIYv6IvCkCNiFGDPynw"><img src="img/social4.png" style="width:40px;"  alt="#somossbc"></a>
+                        <a href=""><img src="img/social4.png" style="width:40px;"  alt="#somossbc"></a>
                     </div>
                     <br/>
                 </div>
@@ -161,7 +162,7 @@
             <div class="overlay alpha"></div>
         </section>
 
-        <section class="sect-intro intro-work" style="background-color: #F6ACB3;">
+        <section class="sect-intro intro-work" style="background-color: {{$cor}};">
             <div class="row g-full">
                 <header>
                     <h2 style="color:#fff;">Uma cidade cada vez melhor de se viver <br/></h2>
@@ -171,8 +172,16 @@
                 </header>
             </div>
         </section>
-        <div class="culture center-all">
-        <section id="realizacoes" class="sect-work sect-peeps bg-white" >                                   
+<!--  = teste
+=================================  -->
+
+<!--  = teste
+=================================  -->
+
+
+        <div id="ancora" class="culture center-all">
+
+        <section class="sect-work sect-peeps bg-white" >                                   
             <div class="peep-wrap"> 
                 <div class="row">
                     <div class="g-6 cols reverse">
@@ -341,13 +350,11 @@
             <aside></aside>
             <nav>
                 <ul class="social">
-                    <li><a href="https://twitter.com/@pref_sbc" title="Twitter" target="_blank"><i class="icon icon-twitters"></i></a>
+                    <li><a href="https://twitter.com/#" title="Twitter" target="_blank"><i class="icon icon-twitters"></i></a>
                     </li>
-                    <li><a href="https://www.facebook.com/prefsbc" title="Facebook" target="_blank"><i class="icon icon-facebooks"></i></a>
+                    <li><a href="https://www.facebook.com/#" title="Facebook" target="_blank"><i class="icon icon-facebooks"></i></a>
                     </li>
                     <li><a href="http://instagram.com/#" title="Instagram" target="_blank"><i class="icon icon-instagram"></i></a>
-                    </li>
-                    <li><a href="https://www.youtube.com/channel/UCDPNAIYv6IvCkCNiFGDPynw" title="Youtube" target="_blank"><i class="fa fa-youtube"></i></a>
                     </li>
                     <li><a href="https://plus.google.com/+#" title="google plus" target="_blank"><i class="icon icon-googleplus"></i></a>
                     </li>

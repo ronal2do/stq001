@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use DB;
 use Illuminate\Http\Request;
+
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -17,8 +18,10 @@ class CidadaniaController extends Controller
     public function index()
     {   
         $titulo = 'Desenvolvimento social e cidadania';  
-        $cor    = '#f6acb3'; 
-        $posts  = DB::table('posts')->where('categoria', '=', 2)->get();
+        $cor = '#f6acb3'; 
+
+        $posts = DB::table('posts')->where('categoria', '=', 'cidadania')->get();
+
         return view('programas.categoria', compact('posts', 'titulo', 'cor'));
 
     }
