@@ -8,7 +8,7 @@ use \Serverfireteam\Panel\CrudController;
 
 use Illuminate\Http\Request;
 
-class categoriaController extends CrudController{
+class CategoriaController extends CrudController{
 
     public function all($entity){
         parent::all($entity); 
@@ -33,7 +33,7 @@ class categoriaController extends CrudController{
     public function  edit($entity){
         
         parent::edit($entity);
-        
+
 			$this->edit = \DataEdit::source(new \App\Categoria());
 
 			$this->edit->label('Edit Category');
