@@ -7,29 +7,10 @@ use App\Newsletter;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Mail;
+
 class News extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return Response
-     */
-    public function index()
-    {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return Response
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
+       /**
      * Store a newly created resource in storage.
      *
      * @param  Request  $request
