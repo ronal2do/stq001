@@ -25,7 +25,7 @@ class News extends Controller
 
         $this->disparaEmail($dadosForm['name']);   
         
-        return redirect("contato");
+        return redirect("contato?#ok");
     }
     /**
      * Display the specified resource.
