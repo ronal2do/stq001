@@ -17,12 +17,12 @@ class VdController extends Controller
     {   
         $cor = '#60a69d';
         $videod = DB::table('videos')
-            ->where('vid_categoria', '=', 1)
+            ->where('vid_categoria', '=', 2)
             ->take(4)
             ->orderBy('id', 'desc')
             ->get();
          $videoc = DB::table('videos')
-            ->where('vid_categoria', '=', 2)
+            ->where('vid_categoria', '=', 1)
             ->take(4)
             ->orderBy('id', 'desc')
             ->get();
