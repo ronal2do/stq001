@@ -1,3 +1,3 @@
 <h1>Nova mensagem</h1>
-<p>Mensagem de {{$nome}}</p>
+<p>Mensagem de {{$name}}</p>
 

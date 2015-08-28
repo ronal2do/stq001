@@ -59,8 +59,8 @@ class MenController extends Controller
 
         Mail::send('mail.novousuario', ['name' => $nome], function($m){
             $m->to('faq@sotaquepropaganda.com.br','#Sotaque')
-              ->from('faq@sotaquepropaganda.com.br', '#SomosSBC')
-              ->sender('faq@sotaquepropaganda.com.br', '#SomosSBC')
+              
+ 
               ->bcc('faq@sotaquepropaganda.com.br', '#SomosSBC')
               ->subject('#SomosSBC - Nova mensagem');
             
