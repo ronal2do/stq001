@@ -80,7 +80,7 @@ return [
     |
     */
 
-    'username' => env('digitalsotaque'),
+    'username' => env('digitalsotaque@gmail.com'),
 
     /*
     |--------------------------------------------------------------------------
