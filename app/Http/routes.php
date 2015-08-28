@@ -1,8 +1,10 @@
 <?php
 
+if ($this->app->runningInConsole()) return false;
+
 Route::get('/', ['as' => 'welcome', function(){
     return view('welcome');
-}]);
+});
 
 Route::get('saude', 'SaudeController@index');
 
@@ -20,15 +22,9 @@ Route::get('#realizacoes', function () {
     return redirect('/') . '#realizacoes';
 });
 
-
-
-Route::get('/infograficos', function () {
-    return view('infograficos.infograficos');
-});
-
 Route::get('/videos', 'VdController@index');
  
-Route::get('/contato', function () {
+Route::get('contato', function () {
     return view('contato.contato');
 });
 
