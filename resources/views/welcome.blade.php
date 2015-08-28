@@ -98,14 +98,15 @@
     <section class="mobile-nav-bg">
         <nav class='mobile-nav-links'>
              <ul>
-                    <li><a href="/">Home</a>
-                    </li>
-                    <li><a href="{{ URL::route('welcome', '#realizacoes') }}">Realizações</a>
-                    </li>
-                    <li><a href="/videos">Vídeos</a>
-                    </li>
-                    <li><a href="/contato">Contato</a>
-                    </li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/videos">saude</a></li>
+                    <li><a href="/videos">educacao</a></li>
+                    <li><a href="/videos">desenvolvimento</a></li>
+                    <li><a href="/videos">infraestrutura</a></li>
+                    <li><a href="/videos">Meio Ambiente</a></li>
+                    <li><a href="/videos">Esporte</a></li>
+                    <li><a href="/videos">Vídeos</a></li>
+                    <li><a href="/contato">Contato</a></li>
             </ul>
         </nav>
         <footer class="mobile-nav-footer">
@@ -128,14 +129,15 @@
             <!-- Main Nav -->
             <nav role="navigation">
                 <ul>
-                    <li><a href="/">Home</a>
-                    </li>
-                    <li><a href="{{ URL::route('welcome', '#realizacoes') }}">Realizações</a>
-                    </li>
-                    <li><a href="/videos">Vídeos</a>
-                    </li>
-                    <li><a href="/contato">Contato</a>
-                    </li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/videos">saude</a></li>
+                    <li><a href="/videos">educacao</a></li>
+                    <li><a href="/videos">desenvolvimento</a></li>
+                    <li><a href="/videos">infraestrutura</a></li>
+                    <li><a href="/videos">Meio Ambiente</a></li>
+                    <li><a href="/videos">Esporte</a></li>
+                    <li><a href="/videos">Vídeos</a></li>
+                    <li><a href="/contato">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -156,8 +158,7 @@
                         <a href="https://www.youtube.com/channel/UCDPNAIYv6IvCkCNiFGDPynw"><img src="img/social4.png" style="width:40px;"  alt="#somossbc"></a>
                     </div>
                     <div>   <br /><br />   
-                       <img src="img/arrow.png" alt="#somossbc">
-                        
+                        <a href="{{ URL::route('welcome', '#realizacoes') }}"> <img src="img/arrow.png" style="width:45px;" alt="#somossbc"></a>
                     </div>
                     <br/>
                 </div>
