@@ -35,10 +35,7 @@ class CategoriaController extends CrudController{
         parent::edit($entity);
 			$this->edit = \DataEdit::source(new \App\Categoria());
 			$this->edit->label('Edit Category');
-
 			$this->edit->add('name', 'Nome', 'text');
-
-
-        return $this->returnEditView();
+       return $this->returnEditView();
     }    
 }
