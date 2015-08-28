@@ -47,7 +47,7 @@ Route::get('elfinder', 'Barryvdh\Elfinder\ElfinderController@showTinyMCE4');
 Route::post('mensagem', 'MenController@store');
 
 Route::post('news', 'News@store');
-Route::get('news', 'News@store');
+
 
 //fim do contatos
 
