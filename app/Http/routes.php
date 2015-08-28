@@ -2,9 +2,9 @@
 
 
 
-Route::get('/', ['as' => 'welcome', function(){
-    return view('welcome');
-}]);
+Route::get('/', function () {
+        return view('welcome');
+    });
 
 Route::get('saude', 'SaudeController@index');
 
