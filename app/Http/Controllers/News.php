@@ -24,7 +24,7 @@ class News extends Controller
 
         Newsletter::create($dadosForm);     
 
-        $this->disparaEmail($dadosForm['name']);   
+        //$this->disparaEmail($dadosForm['name']);   
         
         return redirect("contato?#ok");
     }
@@ -68,7 +68,7 @@ class News extends Controller
      * @param  int  $id
      * @return Response
      */
-     private function disparaEmail($nome)
+   /*  private function disparaEmail($nome)
     {
 
         Mail::send('mail.novousuario', ['name' => $nome], function ($m) {
@@ -77,5 +77,5 @@ class News extends Controller
                ;
         });
 
-    }
+    }*/
 }

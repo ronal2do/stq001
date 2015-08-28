@@ -44,7 +44,7 @@ class MenController extends Controller
 
         Mensagem::create($dadosForm); 
 
-        $this->disparaEmail($dadosForm['name']);
+      //  $this->disparaEmail($dadosForm['name']);
        
         return redirect("contato");
     }
@@ -55,7 +55,7 @@ class MenController extends Controller
      * @param  int  $id
      * @return Response
      */
-    private function disparaEmail($nome){
+  /*  private function disparaEmail($nome){
 
         Mail::send('mail.novousuario', ['name' => $nome], function($m){
             $m->to('faq@sotaquepropaganda.com.br','#Sotaque')
@@ -66,6 +66,6 @@ class MenController extends Controller
             
         });
 
-    }
+    }*/
 
 }
