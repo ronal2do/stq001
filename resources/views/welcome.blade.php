@@ -98,13 +98,13 @@
     <section class="mobile-nav-bg">
         <nav class='mobile-nav-links'>
              <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/videos">saude</a></li>
-                    <li><a href="/videos">educacao</a></li>
-                    <li><a href="/videos">desenvolvimento</a></li>
-                    <li><a href="/videos">infraestrutura</a></li>
-                    <li><a href="/videos">Meio Ambiente</a></li>
-                    <li><a href="/videos">Esporte</a></li>
+                   <li><a href="/">Home</a></li>
+                    <li><a href="/saude">Saúde</a></li>
+                    <li><a href="/educacao">Educação</a></li>
+                    <li><a href="/cidadania">Social</a></li>
+                    <li><a href="/infraestrutura">Infraestrutura</a></li>
+                    <li><a href="/meioambiente">Meio Ambiente</a></li>
+                    <li><a href="/esporte">Esporte</a></li>
                     <li><a href="/videos">Vídeos</a></li>
                     <li><a href="/contato">Contato</a></li>
             </ul>
@@ -130,12 +130,12 @@
             <nav role="navigation">
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/videos">saude</a></li>
-                    <li><a href="/videos">educacao</a></li>
-                    <li><a href="/videos">desenvolvimento</a></li>
-                    <li><a href="/videos">infraestrutura</a></li>
-                    <li><a href="/videos">Meio Ambiente</a></li>
-                    <li><a href="/videos">Esporte</a></li>
+                    <li><a href="/saude">Saúde</a></li>
+                    <li><a href="/educacao">Educação</a></li>
+                    <li><a href="/cidadania">Social</a></li>
+                    <li><a href="/infraestrutura">Infraestrutura</a></li>
+                    <li><a href="/meioambiente">Meio Ambiente</a></li>
+                    <li><a href="/esporte">Esporte</a></li>
                     <li><a href="/videos">Vídeos</a></li>
                     <li><a href="/contato">Contato</a></li>
                 </ul>
