@@ -67,16 +67,14 @@ class News extends Controller
      * @param  int  $id
      * @return Response
      */
-    private function disparaEmail($nome){
-
-        Mail::send('mail.news', ['name' => $nome], function($m){
-            $m->to('faq@sotaquepropaganda.com.br','#Sotaque')
-              ->from('faq@sotaquepropaganda.com.br', '#SomosSBC')
-              ->sender('faq@sotaquepropaganda.com.br', '#SomosSBC')
-              ->bcc('faq@sotaquepropaganda.com.br', '#SomosSBC')
-              ->subject('#SomosSBC - Nova mensagem');
-            
-        });
-
-    }
+     private function disparaEmail($nome)
++    {
++
++        Mail::send('emails.novousuario', ['nome' => $nome], function ($m) {
++            $m->to('faq@sotaquepropaganda.com.br', 'Fulano')
++                ->subject('Novo usuário Cadastrado')
++                ;
++        });
++
++    }
 }
