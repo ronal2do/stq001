@@ -1,10 +1,10 @@
 <?php
 
-if ($this->app->runningInConsole()) return false;
+
 
 Route::get('/', ['as' => 'welcome', function(){
     return view('welcome');
-});
+}]);
 
 Route::get('saude', 'SaudeController@index');
 
