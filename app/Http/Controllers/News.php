@@ -1,7 +1,8 @@
-    <?php
+<?php
 
 namespace App\Http\Controllers;
 
+use DB;
 use Illuminate\Http\Request;
 use App\Newsletter;
 use App\Http\Requests;
