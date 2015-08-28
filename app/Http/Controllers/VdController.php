@@ -17,17 +17,17 @@ class VdController extends Controller
     {   
         $cor = '#60a69d';
         $videod = DB::table('videos')
-            ->where('vid_categoria', '=', 0)
-            ->take(4)
-            ->orderBy('id', 'desc')
-            ->get();
-         $videoc = DB::table('videos')
             ->where('vid_categoria', '=', 1)
             ->take(4)
             ->orderBy('id', 'desc')
             ->get();
-         $videom = DB::table('videos')
+         $videoc = DB::table('videos')
             ->where('vid_categoria', '=', 2)
+            ->take(4)
+            ->orderBy('id', 'desc')
+            ->get();
+         $videom = DB::table('videos')
+            ->where('vid_categoria', '=', 3)
             ->take(4)
             ->orderBy('id', 'desc')
             ->get();
