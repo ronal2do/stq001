@@ -13,8 +13,6 @@ class MensagemController extends CrudController{
     public function all($entity){
         parent::all($entity); 
 
-      
-
 			$this->filter = \DataFilter::source(new \App\Mensagem);
 			$this->filter->add('name', 'Nome', 'text');
 			$this->filter->submit('Buscar');
@@ -30,7 +28,8 @@ class MensagemController extends CrudController{
 			$this->grid->add('created_at', 'Data');
 			$this->grid->add('mensagem', 'Mensagem');
 			$this->addStylesToGrid();
-                 
+        
+
         return $this->returnView();
     }
     
@@ -48,8 +47,10 @@ class MensagemController extends CrudController{
 			$this->edit->add('telefone', 'Telefone', 'text')->rule('required');
 			$this->edit->add('mensagem', 'Mensagem', 'redactor')->rule('required');
 
-       
         return $this->returnEditView();
     } 
+
+    
+
 
 }

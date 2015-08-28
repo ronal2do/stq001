@@ -9,7 +9,7 @@
     <!-- Title and Meta================================================== -->
     <meta charset="UTF-8">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><![endif]-->
-    <title>Somossbc</title>
+    <title>SOMOSSBC</title>
     <meta name="author" content="Somossbc">
     <meta name="description" content="Somossbc" />
     <meta name="keywords" content="Somossbc" />

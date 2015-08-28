@@ -1,7 +1,5 @@
 <?php
 
-
-
 Route::get('/', ['as' => 'welcome', function(){
     return view('welcome');
 }]);
@@ -22,9 +20,15 @@ Route::get('#realizacoes', function () {
     return redirect('/') . '#realizacoes';
 });
 
+
+
+Route::get('/infograficos', function () {
+    return view('infograficos.infograficos');
+});
+
 Route::get('/videos', 'VdController@index');
  
-Route::get('contato', function () {
+Route::get('/contato', function () {
     return view('contato.contato');
 });
 
@@ -39,13 +43,11 @@ Route::get('/postagem', function () {
     return redirect('/');
 });
 
-
 //contatos
 
 Route::post('mensagem', 'MenController@store');
 
 Route::post('news', 'News@store');
-
 
 //fim do contatos
 

@@ -9,7 +9,7 @@
     <!-- Title and Meta================================================== -->
     <meta charset="UTF-8">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><![endif]-->
-    <title>#somosSBC</title>
+    <title>SOMOSSBC</title>
     <meta name="author" content="Somossbc">
     <meta name="description" content="Hotsite da campanha #somosSBC" />
     <meta name="keywords" content="#somossbc, saúde, educação, esporte, desenvolvimento social, infraestutura urbana, prefeitura de são bernardo do campo" />
