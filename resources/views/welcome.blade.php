@@ -155,7 +155,7 @@
                         <a href=""><img src="img/social3.png" style="width:39px;"  alt="#somossbc"></a>
                         <a href="https://www.youtube.com/channel/UCDPNAIYv6IvCkCNiFGDPynw"><img src="img/social4.png" style="width:40px;"  alt="#somossbc"></a>
                     </div>
-                    <div>      
+                    <div>   <br /><br />   
                        <img src="img/arrow.png" alt="#somossbc">
                         
                     </div>
