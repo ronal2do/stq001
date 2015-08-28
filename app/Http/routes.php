@@ -2,9 +2,9 @@
 
 
 
-Route::get('/', function () {
-        return view('welcome');
-    });
+Route::get('/', ['as' => 'welcome', function(){
+    return view('welcome');
+}]);
 
 Route::get('saude', 'SaudeController@index');
 
@@ -38,6 +38,7 @@ Route::get('auth/logout', ['as' => 'logout', function(){
 Route::get('/postagem', function () {
     return redirect('/');
 });
+
 
 //contatos
 
