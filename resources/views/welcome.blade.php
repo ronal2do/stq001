@@ -157,7 +157,7 @@
                         <a href=""><img src="img/social3.png" style="width:39px;"  alt="#somossbc"></a>
                         <a href="https://www.youtube.com/channel/UCDPNAIYv6IvCkCNiFGDPynw"><img src="img/social4.png" style="width:40px;"  alt="#somossbc"></a>
                     </div>
-                    <div>   <br /><br />   
+                    <div>  
                         <a href="{{ URL::route('welcome', '#realizacoes') }}"> <img src="img/arrow.png" style="width:45px;" alt="#somossbc"></a>
                     </div>
                     <br/>
