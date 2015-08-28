@@ -69,13 +69,13 @@ class News extends Controller
      * @return Response
      */
      private function disparaEmail($nome)
-+    {
-+
-+        Mail::send('emails.novousuario', ['nome' => $nome], function ($m) {
-+            $m->to('faq@sotaquepropaganda.com.br', 'Fulano')
-+                ->subject('Novo usuário Cadastrado')
-+                ;
-+        });
-+
-+    }
+    {
+
+        Mail::send('emails.novousuario', ['nome' => $nome], function ($m) {
+            $m->to('faq@sotaquepropaganda.com.br', 'Fulano')
+              ->subject('Novo usuário Cadastrado')
+               ;
+        });
+
+    }
 }
