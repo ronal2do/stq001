@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'from' => ['address' => 'ronaldo.lima@sotaquepropaganda.com.br', 'name' => 'testemaillaravel'],
+    'from' => ['address' => 'digitalsotaque@gmail.com', 'name' => 'testemaillaravel'],
 
     /*
     |--------------------------------------------------------------------------
