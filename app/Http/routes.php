@@ -39,9 +39,6 @@ Route::get('/postagem', function () {
     return redirect('/');
 });
 
-
-Route::get('elfinder', 'Barryvdh\Elfinder\ElfinderController@showTinyMCE4');
-
 //contatos
 
 Route::post('mensagem', 'MenController@store');
