@@ -20,7 +20,7 @@ class SaudeController extends Controller
         $titulo = 'Saúde';  
         $cor = '#fdbf2f'; 
 
-        $posts = DB::table('posts')->where('categoria', '=', 1)->get();
+        $posts = DB::table('posts')->where('categoria', '=', 0)->get();
 
         return view('programas.categoria', compact('posts', 'titulo', 'cor'));
 
