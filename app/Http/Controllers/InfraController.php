@@ -20,7 +20,7 @@ class InfraController extends Controller
         $titulo = 'Infraestrutura';  
         $cor = '#8cbac9'; 
 
-        $posts = DB::table('posts')->where('categoria', '=', 4)->get();
+        $posts = DB::table('posts')->where('categoria', '=', 5)->get();
 
         return view('programas.categoria', compact('posts', 'titulo', 'cor'));
 
