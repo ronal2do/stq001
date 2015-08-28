@@ -20,7 +20,7 @@ class EspController extends Controller
         $titulo = 'Educação';  
         $cor = '#f8c3a5'; 
 
-        $posts = DB::table('posts')->where('categoria', '=', 2)->get();
+        $posts = DB::table('posts')->where('categoria', '=', 1)->get();
 
         return view('programas.categoria', compact('posts', 'titulo', 'cor'));
 
