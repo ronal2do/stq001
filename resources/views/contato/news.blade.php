@@ -15,7 +15,7 @@
           {!!Form::email('email', isset($post->email) ? $post->email : null , ['placeholder' => 'email', 'required'] )!!}        
         </div>
         <div class="g-4 xsm-4 cols">
-          <input type="submit" value="Participar" class="btn btn-med postfix">
+          <input type="submit" value="Participar" class="btn btn-med postfix" onclick="ga('send','event', 'formulario','clique','newsletter');">
         </div>
         {!!Form::close()!!}
       </div>

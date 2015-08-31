@@ -15,7 +15,7 @@
       <div>             
        <h3>Contato</h3>
        <hr class="sep-left">
-       <div style="padding: 20px 120px 120px 120px;"><p>Faça seu cadastro e tenha acesso às novidades e às informações sobre a cidade. <br />Participando da nossa comunidade você também pode deixar sua foto, mensagem ou vídeo mostrando o que faz você ser São Bernardo.</p></div>
+       <div style="padding: 20px 120px 0px 120px;"><p>Faça seu cadastro e tenha acesso às novidades e às informações sobre a cidade. <br />Participando da nossa comunidade você também pode deixar sua foto, mensagem ou vídeo mostrando o que faz você ser São Bernardo.</p></div>
                     
       </div>
     </div>
