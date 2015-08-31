@@ -18,7 +18,7 @@ class SaudeController extends Controller
     public function index()
     {
         $titulo = 'Saúde';  
-        $cor = '#fdbf2f'; 
+        $cor = '#60a69d'; 
 
         $posts = DB::table('posts')->where('categoria', '=', 1)->get();
 

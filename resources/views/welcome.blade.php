@@ -220,6 +220,7 @@
                             <h2 style="font-size:4em;" >CEU Regina Rocco Casa</h2>
                             
                             <p>Somos o CEU Regina Rocco Casa, somos pessoal, estruturas e equipamentos cuidando do ensino e da formação de nossas crianças.</p>
+                            <p style="font-style: italic;">Conheça <i class="fa fa-chevron-right"></i></p>
                         </span>
                         </a>
                     </div>
@@ -245,6 +246,7 @@
                             <h2  style="font-size:4em;"> Nova Lions</h2>
                             
                             <p>Somos o combate às enchentes, as novas moradias, as vias modernizadas, somos realizações que promovem o desenvolvimento da cidade.</p>
+                            <p style="font-style: italic;">Conheça <i class="fa fa-chevron-right"></i></p>
                         </span>
                         </a>
                     </div>
@@ -272,6 +274,7 @@
                             <h2 style="font-size:4em;">CRAS Alvarenga</h2>
                            
                             <p>Somos o CRAS Alvarenga, somos programas, pessoal e estruturas que acolhem, protegem e incluem as pessoas.</p>
+                            <p style="font-style: italic;">Conheça <i class="fa fa-chevron-right"></i></p>
                         </span>
                         </a>
                     </div>
@@ -297,6 +300,7 @@
                             <h2 style="font-size:4em;">Coleta seletiva</h2>
                             
                             <p>Somos a coleta seletiva, somos as ações de educação, preservação e respeito aos mananciais, ao verde e à vida.</p>
+                            <p style="font-style: italic;">Conheça <i class="fa fa-chevron-right"></i></p>
                         </span>
                         </a>
                     </div>
@@ -321,6 +325,7 @@
                         <span class="peep-bio">
                             <h2 style="font-size:4em;">Centro de Atletismo</h2>                            
                             <p>Somos ações como o Centro de Atletismo, o apoio ao esporte e a todas as manifestações culturais, somos as praças e os parques renovados.</p>
+                            <p style="font-style: italic;">Conheça <i class="fa fa-chevron-right"></i></p>
                         </span>
                         </a>    
                     </div>
