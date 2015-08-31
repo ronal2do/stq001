@@ -58,16 +58,16 @@
            
                <article class="g-3 cols" >
 
-                <div class="venobox box" style="background-image:url(/img/upload/{{$videoc->foto}}); width:100%; ">
-                    <a class="venobox box" data-type="youtube" data-overlay="rgba(136,200,211,0.8)" href="{{$videoc->url}}" style="background-color:rgba(23, 22, 22, 0.5);" title="{{$videoc->nome}}"><div class="content">
-                        <div class="bg" style="background-color: rgba(23, 22, 22, 0.5);"></div>
+       
+                    <a class="venobox box" data-type="youtube" data-overlay="rgba(136,200,211,0.8)" href="{{$videoc->url}}" style="background-image:url('img/upload/{{$videoc->foto}}');" title="{{$videoc->nome}}"><div class="content">
+                        <div class="bg" style="background-image:url('img/upload/{{$videoc->foto}}');"></div>
                         <div class="content" >
                             <h4>{{$videoc->nome}}</h4>
                             <p class="meta-author"></p>
                         </div>
                         </div>
                     </a>
-                    </div> 
+                  
                 </article>
                 
             @empty
@@ -99,8 +99,8 @@
                     <a class="venobox box" data-type="youtube" data-overlay="rgba(136,200,211,0.8)" href="{{$videod->url}}" style="background-image:url(/img/upload/{{$videod->foto}});" title="{{$videod->nome}}"><div class="content">
                         <div class="bg" style="background-image:url('img/upload/{{$videod->foto}}');"></div>
                         <div class="content">
-                            <h4>{{$videod->nome}}</h4>
-                            <p class="meta-author"></p> 
+                            <h4 style="background-color: rgba(23, 22, 22, 0.5);">{{$videod->nome}}</h4>
+                          
                         </div>
                         </div>
                     </a>
@@ -131,9 +131,8 @@
                     <a class="venobox box" data-type="youtube" data-overlay="rgba(136,200,211,0.8)" href="{{$videom->url}}" style="background-image:url(/img/upload/{{$videom->foto}});" title="{{$videom->nome}}"><div class="content">
                         <div class="bg" style="background-image:url('img/upload/{{$videom->foto}}');"></div>
                         <div class="content">
-                            <h4>{{$videom->nome}}</h4> 
-                       
-                            <p class="meta-author"></p>
+                            <h4 style="background-color: rgba(23, 22, 22, 0.5);">{{$videom->nome}}</h4> 
+      
                         </div>
                         </div>
                     </a>
