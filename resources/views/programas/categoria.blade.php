@@ -26,7 +26,7 @@
                     <h3>{{$post->nome}}</h3>
                     <hr class="sep"/>
                     <p>{!!$post->resumo!!}</p>
-                    <p>Veja<i class="fa fa-chevron-right"></i></p>
+                    <p>Veja <i class="fa fa-chevron-right"></i></p>
                 </div>                
                <div class="overlay green"></div>
         </a>
