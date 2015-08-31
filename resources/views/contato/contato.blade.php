@@ -15,7 +15,7 @@
       <div>             
        <h3>Contato</h3>
        <hr class="sep-left">
-                    <a class="link-line link-invert" href="mailto:faq@sotaquepropaganda.com.br">faq@sotaquepropaganda.com.br</a> <br/>  
+                    <p>Faça seu cadastro e tenha acesso às novidades e às informações sobre a cidade. Participando da nossa comunidade você também pode deixar sua foto, mensagem ou vídeo mostrando o que faz você ser São Bernardo.</p>
       </div>
     </div>
     <div class="block-half block-form">
