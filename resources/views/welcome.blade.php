@@ -196,7 +196,7 @@
                         <span class="peep-bio">
                             <h2 style="font-size:4em; font-color:#f6acb3;">Hospital de Clínicas Municipal</h2>
                             <p style="font-color:#f6acb3;" >Somos o Hospital de Clínicas Municipal e outras realizações que cuidam da prevenção, do atendimento, do tratamento. </p>
-                            <p>Veja <i class="fa fa-chevron-right"></i></p>
+                            <p style="text-decoration: underline;">Veja <i class="fa fa-chevron-right"></i></p>
                         </span>
                        <a>
                     </div>
