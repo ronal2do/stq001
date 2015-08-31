@@ -52,7 +52,7 @@
                        
                         <div class="g-12 cols">
                         <p class="wpcf7-form-text">
-                          <input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit btn btn-dark" />
+                          <input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit btn btn-dark" onclick="ga('send','event', 'formulario','clique','contato');"  />  
                         </p>
                         </div>
                  {!!Form::close()!!}
