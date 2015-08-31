@@ -59,7 +59,7 @@
                <article class="g-3 cols" >
 
                 <div class="venobox box" style="background-image:url(/img/upload/{{$videoc->foto}}); width:100%; ">
-                    <a class="venobox box" data-type="youtube" data-overlay="rgba(136,200,211,0.8)" href="{{$videoc->url}}" style="background-color:rgba(255,0,0,0.5);" title="{{$videoc->nome}}"><div class="content">
+                    <a class="venobox box" data-type="youtube" data-overlay="rgba(136,200,211,0.8)" href="{{$videoc->url}}" style="background-color:rgba(23, 22, 22, 0.5);" title="{{$videoc->nome}}"><div class="content">
                         <div class="bg" style="background-color: rgba(23, 22, 22, 0.5);"></div>
                         <div class="content" >
                             <h4>{{$videoc->nome}}</h4>
