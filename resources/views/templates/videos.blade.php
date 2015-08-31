@@ -58,7 +58,7 @@
            
                <article class="g-3 cols" >
 
-                <a style="background-image:url(/img/upload/{{$videoc->foto}}); " class="venobox box">
+                <a style="background-image:url(/img/upload/{{$videoc->foto}}); " class="venobox box vbox-item">
                     <a class="venobox box" data-type="youtube" data-overlay="rgba(136,200,211,0.8)" href="{{$videoc->url}}" style="background-color:rgba(255,0,0,0.5);" title="{{$videoc->nome}}"><div class="content">
                        <div class="bg" style="background-image:url('img/upload/{{$videoc->foto}}');"></div>
                         <div class="content" >
