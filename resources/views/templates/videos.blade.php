@@ -56,8 +56,8 @@
             <div class="row">
             @forelse ($videoc as $videoc)  
                <article class="g-3 cols" >
-                    <a class="venobox box" data-type="youtube" data-overlay="rgba(136,200,211,0.8)" href="{{$videoc->url}}" style="background-color:rgba(255,0,0,0.5);" title="{{$videoc->nome}}"><div class="content">
-                        <div class="bg" style="background-image:url('img/upload/{{$videoc->foto}}');"></div>
+                    <a class="venobox box" data-type="youtube" data-overlay="rgba(136,200,211,0.8)" href="{{$videoc->url}}" style="background-image:url(/img/upload/{{$videoc->foto}}); " title="{{$videoc->nome}}"><div class="content">
+                        <div class="bg" style="background-color:rgba(255,0,0,0.5);"></div>
                         <div class="content" >
                             <h4>{{$videoc->nome}}</h4>
                             <p class="meta-author"></p>
