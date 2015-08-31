@@ -55,8 +55,8 @@
 <section class="sect-posts cf bg-lightgrey xl">
             <div class="row">
             @forelse ($videoc as $videoc)  
-               <article class="g-3 cols" style="background-color:rgba(255,0,0,0.5);">
-                    <a class="venobox box" data-type="youtube" data-overlay="rgba(136,200,211,0.8)" href="{{$videoc->url}}" style="background-image:url(/img/upload/{{$videoc->foto}});" title="{{$videoc->nome}}"><div class="content">
+               <article class="g-3 cols" >
+                    <a class="venobox box" data-type="youtube" data-overlay="rgba(136,200,211,0.8)" href="{{$videoc->url}}" style="background-image:url(/img/upload/{{$videoc->foto}}), background-color:rgba(255,0,0,0.5);" title="{{$videoc->nome}}"><div class="content">
                         <div class="bg" style="background-image:url('img/upload/{{$videoc->foto}}');"></div>
                         <div class="content" >
                             <h4>{{$videoc->nome}}</h4>
