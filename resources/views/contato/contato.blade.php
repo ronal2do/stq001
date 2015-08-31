@@ -19,7 +19,7 @@
                     
       </div>
     </div>
-    <div class="block-half block-form" style="padding: 20px;">
+    <div class="block-half block-form" style="padding: 5px;">
       <div>             
        <h3>Fale conosco</h3>
        <hr class="sep">     
