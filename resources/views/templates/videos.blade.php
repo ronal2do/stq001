@@ -55,8 +55,10 @@
 <section class="sect-posts cf bg-lightgrey xl">
             <div class="row">
             @forelse ($videoc as $videoc) 
-            <div style="background-color:rgba(255,0,0,0.5);">
+           
                <article class="g-3 cols" >
+
+                <div style="background-color:rgba(255,0,0,0.5);">
                     <a class="venobox box" data-type="youtube" data-overlay="rgba(136,200,211,0.8)" href="{{$videoc->url}}" style="background-image:url(/img/upload/{{$videoc->foto}}); " title="{{$videoc->nome}}"><div class="content">
                         <div class="bg" style="background-color:rgba(255,0,0,0.5);"></div>
                         <div class="content" >
@@ -65,8 +67,9 @@
                         </div>
                         </div>
                     </a>
+                    </div> 
                 </article>
-                </div> 
+                
             @empty
              <p>Nenhuma postagem</p>
             @endforelse          
