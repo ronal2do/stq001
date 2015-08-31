@@ -60,7 +60,7 @@
 
                 <a style="background-image:url(/img/upload/{{$videoc->foto}}); " class="venobox box">
                     <a class="venobox box" data-type="youtube" data-overlay="rgba(136,200,211,0.8)" href="{{$videoc->url}}" style="background-color:rgba(255,0,0,0.5);" title="{{$videoc->nome}}"><div class="content">
-                       
+                       <div class="bg" style="background-image:url('img/upload/{{$videoc->foto}}');"></div>
                         <div class="content" >
                             <h4>{{$videoc->nome}}</h4>
                             <p class="meta-author"></p>
