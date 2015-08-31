@@ -18,7 +18,7 @@
         </header>
     </div>
 </section>  
-<section id="sect-work" class="sect-work cf">
+<section id="sect-work" class="sect-work cf center-all">
 @forelse ($posts as $post)
     <article class="g-4 cols">
         <a href="/postagem/{{$post->id}}" style="background-image:url(/img/upload/{{$post->foto}});" title="{{$post->nome}}">        
