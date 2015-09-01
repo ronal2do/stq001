@@ -20,15 +20,12 @@ return array(
     | Define an array of Filesystem disks, which use Flysystem.
     | You can set extra options, example:
     |
-    | 'my-disk' => [
-    |        'URL' => url('to/disk'),
-    |        'alias' => 'Local storage',
-    |    ]
-    */
-    'disks' => [
-        'URL' => url('assets/img/upload'),
-        'alias' => 'Local storage',
+    | 'disks' => [
+    |   'URL' => url('assets/img/upload'),
+    |   'alias' => 'Local storage',
     ],
+    */
+    
 
     /*
     |--------------------------------------------------------------------------
