@@ -18,9 +18,8 @@ class VdController extends Controller
         $cor = '#60a69d';
         $videod = DB::table('videos')
             ->where('vid_categoria', '=', 2)
-            
-            
-            ->random(4)
+            ->take(4)
+            ->orderBy('id', 'desc')
             ->get();
          $videoc = DB::table('videos')
             ->where('vid_categoria', '=', 1)
