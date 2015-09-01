@@ -5941,7 +5941,7 @@ ul.instagram li img:hover {
     background: #292929;
     border: 0;
     color: #fff;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: .2em;
     font-size: 95%;
     height: 2.8rem
@@ -5971,7 +5971,7 @@ ul.instagram li img:hover {
 }
 .sect-signup:hover {
     transition: all 1.5s ease;
-    background: #F6ACB3;}
+    background: #eaeaeb;}
 .home .sect-masthead {
     position: relative;
     background-color: #000;

@@ -18,11 +18,12 @@ class MeioController extends Controller
     public function index()
     {
         $titulo = 'Meio ambiente';  
-        $cor = '#fdbf2f';
+        $cor = '#60a69d';
+        $classe = 'peep-wrapd';
 
         $posts = DB::table('posts')->where('categoria', '=', 6)->get();
 
-        return view('programas.categoria', compact('posts', 'titulo', 'cor'));
+        return view('programas.categoria', compact('posts', 'titulo', 'cor', 'classe'));
 
     }
 }

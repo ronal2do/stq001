@@ -17,7 +17,7 @@ class CidadaniaController extends Controller
     public function index()
     {   
         $titulo = 'Desenvolvimento social e cidadania';  
-        $cor    = '#f6acb3'; 
+        $cor    = '#8cbac9'; 
         $classe = 'peep-wrapc';
         $posts  = DB::table('posts')->where('categoria', '=', 3)->get();
         return view('programas.categoria', compact('posts', 'titulo', 'cor', 'classe'));

@@ -18,11 +18,11 @@ class EsporteController extends Controller
     public function index()
     {
         $titulo = 'Esporte, cultura e lazer';  
-        $cor = '#f8c3ac'; 
-
+        $cor = '#c6c2d9'; 
+        $classe = 'peep-wrape';
         $posts = DB::table('posts')->where('categoria', '=', 4)->get();
 
-        return view('programas.categoria', compact('posts', 'titulo', 'cor'));
+        return view('programas.categoria', compact('posts', 'titulo', 'cor', 'classe'));
 
     }
 }
