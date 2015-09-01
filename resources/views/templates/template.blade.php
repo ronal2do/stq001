@@ -163,7 +163,7 @@
                     <li><a href="/meioambiente">Meio Ambiente</a></li>
                     <li><a href="/esporte">Esporte</a></li>
 
-                    <li>  | </li>
+                    <li>   </li>
                     <li><a href="https://www.facebook.com/prefsbc" title="Facebook" target="_blank"><i class="icon icon-facebooks"></i></a></li>
                     <li><a href="https://twitter.com/@pref_sbc" title="Twitter" target="_blank"><i class="icon icon-twitters"></i></a></li>
                     <li><a href="https://www.youtube.com/channel/UCDPNAIYv6IvCkCNiFGDPynw" title="Youtube" target="_blank"><i class="fa fa-youtube"></i></a></li>
