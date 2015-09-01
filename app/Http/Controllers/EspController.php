@@ -19,10 +19,11 @@ class EspController extends Controller
     {
         $titulo = 'Educação';  
         $cor = '#f8c3a5'; 
+        $classe = 'peep-wrapa';
 
         $posts = DB::table('posts')->where('categoria', '=', 2)->get();
 
-        return view('programas.categoria', compact('posts', 'titulo', 'cor'));
+        return view('programas.categoria', compact('posts', 'titulo', 'cor','classe'));
 
     }
 }
