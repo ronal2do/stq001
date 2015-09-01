@@ -13,7 +13,7 @@
         <section id="realizacoes" class="sect-work sect-peeps bg-white" >                                   
            
     @forelse ($posts as $post)
-            <div class="peep-wrapa"> 
+            <div class="{{$classe}}"> 
                 <div class="row">
                     <div class="g-6 cols reverse">
                         <div class="fadie">
