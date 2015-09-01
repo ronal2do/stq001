@@ -184,7 +184,7 @@
     @yield('content')
 
     
-@include('contato.news')    
+    @include('contato.news')    
     </main>
   
 
