@@ -39,8 +39,9 @@
     @empty
         <p>Nenhuma postagem</p>
     @endforelse
-    @endsection
+
 
     </section>
  </div>
 
+  @endsection
