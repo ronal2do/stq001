@@ -5911,7 +5911,7 @@ ul.instagram li img:hover {
 }
 .sect-signup input[type=email] {
     letter-spacing: .1em;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: .7em;
     padding: .3em .6em .15em;
     margin: 0;
@@ -5919,7 +5919,7 @@ ul.instagram li img:hover {
 }
 .sect-signup input[type=text] {
     letter-spacing: .1em;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: .7em;
     padding: .3em .6em .15em;
     margin: 0;
@@ -5971,8 +5971,7 @@ ul.instagram li img:hover {
 }
 .sect-signup:hover {
     transition: all 1.5s ease;
-    background: #c5a47e
-}
+    background: #F6ACB3;}
 .home .sect-masthead {
     position: relative;
     background-color: #000;

@@ -105,7 +105,7 @@
                     <li><a href="/infraestrutura">Infraestrutura</a></li>
                     <li><a href="/meioambiente">Meio Ambiente</a></li>
                     <li><a href="/esporte">Esporte</a></li>
-                    <li><a href="/videos">Vídeos</a></li>
+         
                     <li><a href="/contato">Contato</a></li>
             </ul>
         </nav>
@@ -125,7 +125,12 @@
     <header class="header-main">
         <div class="row">
             <!--- Logo -->
-            <h1 id="logo"> <div class="logocontainer"> <a href="/"> <span>#S</span> <span>O</span> <span>M</span> <span>O</span> <span>S</span> <span>S</span> <span>Ã</span> <span>O</span> <span> </span> <span>B</span> <span>E</span> <span>R</span> <span>N</span> <span>A</span> <span>R</span> <span>D</span> <span>O</span> </a> </div> </h1>
+            <h1 id="logo"> <div class="logocontainer"> <a href="/"> <span>#S</span> <span>O</span> <span>M</span> <span>O</span> <span>S</span> <span>S</span> <span>Ã</span> <span>O</span> <span> </span> <span>B</span> <span>E</span> <span>R</span> <span>N</span> <span>A</span> <span>R</span> <span>D</span> <span>O</span>
+                <span>O</span>
+                <span>O</span>
+                <span>O</span>
+                <span>O</span>
+             </a> </div> </h1>
             <!-- Main Nav -->
             <nav role="navigation">
                 <ul>
@@ -136,7 +141,7 @@
                     <li><a href="/infraestrutura">Infraestrutura</a></li>
                     <li><a href="/meioambiente">Meio Ambiente</a></li>
                     <li><a href="/esporte">Esporte</a></li>
-                    <li><a href="/videos">Vídeos</a></li>
+                 
                     <li><a href="/contato">Contato</a></li>
                 </ul>
             </nav>
