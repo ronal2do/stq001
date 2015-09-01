@@ -52,7 +52,7 @@
                         </span>
                         </a><a href="/postagem/{{$post->id}}">
                         <span class="peep-bio" >
-                            <h2 style="font-size:4em;" >{{$post->nome}}</h2>
+                            
                             <p>{!!$post->resumo!!}</p>
                             <p style="font-style: italic;">Conheça <i class="fa fa-chevron-right"></i></p>
                         </span>
