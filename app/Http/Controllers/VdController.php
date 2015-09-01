@@ -20,7 +20,7 @@ class VdController extends Controller
             ->where('vid_categoria', '=', 2)
             ->take(4)
             ->random
-           orderByRaw("RAND()")
+           ->orderByRaw("RAND()")
             ->get();
          $videoc = DB::table('videos')
             ->where('vid_categoria', '=', 1)
