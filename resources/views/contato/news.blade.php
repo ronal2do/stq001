@@ -7,7 +7,7 @@
       <div style="padding: 2em;"><p>Participando da nossa comunidade você também pode deixar sua foto, mensagem ou vídeo mostrando o que faz você ser São Bernardo.</p><p>Faça seu cadastro e tenha acesso às novidades e às informações sobre a cidade.</p></div>
     </div>
 
-    <div class="block-half block-form" style="padding: 5px;">
+    <div class="block-half block-form" >
                
       
                     {!!Form::open( ['url' => '/mensagem'])!!}
