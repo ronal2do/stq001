@@ -46,8 +46,8 @@ class PostsController extends CrudController{
 			$this->edit->add('categoria','Categoria','select')->options(\App\Categoria::lists("name", "id")->all());
 			$this->edit->add('resumo', 'Resumo', 'text')->rule('required'); 
 			$this->edit->add('foto', 'Foto', 'image')->move('img/upload/');
-			$this->edit->add('descricao', 'Descrição', 'redactor')->rule('required');
-			$this->edit->add('descricao2', 'Descrição 2', 'redactor')->rule('required');
+			$this->edit->add('descricao', 'Descrição', 'redactor');
+			$this->edit->add('descricao2', 'Descrição 2', 'redactor');
        
         return $this->returnEditView();
     }    
