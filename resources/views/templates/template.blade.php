@@ -85,9 +85,9 @@
         }
     </style>
     
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/app.css') }}">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/fonts.min.css') }}">
+  <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/fonts.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel='canonical' href='#' />
     <!-- Google Analytics================================================== -->
     <!-- Img Preloader================================================== -->
