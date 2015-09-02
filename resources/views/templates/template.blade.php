@@ -19,6 +19,7 @@
     <!-- Fav and icons================================================== -->
     <link rel="shortcut icon" type="image/ico" href="/img/favicon.ico">
     <!-- CSS & Js================================================== -->
+    <script src="http://sotaquepropaganda.com.br/somossbc/assets/js/jquery.js"></script>
     <script type="text/javascript">
         window._wpemojiSettings = {
             "baseUrl": "http:\/\/s.w.org\/img\/core\/emoji\/72x72\/",
@@ -65,7 +66,7 @@
             padding: 0 !important;
         }
     </style>
- <script src="{{ URL::asset('assets/js/jquery.min.js') }}"></script>
+
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="stylesheet" href="assets/css/fonts.min.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
