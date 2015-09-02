@@ -13,6 +13,14 @@
 </section>
   
 
+<section class="sect-content bg-lightgrey">
+ <div class="row">
+<div class="g-10 cols centered"><br />
+<h2>Atenção</h2>
+<p>Ao clicar em Publicar você estará concordando com os termos que podem ser lidos abaixo.</p>
+</div>
+</div>
+</section>
 <!-- sect: Approach
 ================================================== -->
 <section class="sect-content">
@@ -54,6 +62,14 @@
 </section>
 
 
+<section class="sect-content bg-lightgrey">
+ <div class="row">
+<div class="g-10 cols centered"><br />
+<h2>Termos</h2>
+<p>Ao clicar em Publicar você estará concordando com os termos que podem ser lidos abaixo.</p>
+</div>
+</div>
+</section>
 
 
 
