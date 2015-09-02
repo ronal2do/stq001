@@ -30,9 +30,7 @@
               <div class="g-12 cols">
                 {!!Form::text('nome', isset($post->nome) ? $post->nome : null , ['placeholder' => 'Título da postagem'] )!!}
               </div>
-             <div class="g-6 cols">
-                {!!Form::select('categoria', $categoria, isset($post->categoria) ? $post->categoria : null )!!}
-             </div>
+             
              <div class="g-6 cols">
                  {!!Form::file('foto' )!!}
              </div>
