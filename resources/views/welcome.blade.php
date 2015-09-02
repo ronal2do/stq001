@@ -141,7 +141,7 @@
                     <li><a href="/esporte">Cultura</a></li>
                     <li><a href="/esporte">Lazer</a></li>
 
-                    <li style="padding-right:70px;">   </li>
+                    <li style="padding-right:20px;">   </li>
                     <li><a href="http://www.saobernardo.sp.gov.br/home" title="Site da Prefeitura" target="_blank"><i class="fa fa-globe"></i></a></li>
                     <li><a href="https://www.facebook.com/prefsbc" title="Facebook" target="_blank"><i class="icon icon-facebooks"></i></a></li>
                     <li><a href="https://twitter.com/@pref_sbc" title="Twitter" target="_blank"><i class="icon icon-twitters"></i></a></li>
