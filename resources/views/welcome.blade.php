@@ -105,8 +105,8 @@
                     <li><a href="/infraestrutura">Infraestrutura</a></li>
                     <li><a href="/meioambiente">Meio Ambiente</a></li>
                     <li><a href="/esporte">Esporte</a></li>
-         
-                    <li><a href="/contato">Contato</a></li>
+                    <li><a href="/esporte">Cultura</a></li>
+                    <li><a href="/esporte">Lazer</a></li>
             </ul>
         </nav>
         <footer class="mobile-nav-footer">
@@ -138,12 +138,17 @@
                     <li><a href="/infraestrutura">Infraestrutura</a></li>
                     <li><a href="/meioambiente">Meio Ambiente</a></li>
                     <li><a href="/esporte">Esporte</a></li>
+                    <li><a href="/esporte">Cultura</a></li>
+                    <li><a href="/esporte">Lazer</a></li>
 
                     <li style="padding-right:100px;">   </li>
+                    <li><a href="https://www.youtube.com/channel/UCDPNAIYv6IvCkCNiFGDPynw" title="Siteda Prefeitura" target="_blank"><i class="fa fa-globe"></i></a></li>
+
                     <li><a href="https://www.facebook.com/prefsbc" title="Facebook" target="_blank"><i class="icon icon-facebooks"></i></a></li>
                     <li><a href="https://twitter.com/@pref_sbc" title="Twitter" target="_blank"><i class="icon icon-twitters"></i></a></li>
                     <li><a href="https://www.youtube.com/channel/UCDPNAIYv6IvCkCNiFGDPynw" title="Youtube" target="_blank"><i class="fa fa-youtube"></i></a></li>
                     <li><a href="http://instagram.com/#" title="Instagram" target="_blank"><i class="icon icon-instagram"></i></a></li>
+                    <li><a href="http://instagram.com/#" title="Instagram" target="_blank"><i class="fa fa-facebook"></i></a></li>
             
             </ul>
             </nav>
