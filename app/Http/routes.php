@@ -20,13 +20,6 @@ Route::get('#realizacoes', function () {
     return redirect('/') . '#realizacoes';
 });
 
-
-
-Route::get('/infograficos', function () {
-    return view('infograficos.infograficos');
-});
-
-Route::get('/videos', 'VdController@index');
  
 Route::get('/contato', function () {
     return view('contato.contato');
@@ -42,6 +35,9 @@ Route::get('auth/logout', ['as' => 'logout', function(){
 Route::get('/postagem', function () {
     return redirect('/');
 });
+
+Route::get('cadastrar', 'PostController@create');
+Route::post('cadastrar', 'PostController@store');
 
 //contatos
 
@@ -60,8 +56,6 @@ Route::group(['middleware' => 'auth' ], function()
         return view('home');
     });
     Route::get('artigos', 'PostController@index');
-    Route::get('cadastrar', 'PostController@create');
-    Route::post('cadastrar', 'PostController@store');
     Route::get('postagem/{id}/editar', 'PostController@edit');
     Route::post('postagem/{id}/editar', 'PostController@update');
     Route::get('postagem/{id}/deletar', 'PostController@destroy');
