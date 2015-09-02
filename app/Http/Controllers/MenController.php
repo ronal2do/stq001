@@ -46,7 +46,7 @@ class MenController extends Controller
 
       //  $this->disparaEmail($dadosForm['name']);
        
-        return redirect("welcome");
+        return redirect("/");
     }
 
     /**
