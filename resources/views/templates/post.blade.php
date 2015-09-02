@@ -19,7 +19,7 @@
 <section class="sect-content bg-lightgrey">
  <div class="row">
 <div class="g-10 cols centered"><br />
-<h2>Resumo</h2>
+<h2></h2>
 <p>{!!$post->resumo!!}</p>
 </div>
 </div>
@@ -35,12 +35,13 @@
 <div class="row center-all"><br />
 	<img src="{{ URL::asset('/') }}img/upload/{{$post->foto}}">
 </div>
+<div class="row center-all"><br />
+	<img src="{{ URL::asset('/') }}img/upload/{{$post->descricao2}}">
+</div>
 <div class="g-6 cols">
 <p>{!!$post->descricao!!}</p>
 </div>
-<div class="g-6 cols">
-<p>{!!$post->descricao2!!}</p>
-</div>
+
 
 </div>
 
