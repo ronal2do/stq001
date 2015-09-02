@@ -26,7 +26,7 @@
 <section class="sect-content">
 <div class="block-half block-form">
       <div>             
-       <h3>Cadastrar</h3>
+       <h3>Publique sua história!</h3>
        <hr class="sep">
        <div class="row"> 
 
@@ -46,7 +46,7 @@
                 {!!Form::text('resumo', isset($post->resumo) ? $post->resumo : null , ['placeholder' => 'Resumo do post'] )!!}
              </div>
               <div class="g-12 cols">
-                {!!Form::text('descricao', isset($post->descricao) ? $post->descricao : null , ['placeholder' => 'Descrição', 'rows' => '20' ] )!!}
+                {!!Form::text('descricao', isset($post->descricao) ? $post->descricao : null , ['placeholder' => 'Descrição', 'lines' => '20' ] )!!}
              </div>
               
               <div class="g-12 cols">
