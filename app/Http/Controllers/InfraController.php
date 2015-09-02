@@ -19,7 +19,7 @@ class InfraController extends Controller
     {
         $titulo = 'Infraestrutura';  
         $cor = '#f6acb3'; 
-        $classe = 'peep-wrapb';
+        $classe = 'peep-wrapd';
 
         $posts = DB::table('posts')->where('categoria', '=', 5)->get();
 

@@ -19,7 +19,7 @@ class EspController extends Controller
     {
         $titulo = 'Educação';  
         $cor = '#8cbac9'; 
-        $classe = 'peep-wrapa';
+        $classe = 'peep-wrapd';
 
         $posts = DB::table('posts')->where('categoria', '=', 2)->get();
 

@@ -19,7 +19,7 @@ class EsporteController extends Controller
     {
         $titulo = 'Esporte, cultura e lazer';  
         $cor = '#c6c2d9'; 
-        $classe = 'peep-wrape';
+        $classe = 'peep-wrapd';
         $posts = DB::table('posts')->where('categoria', '=', 4)->get();
 
         return view('programas.categoria', compact('posts', 'titulo', 'cor', 'classe'));

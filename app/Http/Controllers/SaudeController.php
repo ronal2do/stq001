@@ -19,7 +19,7 @@ class SaudeController extends Controller
     {
         $titulo = 'Saúde';  
         $cor = '#60a69d'; 
-        $classe = 'peep-wrap';
+        $classe = 'peep-wrapd';
 
         $posts = DB::table('posts')->where('categoria', '=', 1)->get();
 

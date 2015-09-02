@@ -6666,7 +6666,7 @@ ul.instagram li img:hover {
 }
 @media (min-width: 54em) {
     .culture .sect-peeps .peep-wrapd:hover {
-        background: #fdbf2f;
+        background: #eaeaeb;
         -webkit-transition: all .5s ease-in-out;
         -moz-transition: all .5s ease-in-out;
         transition: all .5s ease-in-out
