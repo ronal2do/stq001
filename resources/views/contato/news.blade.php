@@ -41,6 +41,9 @@
                         <p class="wpcf7-form-text">
                           <input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit btn btn-dark" onclick="ga('send','event', 'formulario','clique','contato');"  />  
                         </p>
+                        <div class="g-6 cols">
+                           {!!Form::file('foto' )!!}
+                       </div>
                         </div>
                  {!!Form::close()!!}
           

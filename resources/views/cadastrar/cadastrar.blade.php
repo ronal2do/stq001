@@ -43,7 +43,7 @@
                 {!!Form::text('descricao', isset($post->descricao) ? $post->descricao : null , ['placeholder' => 'Descrição', 'rows' => '20' ] )!!}
              </div>
               <div class="g-12 cols">
-                {!!Form::text('descricao2', isset($post->descricao2) ? $post->descricao2 : null , ['placeholder' => 'Descrição bloco 2', 'rows' => '20' ] )!!}
+                {!!Form::file('descricao2')!!}
              </div>
              
               <div class="g-12 cols">
