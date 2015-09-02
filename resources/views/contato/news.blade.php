@@ -28,7 +28,7 @@
                         </div>
                         <div class="g-6 cols">
                           <span class="wpcf7-form-control-wrap first-name">
-                               {!!Form::email('email', isset($post->email) ? $post->email : null , ['placeholder' => 'email', 'required' ] )!!}
+                               {!!Form::email('email', isset($post->email) ? $post->email : null , ['placeholder' => 'Email', 'required' ] )!!}
                           </span>
                         </div>
                          <div class="g-12 cols">
