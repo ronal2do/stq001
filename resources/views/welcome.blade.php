@@ -158,12 +158,14 @@
                     <hr class="sep"  />
                     <h4>Uma cidade cada vez melhor de se viver</h4>
                     <br />
+                    <!--
                     <div>      
                         <a href="https://www.facebook.com/prefsbc"><img src="img/social.png" style="width:40px;"  alt="#somossbc"></a>
                         <a href="https://twitter.com/@pref_sbc"><img src="img/social2.png" style="width:40px;"  alt="#somossbc"></a>
                         <a href=""><img src="img/social3.png" style="width:39px;"  alt="#somossbc"></a>
                         <a href="https://www.youtube.com/channel/UCDPNAIYv6IvCkCNiFGDPynw"><img src="img/social4.png" style="width:40px;"  alt="#somossbc"></a>
                     </div>
+                    -->
                     <div>  
                         <a href="{{ URL::route('welcome', '#realizacoes') }}"> <img src="img/arrow.png" style="width:45px;" alt="#somossbc"></a>
                     </div>
