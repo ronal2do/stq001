@@ -43,5 +43,6 @@
 
     </section>
  </div>
-
+ 
+@include('contato.news') 
   @endsection

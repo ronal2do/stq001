@@ -63,7 +63,7 @@
 
 
 
-
+@include('contato.news') 
 
 
 @endsection

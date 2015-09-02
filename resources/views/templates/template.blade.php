@@ -193,7 +193,7 @@
      @yield('content')
  
      
-     @include('contato.news')    
+        
      </main>
    
  
