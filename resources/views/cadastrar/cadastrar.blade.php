@@ -18,7 +18,7 @@
 <section class="sect-content">
 <div class="block-half block-form">
       <div>             
-       <h3>Cadastrar | Editar</h3>
+       <h3>Cadastrar</h3>
        <hr class="sep">
        <div class="row"> 
 
@@ -27,7 +27,7 @@
        @else
           {!!Form::open( ['url' => 'cadastrar', 'files' => true])!!}
        @endif
-              <div class="g-12 cols">
+              <div class="g-6 cols">
                 {!!Form::text('nome', isset($post->nome) ? $post->nome : null , ['placeholder' => 'Título da postagem'] )!!}
               </div>
              
@@ -40,10 +40,7 @@
               <div class="g-12 cols">
                 {!!Form::text('descricao', isset($post->descricao) ? $post->descricao : null , ['placeholder' => 'Descrição', 'rows' => '20' ] )!!}
              </div>
-              <div class="g-12 cols">
-                {!!Form::file('descricao2')!!}
-             </div>
-             
+              
               <div class="g-12 cols">
                  {!!Form::submit('Publicar')!!}
              </div>
