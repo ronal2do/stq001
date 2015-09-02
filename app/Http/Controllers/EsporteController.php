@@ -18,7 +18,7 @@ class EsporteController extends Controller
     public function index()
     {
         $titulo = 'Esporte, cultura e lazer';  
-        $cor = '#c6c2d9'; 
+        $cor = '#f8c3a5'; 
         $classe = 'peep-wrapd';
         $posts = DB::table('posts')->where('categoria', '=', 4)->get();
 
