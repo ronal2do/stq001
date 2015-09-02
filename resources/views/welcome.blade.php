@@ -228,7 +228,7 @@
                         <span class="peep-bio" >
                             <h2 style="font-size:4em;" ></h2>
                             
-                            <p>Somos o CEU Regina Rocco Casa, somos pessoal, estruturas e equipamentos cuidando do ensino e da formação de nossas crianças.</p>
+                            <p>Somos o CEU Regina Rocco Casa, somos pessoal, estruturas e equipamentos cuidando do ensino e da formação de nossas crianças.</p><br />
                             <p style="font-style: italic;">Conheça Mais<i class="fa fa-chevron-right"></i></p>
                         </span>
                         </a>
@@ -254,7 +254,7 @@
                         <span class="peep-bio">
                             <h2  style="font-size:4em;"></h2>
                             
-                            <p>Somos o combate às enchentes, as novas moradias, as vias modernizadas, somos realizações que promovem o desenvolvimento da cidade.</p>
+                            <p>Somos o combate às enchentes, as novas moradias, as vias modernizadas, somos realizações que promovem o desenvolvimento da cidade.</p><br />
                             <p style="font-style: italic;">Conheça Mais <i class="fa fa-chevron-right"></i></p>
                         </span>
                         </a>
@@ -282,7 +282,7 @@
                         <span class="peep-bio">
                             <h2 style="font-size:4em;"></h2>
                            
-                            <p>Somos o CRAS Alvarenga, somos programas, pessoal e estruturas que acolhem, protegem e incluem as pessoas.</p>
+                            <p>Somos o CRAS Alvarenga, somos programas, pessoal e estruturas que acolhem, protegem e incluem as pessoas.</p><br />
                             <p style="font-style: italic;">Conheça Mais <i class="fa fa-chevron-right"></i></p>
                         </span>
                         </a>
@@ -308,7 +308,7 @@
                         <span class="peep-bio">
                             <h2 style="font-size:4em;"></h2>
                             
-                            <p>Somos a coleta seletiva, somos as ações de educação, preservação e respeito aos mananciais, ao verde e à vida.</p>
+                            <p>Somos a coleta seletiva, somos as ações de educação, preservação e respeito aos mananciais, ao verde e à vida.</p><br />
                             <p style="font-style: italic;">Conheça Mais <i class="fa fa-chevron-right"></i></p>
                         </span>
                         </a>
@@ -333,7 +333,7 @@
                     <a href="/esporte">
                         <span class="peep-bio">
                             <h2 style="font-size:4em;"></h2>                            
-                            <p>Somos ações como o Centro de Atletismo, o apoio ao esporte e a todas as manifestações culturais, somos as praças e os parques renovados.</p>
+                            <p>Somos ações como o Centro de Atletismo, o apoio ao esporte e a todas as manifestações culturais, somos as praças e os parques renovados.</p><br />
                             <p style="font-style: italic;">Conheça Mais <i class="fa fa-chevron-right"></i></p>
                         </span>
                         </a>    
