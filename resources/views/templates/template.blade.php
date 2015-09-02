@@ -70,8 +70,9 @@
         }
     </style>
 
-    <script src="{{ URL::asset('assets/css/app.css') }}"></script>
-    <script src="{{ URL::asset('assets/css/fonts.min.css') }}"></script>
+    <script src="http://somossbc.com.br/assets/css/app.css"></script>
+    <script src="http://somossbc.com.br/assets/css/fonts.min.css"></script>
+ 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel='canonical' href='#' />
    
