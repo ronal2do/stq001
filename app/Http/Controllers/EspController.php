@@ -18,7 +18,7 @@ class EspController extends Controller
     public function index()
     {
         $titulo = 'Educação';  
-        $cor = '#8cbac9'; 
+        $cor = '#f8c3a5'; 
         $classe = 'peep-wrapd';
 
         $posts = DB::table('posts')->where('categoria', '=', 2)->get();

@@ -18,7 +18,7 @@ class InfraController extends Controller
     public function index()
     {
         $titulo = 'Infraestrutura';  
-        $cor = '#f6acb3'; 
+        $cor = '#8cbac9'; 
         $classe = 'peep-wrapd';
 
         $posts = DB::table('posts')->where('categoria', '=', 5)->get();
