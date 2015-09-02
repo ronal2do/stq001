@@ -124,14 +124,12 @@
          <nav class='mobile-nav-links'>
              <ul>
                     <li><a href="/">Home</a></li>
-                     <li><a href="/saude">Saúde</a></li>
-                     <li><a href="/educacao">Educação</a></li>
-                     <li><a href="/cidadania">Social</a></li>
-                     <li><a href="/infraestrutura">Infraestrutura</a></li>
-                     <li><a href="/meioambiente">Meio Ambiente</a></li>
-                     <li><a href="/esporte">Esporte</a></li>
-                     
-                     <li><a href="/contato">Contato</a></li>
+                    <li><a href="/saude">Saúde</a></li>
+                    <li><a href="/educacao">Educação</a></li>
+                    <li><a href="/cidadania">Social</a></li>
+                    <li><a href="/infraestrutura">Infraestrutura</a></li>
+                    <li><a href="/meioambiente">Meio Ambiente</a></li>
+                    <li><a href="/esporte">Esporte, Cultura e Lazer</a></li>
              </ul>
          </nav>
          <!--Mobile Nav: Footer -->
@@ -158,15 +156,13 @@
              <nav role="navigation">
                  <ul>
                      
-                  <li><a href="/">Home</a></li>
+                   <li><a href="/">Home</a></li>
                     <li><a href="/saude">Saúde</a></li>
                     <li><a href="/educacao">Educação</a></li>
                     <li><a href="/cidadania">Social</a></li>
                     <li><a href="/infraestrutura">Infraestrutura</a></li>
                     <li><a href="/meioambiente">Meio Ambiente</a></li>
-                    <li><a href="/esporte">Esporte</a></li>
-                    <li><a href="/esporte">Cultura</a></li>
-                    <li><a href="/esporte">Lazer</a></li>
+                    <li><a href="/esporte">Esporte, Cultura e Lazer</a></li>
 
                     <li style="padding-right:20px;">   </li>
                     <li><a href="http://www.saobernardo.sp.gov.br/home" title="Site da Prefeitura" target="_blank"><i class="fa fa-globe"></i></a></li>
