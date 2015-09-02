@@ -36,8 +36,11 @@
      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114-precomposed.png">
      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72-precomposed.png">
      <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-precomposed.png">
-     <!-- CSS & Js================================================== -->
-      <script src="http://sotaquepropaganda.com.br/somossbc/assets/js/jquery.js"></script>
+     <!-- CSS & Js================
+     <script src="http://sotaquepropaganda.com.br/somossbc/assets/js/jquery.js"></script>
+
+     ================================== -->
+     
      <script type="text/javascript">
          window._wpemojiSettings = {
              "baseUrl": "http:\/\/s.w.org\/img\/core\/emoji\/72x72\/",
@@ -226,6 +229,7 @@
      <!-- Le javascript================================================== -->
  
      <script src="{{ URL::asset('assets/js/modernizr.js') }}"></script>
+     <script src="{{ URL::asset('assets/js/jquery.js') }}"></script>
      <script src="{{ URL::asset('assets/js/plugins.min.js') }}"></script>
      <script src="{{ URL::asset('assets/js/scripts.min.js') }}"></script>
  </body>
