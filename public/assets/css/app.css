@@ -6526,17 +6526,19 @@ ul.instagram li img:hover {
     .culture .sect-peeps .peep-wrap {
         height: 20em;
         padding-top: 5%;
-        margin-bottom: 0
+        margin-bottom: 0;
+        background: #fdbf2f;
     }
 }
 @media (min-width: 89em) {
     .culture .sect-peeps .peep-wrap {
-        padding-top: 3%
+        padding-top: 3%;
+        background: #fdbf2f;
     }
 }
 @media (min-width: 54em) {
     .culture .sect-peeps .peep-wrap:hover {
-        background: #fdbf2f;
+        background: #fff;
         -webkit-transition: all .5s ease-in-out;
         -moz-transition: all .5s ease-in-out;
         transition: all .5s ease-in-out
@@ -6550,23 +6552,26 @@ ul.instagram li img:hover {
     -webkit-transition: background 2s ease-in-out;
     -moz-transition: background 2s ease-in-out;
     transition: background 2s ease-in-out;
-    margin-bottom: 3em
+    margin-bottom: 3em;
+
 }
 @media (min-width: 54em) {
     .culture .sect-peeps .peep-wrapa {
         height: 20em;
         padding-top: 5%;
-        margin-bottom: 0
+        margin-bottom: 0;
+        background: #f8c3a5;
     }
 }
 @media (min-width: 89em) {
     .culture .sect-peeps .peep-wrapa {
-        padding-top: 3%
+        padding-top: 3%;
+        background: #f8c3a5;
     }
 }
 @media (min-width: 54em) {
     .culture .sect-peeps .peep-wrapa:hover {
-        background: #f8c3a5;
+        background: #fff;
         -webkit-transition: all .5s ease-in-out;
         -moz-transition: all .5s ease-in-out;
         transition: all .5s ease-in-out
@@ -6586,17 +6591,19 @@ ul.instagram li img:hover {
     .culture .sect-peeps .peep-wrapb {
         height: 20em;
         padding-top: 5%;
-        margin-bottom: 0
+        margin-bottom: 0;
+        background: #8cbac9;
     }
 }
 @media (min-width: 89em) {
     .culture .sect-peeps .peep-wrapb {
-        padding-top: 3%
+        padding-top: 3%;
+        background: #8cbac9;
     }
 }
 @media (min-width: 54em) {
     .culture .sect-peeps .peep-wrapb:hover {
-        background: #8cbac9;
+        background: #fff;
         -webkit-transition: all .5s ease-in-out;
         -moz-transition: all .5s ease-in-out;
         transition: all .5s ease-in-out
@@ -6616,17 +6623,19 @@ ul.instagram li img:hover {
     .culture .sect-peeps .peep-wrapc {
         height: 20em;
         padding-top: 5%;
-        margin-bottom: 0
+        margin-bottom: 0;
+        background: #f6acb3;
     }
 }
 @media (min-width: 89em) {
     .culture .sect-peeps .peep-wrapc {
-        padding-top: 3%
+        padding-top: 3%;
+        background: #f6acb3;
     }
 }
 @media (min-width: 54em) {
     .culture .sect-peeps .peep-wrapc:hover {
-        background: #f6acb3;
+        background: #fff;
         -webkit-transition: all .5s ease-in-out;
         -moz-transition: all .5s ease-in-out;
         transition: all .5s ease-in-out
