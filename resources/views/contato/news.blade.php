@@ -4,7 +4,9 @@
     <div class="g-6 cols">
       <h4>Fique por dentro de todas as novidades</h4>
       <hr class="sep-left">
-      <div ><p>Participando da nossa comunidade você também pode deixar sua foto, mensagem ou vídeo mostrando o que faz você ser São Bernardo.</p><p>Faça seu cadastro e tenha acesso às novidades e às informações sobre a cidade.</p></div>
+      <div ><p>Participando da nossa comunidade você também pode deixar sua foto, mensagem ou vídeo mostrando o que faz você ser São Bernardo.</p><p>Faça seu cadastro e tenha acesso às novidades e às informações sobre a cidade.</p>
+      <a href="/cadastrar">Envie sua história clicando aqui</a>
+      </div>
     </div>
 
     <div class="block-half block-form" >
@@ -41,7 +43,7 @@
                         <p class="wpcf7-form-text">
                           <input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit btn btn-dark" onclick="ga('send','event', 'formulario','clique','contato');"  />  
                         </p>
-                        
+
                         </div>
                  {!!Form::close()!!}
           
