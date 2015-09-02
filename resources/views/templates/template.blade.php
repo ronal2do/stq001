@@ -11,33 +11,14 @@
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><![endif]-->
     <title>SOMOSSBC</title>
     <meta name="author" content="Somossbc">
-    <meta name="description" content="Somossbc" />
-    <meta name="keywords" content="Somossbc" />
-    <meta content='Somossbc' name='copyright'>
-    <!-- Facebook Open Graph Meta================================================== -->
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:title" content="Somossbc" />
-    <meta property="og:url" content="http://somossbc.com/" />
-    <meta property="og:site_name" content="Somossbc" />
-    <meta property="og:description" content="Somossbc" />
-    <meta property="og:site_name" content="Somossbc" />
-    <meta property="og:image" content="/img/logo_footer.jpg" />
-    <meta property="og:type" content="website" />
-    <!-- Twitter Meta================================================== -->
-    <meta name="twitter:url" content="http://#.com/">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@https://twitter.com/#">
-    <meta name="twitter:site" content="www.dlima.art.br/lab/somossbc/">
+    <meta name="description" content="Hotsite da campanha #somosSBC" />
+    <meta name="keywords" content="#somossbc, saúde, educação, esporte, desenvolvimento social, infraestutura urbana, prefeitura de são bernardo do campo" />
+    <meta content='Somossbc' name='copyright Prefeitura de São Bernardo do Campo'>
     <!-- Mobile================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale = 1, maximum-scale=1, user-scalable=no" />
     <!-- Fav and icons================================================== -->
     <link rel="shortcut icon" type="image/ico" href="/img/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144x144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-precomposed.png">
     <!-- CSS & Js================================================== -->
-     <script src="http://sotaquepropaganda.com.br/somossbc/assets/js/jquery.js"></script>
     <script type="text/javascript">
         window._wpemojiSettings = {
             "baseUrl": "http:\/\/s.w.org\/img\/core\/emoji\/72x72\/",
@@ -84,13 +65,12 @@
             padding: 0 !important;
         }
     </style>
-    
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/app.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('assets/css/fonts.min.css') }}">
+
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/fonts.min.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel='canonical' href='#' />
-    <!-- Google Analytics================================================== -->
-    <!-- Img Preloader================================================== -->
+   
     <script>
         function imgLoaded(img) {
             var imgWrapper = img.parentNode;
@@ -98,28 +78,26 @@
         };
     </script>
     @include('ga')
-     @include('fb')
+    @include('fb')
 
 </head>
 
 
 
-<!-- Começa o body -->
+<!-- Começa o body                        -->
 
 
 
 <body id="top" class="home page page-template page-template-homepage page-template-homepage-php">
-     @include('aw')
-    <!-- Mobile Nav: Toggle================================================== -->
+@include('aw')
     <div class='mobile-nav-toggle right'>
         <a class='toggle' id='trigger-nav'>
             <div class='menubars'></div>
         </a>
     </div>
-    <!-- Mobile Nav================================================== -->
     <section class="mobile-nav-bg">
         <nav class='mobile-nav-links'>
-            <ul>
+             <ul>
                    <li><a href="/">Home</a></li>
                     <li><a href="/saude">Saúde</a></li>
                     <li><a href="/educacao">Educação</a></li>
@@ -127,17 +105,16 @@
                     <li><a href="/infraestrutura">Infraestrutura</a></li>
                     <li><a href="/meioambiente">Meio Ambiente</a></li>
                     <li><a href="/esporte">Esporte</a></li>
-                    
-                    <li><a href="/contato">Contato</a></li>
+                    <li><a href="/esporte">Cultura</a></li>
+                    <li><a href="/esporte">Lazer</a></li>
             </ul>
         </nav>
-        <!--Mobile Nav: Footer -->
         <footer class="mobile-nav-footer">
             <nav>
                 <ul>
-                    <li><a href="https://www.facebook.com/#" target="_blank">Facebook</a>
+                    <li><a href="https://www.facebook.com/prefsbc" target="_blank">Facebook</a>
                     </li>
-                    <li><a href="https://twitter.com/#" target="_blank">Twitter</a>
+                    <li><a href="https://twitter.com/@pref_sbc" target="_blank">Twitter</a>
                     </li>
                     <li><a href="http://instagram.com/#" target="_blank">Instagram</a>
                     </li>
@@ -145,7 +122,6 @@
             </nav>
         </footer>
     </section>
-    <!-- Header-Main================================================== -->
     <header class="header-main">
         <div class="row">
             <!--- Logo -->
@@ -162,12 +138,19 @@
                     <li><a href="/infraestrutura">Infraestrutura</a></li>
                     <li><a href="/meioambiente">Meio Ambiente</a></li>
                     <li><a href="/esporte">Esporte</a></li>
+                    <li><a href="/esporte">Cultura</a></li>
+                    <li><a href="/esporte">Lazer</a></li>
 
                     <li style="padding-right:100px;">   </li>
+                    <li><a href="http://www.saobernardo.sp.gov.br/home" title="Site da Prefeitura" target="_blank"><i class="fa fa-globe"></i></a></li>
                     <li><a href="https://www.facebook.com/prefsbc" title="Facebook" target="_blank"><i class="icon icon-facebooks"></i></a></li>
                     <li><a href="https://twitter.com/@pref_sbc" title="Twitter" target="_blank"><i class="icon icon-twitters"></i></a></li>
                     <li><a href="https://www.youtube.com/channel/UCDPNAIYv6IvCkCNiFGDPynw" title="Youtube" target="_blank"><i class="fa fa-youtube"></i></a></li>
                     <li><a href="http://instagram.com/#" title="Instagram" target="_blank"><i class="icon icon-instagram"></i></a></li>
+                    <li>
+                    <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fprefsbc&amp;send=false&amp;layout=button_count&amp;width=103&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;locale=pt_BR" scrolling="no" frameborder="0" style="border:none; overflow:hidden; max-width:126px; height:21px;" allowtransparency="true">
+                    </iframe>            
+                    </li>
             
             </ul>
             </nav>
