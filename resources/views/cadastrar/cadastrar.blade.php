@@ -6,7 +6,7 @@
 <section class="sect-hero center-all" style="background-color: #60a69d;"  >
     <div class="row g-full" >
         <header >
-            <h1>Cadastro </h1>
+            <h1> Publique </h1>
             <hr class="sep">
         </header>
     </div>
@@ -46,7 +46,7 @@
                 {!!Form::text('resumo', isset($post->resumo) ? $post->resumo : null , ['placeholder' => 'Resumo do post'] )!!}
              </div>
               <div class="g-12 cols">
-                {!!Form::text('descricao', isset($post->descricao) ? $post->descricao : null , ['placeholder' => 'Descrição', 'lines' => '20' ] )!!}
+                {!!Form::textarea('descricao', isset($post->descricao) ? $post->descricao : null , ['placeholder' => 'Descrição', 'rows' => '10' ] )!!}
              </div>
               
               <div class="g-12 cols">
