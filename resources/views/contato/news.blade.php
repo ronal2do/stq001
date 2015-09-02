@@ -5,7 +5,7 @@
       <h4>Fique por dentro de todas as novidades</h4>
       <hr class="sep-left">
       <div ><p>Participando da nossa comunidade você também pode deixar sua foto, mensagem ou vídeo mostrando o que faz você ser São Bernardo.</p><p>Faça seu cadastro e tenha acesso às novidades e às informações sobre a cidade.</p>
-      <input type="submit" href="/cadastrar"/>Envie sua história clicando aqui
+      <a href="/cadastrar"> <p>Envie sua história clicando aqui</p> </a>
       </div>
     </div>
 
