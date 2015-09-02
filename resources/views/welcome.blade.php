@@ -178,9 +178,9 @@
         <section class="sect-intro intro-work" style="background-color: #eaeaeb;">
             <div class="row g-full">
                 <header>
-                    <h2 style="color:#fff;">Uma cidade cada vez melhor de se viver <br/></h2>
-                    <hr class="sep" style="color:#fff;"/>
-                    <p style="color:#fff;">Somos a participação que faz o hoje e o amanhã <br />
+                    <h2 >Uma cidade cada vez melhor de se viver <br/></h2>
+                    <hr class="sep" />
+                    <p >Somos a participação que faz o hoje e o amanhã <br />
                     Somos obras e programas que promovem avanços,<br /> transformam vidas e ainda com muitas histórias por contar.</p>
                 </header>
             </div>

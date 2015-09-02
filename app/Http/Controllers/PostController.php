@@ -18,7 +18,7 @@ class PostController extends Controller
      */
     public function index()
     {   
-        $cor = '#eaeaeb';
+        $cor = '#60a69d';
 
 
         $post = DB::table('posts')
