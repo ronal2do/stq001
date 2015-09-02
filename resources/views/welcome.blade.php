@@ -175,7 +175,7 @@
             <div class="overlay alpha"></div>
         </section>
 
-        <section class="sect-intro intro-work" style="background-color: #F6ACB3;">
+        <section class="sect-intro intro-work" style="background-color: #eaeaeb;">
             <div class="row g-full">
                 <header>
                     <h2 style="color:#fff;">Uma cidade cada vez melhor de se viver <br/></h2>
