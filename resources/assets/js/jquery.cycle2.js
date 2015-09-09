@@ -1504,7 +1504,6 @@ $(document).on( 'cycle-pre-initialize', function( e, opts ) {
 });
 
 })(jQuery);
-
 /*! tmpl plugin for Cycle2;  version: 20121227 */
 (function($) {
 "use strict";
