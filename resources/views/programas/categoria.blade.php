@@ -15,18 +15,18 @@
     @forelse ($posts as $post)
             <div class="{{$classe}}"> 
                 <div class="row">
-                    <div class="g-6 cols reverse center-all">
+                    <div class="g-6 cols reverse">
                         <div class="cycle-slideshow composite-example" 
                             data-cycle-fx="scrollHorz" 
                             data-cycle-slides="> div"
                             data-cycle-timeout="4000"
                             >
                             <div>
-                                <img src="/img/upload/{{$post->foto}}" width="100%">
+                                <img src="/img/upload/{{$post->foto}}" width=100%>
                                 <div class="cycle-overlay">{{$post->nome}}</div>
                             </div>
                             <div>
-                                <img src="/img/upload/{{$post->descricao2}}" width="100%">
+                                <img src="/img/upload/{{$post->descricao2}}" width=100%>
                                 <div class="cycle-overlay">{{$post->nome}}</div>
                             </div>
                             
