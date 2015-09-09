@@ -23,11 +23,11 @@
                     </div>
                     <div class="g-6 cols">
                     <a href="/postagem/{{$post->id}}">
-                        <span class="peep-name">
+                        <span >
                             <h2>#{{$post->nome}}</h2>
                         </span>
                         </a><a href="/postagem/{{$post->id}}">
-                        <span class="peep-bio" >
+                        <span  >
                             
                             <p>{!!$post->resumo!!}</p>
                             <!--<p style="font-style: italic;">Conheça <i class="fa fa-chevron-right"></i></p>-->
