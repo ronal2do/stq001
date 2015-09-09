@@ -7,7 +7,9 @@
       <div ><p>Participando da nossa comunidade você também pode deixar sua foto, mensagem ou vídeo mostrando o que faz você ser São Bernardo.</p>
         </div>
        <p class="wpcf7-form-text">
-           <a href="/cadastrar" value="Clique aqui" class="wpcf7-form-control wpcf7-submit btn btn-dark"> Clique aqui</a>  
+           <a href="/cadastrar" value="Clique aqui" class="wpcf7-form-control wpcf7-submit" style="
+    color: #000;
+"> Clique aqui</a>  
        </p>
 
     </div>
