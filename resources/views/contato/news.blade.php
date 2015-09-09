@@ -33,11 +33,7 @@
                                {!!Form::email('email', isset($post->email) ? $post->email : null , ['placeholder' => 'Email', 'required' ] )!!}
                           </span>
                         </div>
-                         <div class="g-12 cols">
-                          <span class="wpcf7-form-control-wrap the-message">
-                               {!!Form::textarea('mensagem', isset($post->mensagem) ? $post->mensagem : null , ['placeholder' => 'Mensagem', 'class' => 'wpcf7-form-control wpcf7-textarea', 'cols' => '40'] )!!}
-                          </span>
-                        </div>
+                       
                        
                         <div class="g-12 cols">
                         <p class="wpcf7-form-text">
