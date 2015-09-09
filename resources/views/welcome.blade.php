@@ -164,14 +164,7 @@
                     <hr class="sep"  />
                     <h4>Uma cidade cada vez melhor de se viver</h4>
                     <br />
-                    <!--
-                    <div>      
-                        <a href="https://www.facebook.com/prefsbc"><img src="img/social.png" style="width:40px;"  alt="#somossbc"></a>
-                        <a href="https://twitter.com/@pref_sbc"><img src="img/social2.png" style="width:40px;"  alt="#somossbc"></a>
-                        <a href=""><img src="img/social3.png" style="width:39px;"  alt="#somossbc"></a>
-                        <a href="https://www.youtube.com/channel/UCDPNAIYv6IvCkCNiFGDPynw"><img src="img/social4.png" style="width:40px;"  alt="#somossbc"></a>
-                    </div>
-                    -->
+                 
                     <div>  
                         <a href="{{ URL::route('welcome', '#realizacoes') }}"> <img src="img/arrow.png" style="width:45px;" alt="#somossbc"></a>
                     </div>
@@ -211,7 +204,7 @@
                         <span class="peep-bio">
                             <h2 style="font-size:4em; font-color:#f6acb3;"></h2>
                             <p style="font-color:#f6acb3;" >Somos o Hospital de Clínicas Municipal e outras realizações que cuidam da prevenção, do atendimento, do tratamento. </p><br />
-                            <p style="font-style: italic;">Conheça Mais <i class="fa fa-chevron-right"></i></p>
+                            <p style="font-style: italic;">Outras realizações <i class="fa fa-chevron-right"></i></p>
                         </span>
                        <a>
                     </div>
@@ -235,7 +228,7 @@
                             <h2 style="font-size:4em;" ></h2>
                             
                             <p>Somos o CEU Regina Rocco Casa, somos pessoal, estruturas e equipamentos cuidando do ensino e da formação de nossas crianças.</p><br />
-                            <p style="font-style: italic;">Conheça Mais<i class="fa fa-chevron-right"></i></p>
+                            <p style="font-style: italic;">Outras realizações<i class="fa fa-chevron-right"></i></p>
                         </span>
                         </a>
                     </div>
@@ -261,7 +254,7 @@
                             <h2  style="font-size:4em;"></h2>
                             
                             <p>Somos o combate às enchentes, as novas moradias, as vias modernizadas, somos realizações que promovem o desenvolvimento da cidade.</p><br />
-                            <p style="font-style: italic;">Conheça Mais <i class="fa fa-chevron-right"></i></p>
+                            <p style="font-style: italic;">Outras realizações <i class="fa fa-chevron-right"></i></p>
                         </span>
                         </a>
                     </div>
@@ -289,7 +282,7 @@
                             <h2 style="font-size:4em;"></h2>
                            
                             <p>Somos o CRAS Alvarenga, somos programas, pessoal e estruturas que acolhem, protegem e incluem as pessoas.</p><br />
-                            <p style="font-style: italic;">Conheça Mais <i class="fa fa-chevron-right"></i></p>
+                            <p style="font-style: italic;">Outras realizações <i class="fa fa-chevron-right"></i></p>
                         </span>
                         </a>
                     </div>
@@ -315,7 +308,7 @@
                             <h2 style="font-size:4em;"></h2>
                             
                             <p>Somos a coleta seletiva, somos as ações de educação, preservação e respeito aos mananciais, ao verde e à vida.</p><br />
-                            <p style="font-style: italic;">Conheça Mais <i class="fa fa-chevron-right"></i></p>
+                            <p style="font-style: italic;">Outras realizações <i class="fa fa-chevron-right"></i></p>
                         </span>
                         </a>
                     </div>
@@ -340,7 +333,7 @@
                         <span class="peep-bio">
                             <h2 style="font-size:4em;"></h2>                            
                             <p>Somos ações como o Centro de Atletismo, o apoio ao esporte e a todas as manifestações culturais, somos as praças e os parques renovados.</p><br />
-                            <p style="font-style: italic;">Conheça Mais <i class="fa fa-chevron-right"></i></p>
+                            <p style="font-style: italic;">Outras realizações <i class="fa fa-chevron-right"></i></p>
                         </span>
                         </a>    
                     </div>
