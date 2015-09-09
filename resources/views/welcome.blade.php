@@ -352,7 +352,8 @@
                 <ul>
                     <li>
                         <div class="logocontainer">
-                            <img src="img/logo_footer.jpg" href="https://www.facebook.com/prefsbc" alt="SomosSbc" />
+                            <a href=" https://www.facebook.com/prefsbc">  <img src="img/logo_footer.jpg" alt="SomosSbc" /></a>
+                          
                         </div>
                     </li>
                 </ul>
