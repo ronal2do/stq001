@@ -3951,11 +3951,21 @@ footer.footer-main {
     background-position: center 19em;
     background-size: 87% auto;
     background-repeat: no-repeat;
-    color: #e6e7e8;
+    color: #D6D130;
     width: 100%;
     font-size: .9em;
     z-index: 0;
     overflow-y: hidden
+
+
+
+
+
+
+
+
+
+
 }
 @media screen and (device-aspect-ratio: 40 / 71) {
     footer.footer-main {
@@ -3994,10 +4004,10 @@ footer.footer-main aside>* {
 }
 footer.footer-main .gold,
 footer.footer-main a {
-    color: #fdbf2f
+    color: #FDBF27;
 }
 footer.footer-main nav ul li a {
-    color: #e6e7e8
+    color: #123456;
 }
 footer.footer-main nav ul {
     list-style: none;
@@ -4012,7 +4022,7 @@ footer.footer-main nav ul li {
     vertical-align: middle
 }
 footer.footer-main nav ul.social li a {
-    color: #fdbf2f;
+    color: #E6E7E7;
     display: block;
     width: 1em;
     height: 1em;
@@ -4022,6 +4032,7 @@ footer.footer-main nav ul.social li a {
     font-weight: 400;
     margin: 0 .45em;
     transition: all .2s
+
 }
 
 @media (min-width: 54em) {
@@ -4031,7 +4042,7 @@ footer.footer-main nav ul.social li a {
     }
 }
 footer.footer-main nav ul.social li a:hover {
-    color: #eaeaeb
+    color: #fdbf2f
 }
 footer.footer-main .uilogo {
     font-size: 1.1em;
