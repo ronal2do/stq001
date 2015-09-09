@@ -2,9 +2,9 @@
     <div>
   <div class="row">
     <div class="g-6 cols">
-      <h4>Fique por dentro de todas as novidades</h4>
+      <h4>Participe</h4>
       <hr class="sep-left">
-      <div ><p>Participando da nossa comunidade você também pode deixar sua foto, mensagem ou vídeo mostrando o que faz você ser São Bernardo.</p>
+      <div ><p>Mande sua foto, imagem ou mensagem mostrando o que faz você ser São Bernardo que a gente posta nas redes sociais da prefeitura.</p>
         </div>
        <p class="wpcf7-form-text">
            <a href="/cadastrar" value="Clique aqui" class="wpcf7-form-control wpcf7-submit" style="
@@ -15,7 +15,7 @@
     </div>
 
     <div class="g-6 cols" >
-    <br />
+    <h4>Fique por dentro</h4>
       <br />
       <hr class="sep-left">
 
