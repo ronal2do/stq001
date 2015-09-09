@@ -16,10 +16,31 @@
             <div class="{{$classe}}"> 
                 <div class="row">
                     <div class="g-6 cols reverse">
+                        <div class="cycle-slideshow composite-example" 
+                            data-cycle-fx="scrollHorz" 
+                            data-cycle-slides="> div"
+                            data-cycle-timeout="2000"
+                            >
+                            <div>
+                                <img src="/img/upload/{{$post->foto}}" width=100%>
+                                <div class="cycle-overlay">{{$post->nome}}</div>
+                            </div>
+                            <div>
+                                <img src="/img/upload/{{$post->descricao2}}" width=100%>
+                                <div class="cycle-overlay">{{$post->nome}}</div>
+                            </div>
+                            <div>
+                                <img src="http://malsup.github.io/images/p3.jpg" width=100%>
+                                <div class="cycle-overlay">Andgel Island</div>
+                            </div>
+                        </div>
+
+                    <!--
                         <div class="fadie">
                             <img class="peep-pic top" src="/img/upload/{{$post->foto}}" alt="{{$post->nome}}">
                             <img class="peep-pic bottom" src="/img/upload/{{$post->descricao2}}" alt="{{$post->nome}}">
                         </div>
+                        -->
                     </div>
                     <div class="g-6 cols">
                     <a href="/postagem/{{$post->id}}">
