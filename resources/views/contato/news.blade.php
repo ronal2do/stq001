@@ -27,17 +27,17 @@
                                {!!Form::text('name', isset($post->name) ? $post->nome : null , ['placeholder' => 'Nome', 'required'] )!!}
                           </span>
                         </div>
-                        <div class="g-6 cols">
+                        <div class="g-6 cols" style="padding:0px;">
                           <span class="wpcf7-form-control-wrap first-name">
-                               {!!Form::text('bairro', isset($post->bairro) ? $post->bairro : null , ['placeholder' => 'Bairro', 'required'] )!!}
+                               {!!Form::text('bairro', isset($post->bairro) ? $post->bairro : null , ['placeholder' => 'Bairro'] )!!}
                           </span>
                         </div>
-                        <div class="g-6 cols"> 
+                        <div class="g-6 cols" style="padding:0px;"> 
                           <span class="wpcf7-form-control-wrap the-phone">
-                               {!!Form::text('telefone', isset($post->telefone) ? $post->telefone : null , ['placeholder' => 'Telefone', 'required'] )!!}
+                               {!!Form::text('telefone', isset($post->telefone) ? $post->telefone : null , ['placeholder' => 'Telefone'] )!!}
                           </span>
                         </div>
-                        <div class="g-6 cols">
+                        <div class="g-6 cols" style="padding:0px;">
                           <span class="wpcf7-form-control-wrap first-name">
                                {!!Form::email('email', isset($post->email) ? $post->email : null , ['placeholder' => 'Email', 'required' ] )!!}
                           </span>
