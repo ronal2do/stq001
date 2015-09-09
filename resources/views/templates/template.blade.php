@@ -37,7 +37,7 @@
      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72-precomposed.png">
      <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-precomposed.png">
      <!-- CSS & Js================ -->
-     <script src="http://malsup.github.io/jquery.cycle2.js"></script>
+
 
    
      
@@ -227,6 +227,7 @@
  
      <script src="{{ URL::asset('assets/js/modernizr.js') }}"></script>
      <script src="{{ URL::asset('assets/js/jquery.js') }}"></script>
+     <script src="http://malsup.github.io/jquery.cycle2.js"></script>
      <script src="{{ URL::asset('assets/js/plugins.min.js') }}"></script>
      <script src="{{ URL::asset('assets/js/scripts.min.js') }}"></script>
  </body>
