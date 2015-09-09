@@ -36,10 +36,10 @@
      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114-precomposed.png">
      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72-precomposed.png">
      <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-precomposed.png">
-     <!-- CSS & Js================
-     <script src="http://sotaquepropaganda.com.br/somossbc/assets/js/jquery.js"></script>
+     <!-- CSS & Js================ -->
+     <script src="http://malsup.github.io/min/jquery.cycle2.min.js"></script>
 
-     ================================== -->
+   
      
      <script type="text/javascript">
          window._wpemojiSettings = {
@@ -218,7 +218,7 @@
                     <li><a href="https://www.youtube.com/channel/UCDPNAIYv6IvCkCNiFGDPynw" title="Youtube" target="_blank"><i class="fa fa-youtube"></i></a></li>
                     <li><a href="http://instagram.com/#" title="Instagram" target="_blank"><i class="icon icon-instagram"></i></a></li>
                     <li>
-                    
+
                  </ul>
              </nav>
          </div>
