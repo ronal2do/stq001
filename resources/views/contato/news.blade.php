@@ -13,8 +13,10 @@
     </div>
 
     <div class="g-6 cols" >
-   
+    <br />
+      <br />
       <hr class="sep-left">
+
                 <p>Faça seu cadastro e tenha acesso às novidades e às informações sobre a cidade.</p>
       
                     {!!Form::open( ['url' => '/mensagem'])!!}
