@@ -352,7 +352,7 @@
                 <ul>
                     <li>
                         <div class="logocontainer">
-                            <a href=" https://www.facebook.com/prefsbc">  <img src="img/logo_footer.jpg" alt="SomosSbc" /></a>
+                            <a href=" http://www.saobernardo.sp.gov.br/home">  <img src="img/logo_footer.jpg" alt="SomosSbc" /></a>
                           
                         </div>
                     </li>
