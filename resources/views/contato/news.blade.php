@@ -44,7 +44,7 @@
                        
                         <div class="g-12 cols">
                       
-                          <input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit btn btn-dark" onclick="ga('send','event', 'formulario','clique','contato');"  /> 
+                          <buttom type="submit" class="wpcf7-form-control wpcf7-submit btn btn-dark" onclick="ga('send','event', 'formulario','clique','contato');"  >Enviar</buttom> 
 
 
                         </div>
