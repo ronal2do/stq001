@@ -10,7 +10,7 @@
     </div>
 
     <div class="block-half block-form" >
-               
+                <p>Faça seu cadastro e tenha acesso às novidades e às informações sobre a cidade.</p>
       
                     {!!Form::open( ['url' => '/mensagem'])!!}
                         <div class="g-6 cols">
