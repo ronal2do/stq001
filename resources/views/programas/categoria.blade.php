@@ -24,12 +24,12 @@
                     <div class="g-6 cols">
                     <a href="/postagem/{{$post->id}}">
                         <span >
-                            <h2>#{{$post->nome}}</h2>
+                            <h2 style="font-size:3em;">#{{$post->nome}}</h2>
                         </span>
                         </a><a href="/postagem/{{$post->id}}">
                         <span  >
                             
-                            <p>{!!$post->resumo!!}</p>
+                            <p style="color: #000;">{!!$post->resumo!!}</p>
                             <!--<p style="font-style: italic;">Conheça <i class="fa fa-chevron-right"></i></p>-->
                         </span>
                         </a>
