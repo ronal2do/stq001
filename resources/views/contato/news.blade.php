@@ -12,7 +12,7 @@
 
     </div>
 
-    <div class="block-half block-form" >
+    <div class="g-6 cols" >
    
       <hr class="sep-left">
                 <p>Faça seu cadastro e tenha acesso às novidades e às informações sobre a cidade.</p>
