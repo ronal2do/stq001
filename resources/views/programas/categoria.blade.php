@@ -31,13 +31,6 @@
                             </div>
                             
                         </div>
-
-                    <!--
-                        <div class="fadie">
-                            <img class="peep-pic top" src="/img/upload/{{$post->foto}}" alt="{{$post->nome}}">
-                            <img class="peep-pic bottom" src="/img/upload/{{$post->descricao2}}" alt="{{$post->nome}}">
-                        </div>
-                        -->
                     </div>
                     <div class="g-6 cols">
                     <a href="/postagem/{{$post->id}}">
@@ -46,9 +39,7 @@
                         </span>
                         </a><a href="/postagem/{{$post->id}}">
                         <span  >
-                            
                             <p style="color: #000;">{!!$post->resumo!!}</p>
-                            <!--<p style="font-style: italic;">Conheça <i class="fa fa-chevron-right"></i></p>-->
                         </span>
                         </a>
                     </div>
