@@ -15,7 +15,7 @@
     @forelse ($posts as $post)
             <div class="{{$classe}}"> 
                 <div class="row">
-                    <div class="g-6 cols reverse">
+                    <div class="g-6 cols reverse center-all">
                         <div class="cycle-slideshow composite-example" 
                             data-cycle-fx="scrollHorz" 
                             data-cycle-slides="> div"
