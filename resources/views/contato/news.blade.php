@@ -5,11 +5,13 @@
       <h4>Fique por dentro de todas as novidades</h4>
       <hr class="sep-left">
       <div ><p>Participando da nossa comunidade você também pode deixar sua foto, mensagem ou vídeo mostrando o que faz você ser São Bernardo.</p>
-      <a href="/cadastrar" class="wpcf7-form-control wpcf7-submit btn btn-dark"> <p>Envie sua história clicando aqui</p> </a>
+      <a href="/cadastrar" value="Envie sua história clicando aqui" class="wpcf7-form-control wpcf7-submit btn btn-dark"> <p>Envie sua história clicando aqui</p> </a>
       </div>
     </div>
 
     <div class="block-half block-form" >
+    <h4></h4>
+      <hr class="sep-left">
                 <p>Faça seu cadastro e tenha acesso às novidades e às informações sobre a cidade.</p>
       
                     {!!Form::open( ['url' => '/mensagem'])!!}
