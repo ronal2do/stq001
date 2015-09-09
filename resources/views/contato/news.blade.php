@@ -22,7 +22,7 @@
                 <p>Faça seu cadastro e tenha acesso às novidades e às informações sobre a cidade.</p>
       
                     {!!Form::open( ['url' => '/mensagem'])!!}
-                        <div class="g-6 cols">
+                        <div class="g-6 cols" style="padding:0px;">
                           <span class="wpcf7-form-control-wrap first-name">
                                {!!Form::text('name', isset($post->name) ? $post->nome : null , ['placeholder' => 'Nome', 'required'] )!!}
                           </span>
@@ -41,8 +41,7 @@
                           <span class="wpcf7-form-control-wrap first-name">
                                {!!Form::email('email', isset($post->email) ? $post->email : null , ['placeholder' => 'Email', 'required' ] )!!}
                           </span>
-                          <input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit btn btn-dark" onclick="ga('send','event', 'formulario','clique','contato');"  /> 
-
+                         
                         </div>
                        
                        
