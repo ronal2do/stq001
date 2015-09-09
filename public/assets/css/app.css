@@ -588,7 +588,7 @@ section.dark p {
     top: 0;
     left: 0;
     z-index: 2;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .0);
     -webkit-transition: background-color 1s ease;
     -moz-transition: background-color 1s ease;
     transition: background-color 1s ease
