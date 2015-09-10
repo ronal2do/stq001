@@ -6,7 +6,7 @@
       <hr class="sep-left">
       <div ><p>Mande sua foto, imagem ou mensagem mostrando o que faz você ser São Bernardo que a gente posta nas redes sociais da prefeitura.</p>
         </div>
-       <p class="wpcf7-form-text">
+       <p class="wpcf7-form-text"><br><br>
            <a href="/cadastrar" value="Clique aqui" class="btn btn-dark" style="color: #000;"> Participe ></a>  
        </p>
     </div>
