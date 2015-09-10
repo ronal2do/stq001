@@ -20,11 +20,11 @@
                              data-cycle-slides="> div"
                              data-cycle-timeout="4000"
                             >
-                            <div class="fadie">
+                            <div >
                                 <img src="/img/upload/{{$post->foto}}" width=100%>
                            
                             </div>
-                            <div class="fadie">
+                            <div >
                                 <img src="/img/upload/{{$post->descricao2}}" width=100%>
                                 
                             </div>
