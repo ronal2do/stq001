@@ -23,7 +23,7 @@
 </section>
 <!-- sect: Approach
 ================================================== -->
-<section class="sect-content">
+<section class="sect-content" style="background-color: white;">
 <div class="block-half block-form">
       <div>             
        <h3>Publique sua história!</h3>
