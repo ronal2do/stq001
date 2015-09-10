@@ -20,12 +20,12 @@
                              data-cycle-slides="> div"
                              data-cycle-timeout="4000"
                             >
-                            <div >
+                            <div style="text-align: center" >
                                 <img src="/img/upload/{{$post->foto}}" >
                            
                             </div>
-                            <div >
-                                <img src="/img/upload/{{$post->descricao2}}">
+                            <div style="text-align: center" >
+                                <img src="/img/upload/{{$post->descricao2}}" >
                                 
                             </div>
                         </div>
