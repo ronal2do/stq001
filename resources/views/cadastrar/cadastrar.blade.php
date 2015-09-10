@@ -55,7 +55,7 @@
         {!!Form::close()!!}
        </div>
 
-       <a href="{{ URL::route('logout') }}">Sair</a>
+       <a href="{{ URL::route('logout') }}">Voltar</a>
 
     </div>
   </div>                
