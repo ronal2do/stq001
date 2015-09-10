@@ -7,20 +7,14 @@
       <div ><p>Mande sua foto, imagem ou mensagem mostrando o que faz você ser São Bernardo que a gente posta nas redes sociais da prefeitura.</p>
         </div>
        <p class="wpcf7-form-text">
-           <a href="/cadastrar" value="Clique aqui" class="wpcf7-form-control wpcf7-submit" style="
-    color: #000;
-"> Clique aqui</a>  
+           <a href="/cadastrar" value="Clique aqui" class="wpcf7-form-control wpcf7-submit" style="color: #000;"> Clique aqui</a>  
        </p>
-
     </div>
-
     <div class="g-6 cols" >
     <h4>Fique por dentro</h4>
       <br />
       <hr class="sep-left">
-
                 <p>Faça seu cadastro e tenha acesso às novidades e às informações sobre a cidade.</p>
-      
                     {!!Form::open( ['url' => '/mensagem'])!!}
                         <div class="g-6 cols" style="padding:0px;">
                           <span class="wpcf7-form-control-wrap first-name">
@@ -43,13 +37,8 @@
                           </span>
                          
                         </div>
-                       
-                       
-                
-                      
+         
                           <input type="submit" value="Enviar" class="btn btn-dark" onclick="ga('send','event', 'formulario','clique','contato');"  /> 
-
-
                      
                  {!!Form::close()!!}
           
