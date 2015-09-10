@@ -36,14 +36,14 @@
           {!!Form::open( ['url' => 'cadastrar', 'files' => true])!!}
        @endif
               <div class="g-6 cols">
-                {!!Form::text('nome', isset($post->nome) ? $post->nome : null , ['placeholder' => 'Título da postagem'] )!!}
+                {!!Form::text('nome', isset($post->nome) ? $post->nome : null , ['placeholder' => 'Título'] )!!}
               </div>
              
              <div class="g-6 cols">
                  {!!Form::file('foto' )!!}
              </div>
               <div class="g-12 cols">
-                {!!Form::text('resumo', isset($post->resumo) ? $post->resumo : null , ['placeholder' => 'Resumo do post'] )!!}
+                {!!Form::text('resumo', isset($post->resumo) ? $post->resumo : null , ['placeholder' => 'Seu nome e email para contato'] )!!}
              </div>
               <div class="g-12 cols">
                 {!!Form::textarea('descricao', isset($post->descricao) ? $post->descricao : null , ['placeholder' => 'Descrição', 'rows' => '10' ] )!!}
