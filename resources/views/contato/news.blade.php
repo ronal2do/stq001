@@ -33,14 +33,10 @@
                         <div class="g-6 cols" style="padding:0px;">
                           <span class="wpcf7-form-control-wrap first-name">
                                {!!Form::email('email', isset($post->email) ? $post->email : null , ['placeholder' => 'Email', 'required' ] )!!}
-                          </span>
-                         
-                        </div>
-         
-                          <input type="submit" value="Enviar" class="btn btn-dark" onclick="ga('send','event', 'formulario','clique','contato');"  /> 
-                     
-                 {!!Form::close()!!}
-          
+                          </span>                         
+                        </div>         
+                          <input type="submit" value="Enviar" class="btn btn-dark" onclick="ga('send','event', 'formulario','clique','newsletter');"  /> 
+                 {!!Form::close()!!}          
       </div>
  </div>
 </section>
