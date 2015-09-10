@@ -4183,7 +4183,7 @@ article.box {
     }
 }
 .sect-hero {
-    padding: 7em 0 4.5em
+    padding: 7em 0 4em
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .js-parallax,
