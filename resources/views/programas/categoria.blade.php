@@ -22,12 +22,13 @@
                              data-cycle-center-horz=true
                             >
                             <div style="text-align: center" >
-                                <img src="/img/upload/{{$post->foto}}" >
-                           
+                                <img src="/img/upload/{{$post->foto}}" >                           
                             </div>
                             <div style="text-align: center" >
-                                <img src="/img/upload/{{$post->descricao2}}" >
-                                
+                                <img src="/img/upload/{{$post->descricao2}}" >                                
+                            </div>
+                            <div style="text-align: center" >
+                                <img src="/img/upload/{{$post->foto2}}" >
                             </div>
                         </div>
                    
