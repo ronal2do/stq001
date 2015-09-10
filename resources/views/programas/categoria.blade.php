@@ -19,6 +19,7 @@
                              data-cycle-fx="scrollHorz" 
                              data-cycle-slides="> div"
                              data-cycle-timeout="4000"
+                             data-cycle-center-horz=true
                             >
                             <div style="text-align: center" >
                                 <img src="/img/upload/{{$post->foto}}" >
