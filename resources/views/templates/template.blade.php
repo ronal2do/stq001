@@ -228,7 +228,7 @@
      <script src="{{ URL::asset('assets/js/modernizr.js') }}"></script>
      <script src="{{ URL::asset('assets/js/jquery.js') }}"></script>
      <script src="{{ URL::asset('assets/js/jquery.cycle2.js') }}"></script>
-     <script src="http://malsup.github.io/jquery.cycle2.center.js"></script>
+     <script src="{{ URL::asset('assets/js/jquery.cycle2.center.js') }}"></script>
      <script src="{{ URL::asset('assets/js/plugins.min.js') }}"></script>
      <script src="{{ URL::asset('assets/js/scripts.min.js') }}"></script>
  </body>
