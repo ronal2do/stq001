@@ -12,7 +12,6 @@
     </div>
     <div class="g-6 cols" >
     <h4>Fique por dentro</h4>
-      <br />
       <hr class="sep-left">
                 <p>Faça seu cadastro e tenha acesso às novidades e às informações sobre a cidade.</p>
                     {!!Form::open( ['url' => '/mensagem'])!!}
