@@ -14,22 +14,22 @@
             <div class="{{$classe}}"> 
                 <div class="row">
                     <div class="g-6 cols reverse">
-                       <div class="fadie">
-                            <div class="cycle-slideshow composite-example" 
+                      
+                        <div class="cycle-slideshow composite-example" 
                              data-cycle-fx="scrollHorz" 
                              data-cycle-slides="> div"
                              data-cycle-timeout="4000"
                             >
-                            <div>
+                            <div class="fadie">
                                 <img src="/img/upload/{{$post->foto}}" width=100%>
                            
                             </div>
-                            <div>
+                            <div class="fadie">
                                 <img src="/img/upload/{{$post->descricao2}}" width=100%>
                                 
                             </div>
                         </div>
-                       </div>
+                   
                     </div>
                     <div class="g-6 cols">
                     <a href="/postagem/{{$post->id}}">
