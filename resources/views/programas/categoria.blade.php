@@ -21,11 +21,11 @@
                              data-cycle-timeout="4000"
                             >
                             <div >
-                                <img src="/img/upload/{{$post->foto}}" width=100%>
+                                <img src="/img/upload/{{$post->foto}}" >
                            
                             </div>
                             <div >
-                                <img src="/img/upload/{{$post->descricao2}}" width=100%>
+                                <img src="/img/upload/{{$post->descricao2}}">
                                 
                             </div>
                         </div>
