@@ -6716,6 +6716,67 @@ ul.instagram li img:hover {
     }
 
 }
+
+.culture .sect-peeps .peep-wrapf {
+    display: block;
+    overflow: hidden;
+    -webkit-transition: background 2s ease-in-out;
+    -moz-transition: background 2s ease-in-out;
+    transition: background 2s ease-in-out;
+    margin-bottom: 3em
+}
+@media (min-width: 54em) {
+    .culture .sect-peeps .peep-wrapf {
+        height: 20em;
+        padding-top: 5%;
+        margin-bottom: 0
+    }
+}
+@media (min-width: 89em) {
+    .culture .sect-peeps .peep-wrapf {
+        padding-top: 3%
+    }
+}
+@media (min-width: 54em) {
+    .culture .sect-peeps .peep-wrapf:hover {
+        background: #60a69d;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out
+    }
+
+}
+
+.culture .sect-peeps .peep-wrapg {
+    display: block;
+    overflow: hidden;
+    -webkit-transition: background 2s ease-in-out;
+    -moz-transition: background 2s ease-in-out;
+    transition: background 2s ease-in-out;
+    margin-bottom: 3em
+}
+@media (min-width: 54em) {
+    .culture .sect-peeps .peep-wrapg{
+        height: 20em;
+        padding-top: 5%;
+        margin-bottom: 0
+    }
+}
+@media (min-width: 89em) {
+    .culture .sect-peeps .peep-wrapg {
+        padding-top: 3%
+    }
+}
+@media (min-width: 54em) {
+    .culture .sect-peeps .peep-wrapg:hover {
+        background: #c6c2d9;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out
+    }
+
+}
+
 /* dividindoporcores fim */
 .culture .sect-peeps img {
     width: 22em;
@@ -6943,6 +7004,90 @@ ul.instagram li img:hover {
     .culture .sect-peeps .peep-wrape:hover .fadie img.bottom {
         opacity: 1
     }
+    /*
+    */
+        .culture .sect-peeps .peep-wrapf:hover .peep-name {
+        opacity: 0;
+        margin-top: -7em;
+        display: inline-block;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out
+    }
+    .culture .sect-peeps .peep-wrapf:hover .peep-bio {
+        opacity: 1;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out
+    }
+    .culture .sect-peeps .peep-wrapf:hover .fadie img.top {
+        opacity: 0
+    }
+    .culture .sect-peeps .peep-wrapf:hover .fadie img.bottom {
+        opacity: 1
+    }
+    .culture .sect-peeps .peep-wrapf:hover .peep-name {
+        opacity: 0;
+        margin-top: -7em;
+        display: inline-block;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out
+    }
+    .culture .sect-peeps .peep-wrapf:hover .peep-bio {
+        opacity: 1;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out
+    }
+    .culture .sect-peeps .peep-wrapf:hover .fadie img.top {
+        opacity: 0
+    }
+    .culture .sect-peeps .peep-wrapf:hover .fadie img.bottom {
+        opacity: 1
+    }
+    /**/
+        .culture .sect-peeps .peep-wrapg:hover .peep-name {
+        opacity: 0;
+        margin-top: -7em;
+        display: inline-block;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out
+    }
+    .culture .sect-peeps .peep-wrapg:hover .peep-bio {
+        opacity: 1;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out
+    }
+    .culture .sect-peeps .peep-wrapg:hover .fadie img.top {
+        opacity: 0
+    }
+    .culture .sect-peeps .peep-wrapg:hover .fadie img.bottom {
+        opacity: 1
+    }
+    .culture .sect-peeps .peep-wrapg:hover .peep-name {
+        opacity: 0;
+        margin-top: -7em;
+        display: inline-block;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out
+    }
+    .culture .sect-peeps .peep-wrapg:hover .peep-bio {
+        opacity: 1;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out
+    }
+    .culture .sect-peeps .peep-wrapg:hover .fadie img.top {
+        opacity: 0
+    }
+    .culture .sect-peeps .peep-wrapg:hover .fadie img.bottom {
+        opacity: 1
+    }
+
    /*fim da bagunca*/
 
 }
