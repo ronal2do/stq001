@@ -289,7 +289,7 @@
                 </div>
             </div>
 
-            <div class="peep-wrap"> 
+            <div class="peep-wrapf"> 
                 <div class="row">
                     <div class="g-6 cols reverse">
                          <div class="fadie">
@@ -315,7 +315,7 @@
                 </div>
             </div>
 
-            <div class="peep-wrapa"> 
+            <div class="peep-wrapg"> 
                 <div class="row">
                     <div class="g-6 cols reverse">
                         <div class="fadie">
