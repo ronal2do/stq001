@@ -6729,7 +6729,8 @@ ul.instagram li img:hover {
     .culture .sect-peeps .peep-wrapf {
         height: 20em;
         padding-top: 5%;
-        margin-bottom: 0
+        margin-bottom: 0;
+        background: #60a69d;
     }
 }
 @media (min-width: 89em) {
@@ -6760,7 +6761,8 @@ ul.instagram li img:hover {
     .culture .sect-peeps .peep-wrapg{
         height: 20em;
         padding-top: 5%;
-        margin-bottom: 0
+        margin-bottom: 0;
+        background: #c6c2d9;
     }
 }
 @media (min-width: 89em) {
