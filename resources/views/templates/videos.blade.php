@@ -17,7 +17,7 @@
 </section>
 <div class="img-grid has-sep">
   @forelse ($videos as $video) 
-  <a href="/nvideo/{{$video->id}}">
+  <a href="/video/{{$video->id}}">
   	<img class="left" src="http://img.youtube.com/vi/{{$video->url}}/0.jpg" alt="{{$video->nome}}">
   </a>
 		
