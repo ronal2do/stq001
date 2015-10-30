@@ -43,7 +43,7 @@ Route::post('cadastrar', 'PostController@store');
 
 Route::post('mensagem', 'MenController@store');
 Route::get('nvideos', 'VdsController@index');
-Route::post('_video/{id}', 'VdController@show');
+Route::get('nvideo/{id}', 'VdController@show');
 
 Route::post('news', 'News@store');
 

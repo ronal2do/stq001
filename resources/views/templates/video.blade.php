@@ -6,29 +6,20 @@
 <div>
 		<div class="row">
 			<div class="g-10 cols centered">
-				<h1 style="color:#000;"> Nome</h1>
+				<h1 style="color:#000;">{{$video->nome}}</h1>
 			</div>
 	</div>
 </div>
 </section>
-
-<section class="sect-content bg-lightgrey">
- <div class="row">
-<div class="g-10 cols centered"><br />
-<h2></h2>
-
-</div>
-</div>
-</section>
-
 <section class="sect-content">
 <div class="row g-full">
 </div>
 
 <div class="row">
 <div class="row center-all"><br />
-	<img src="{{ URL::asset('/') }}img/upload/{{$video->foto}}">
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/{{$video->url}}?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>
+<br>
 <div class="row center-all">
 
 </div>
