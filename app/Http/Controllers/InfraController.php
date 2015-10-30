@@ -18,12 +18,14 @@ class InfraController extends Controller
     public function index()
     {
         $titulo = 'Infraestrutura';  
+        $video = 'https://www.youtube.com/embed/uhG-vLZrb-g'; 
+        $video_nome = 'Fall Out Boy - Sugar, We"re Goin Down'; 
         $cor = '#8cbac9'; 
         $classe = 'peep-wrapd';
 
         $posts = DB::table('posts')->where('categoria', '=', 5)->get();
 
-        return view('programas.categoria', compact('posts', 'titulo', 'cor', 'classe'));
+        return view('programas.categoria', compact('posts', 'titulo', 'cor', 'classe', 'video','video_nome'));
 
     }
 }

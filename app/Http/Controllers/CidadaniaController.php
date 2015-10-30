@@ -17,10 +17,12 @@ class CidadaniaController extends Controller
     public function index()
     {   
         $titulo = 'Desenvolvimento social e cidadania';  
+        $video = 'https://www.youtube.com/embed/5vBGOrI6yBk'; 
+        $video_nome = 'System Of A Down - Sugar'; 
         $cor    = '#f6acb3'; 
         $classe = 'peep-wrapd';
         $posts  = DB::table('posts')->where('categoria', '=', 3)->get();
-        return view('programas.categoria', compact('posts', 'titulo', 'cor', 'classe'));
+        return view('programas.categoria', compact('posts', 'titulo', 'cor', 'classe', 'video','video_nome'));
 
     }
 }
