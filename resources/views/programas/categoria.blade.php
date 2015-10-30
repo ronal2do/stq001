@@ -9,7 +9,25 @@
     </div>
 </section>  
 <div class="culture center-all">
-        <section id="realizacoes" class="sect-work sect-peeps bg-white" >                                         
+        <section id="realizacoes" class="sect-work sect-peeps bg-white" >      
+            <div class="{{$classe}}">
+                <div class="row">
+                    <div class="g-6 cols">
+                        <iframe width="480" height="260" src="{{$video}}?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="g-6 cols">
+                        <span class="peep-name">
+                            <h2>{{$video_nome}}</h2>
+                          
+                        </span>
+                        <span class="peep-bio">
+                            <h4>{{$video_nome}}</h4>
+                            <hr class="sep-thin">
+                            <p>{{$titulo}}</p>
+                        </span>
+                    </div>
+                </div>
+            </div>                                   
     @forelse ($posts as $post)
             <div class="{{$classe}}"> 
                 <div class="row">
