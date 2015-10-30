@@ -98,13 +98,14 @@
     <section class="mobile-nav-bg">
         <nav class='mobile-nav-links'>
              <ul>
-                    <li><a href="/">Home</a></li>
+                    
                     <li><a href="/saude">Saúde</a></li>
                     <li><a href="/educacao">Educação</a></li>
                     <li><a href="/cidadania">Cidadania</a></li>
                     <li><a href="/infraestrutura">Infraestrutura</a></li>
                     <li><a href="/meioambiente">Meio Ambiente</a></li>
                     <li><a href="/esporte">Esporte, Cultura e Lazer</a></li>
+                    <li><a href="/videos">Vídeos</a></li>
             </ul>
         </nav>
         <footer class="mobile-nav-footer">
@@ -132,13 +133,13 @@
             <nav role="navigation">
                 <ul>
                     
-                    <li><a href="/">Home</a></li>
                     <li><a href="/saude">Saúde</a></li>
                     <li><a href="/educacao">Educação</a></li>
                     <li><a href="/cidadania">Cidadania</a></li>
                     <li><a href="/infraestrutura">Infraestrutura</a></li>
                     <li><a href="/meioambiente">Meio Ambiente</a></li>
                     <li><a href="/esporte">Esporte, Cultura e Lazer</a></li>
+                    <li><a href="/videos">Vídeos</a></li>
        
                     <li style="padding-right:20px;">   </li>
                     <li><a href="http://www.saobernardo.sp.gov.br/home" title="Site da Prefeitura" target="_blank"><i class="fa fa-globe"></i></a></li>

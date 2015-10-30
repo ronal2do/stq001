@@ -9,33 +9,16 @@
      <!-- Title and Meta================================================== -->
      <meta charset="UTF-8">
      <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><![endif]-->
-     <title>SOMOSSBC</title>
-     <meta name="author" content="Somossbc">
-     <meta name="description" content="Somossbc" />
-     <meta name="keywords" content="Somossbc" />
-     <meta content='Somossbc' name='copyright'>
-     <!-- Facebook Open Graph Meta================================================== -->
-     <meta property="og:locale" content="en_US" />
-     <meta property="og:title" content="Somossbc" />
-     <meta property="og:url" content="http://somossbc.com/" />
-     <meta property="og:site_name" content="Somossbc" />
-     <meta property="og:description" content="Somossbc" />
-     <meta property="og:site_name" content="Somossbc" />
-     <meta property="og:image" content="/img/logo_footer.jpg" />
-     <meta property="og:type" content="website" />
-     <!-- Twitter Meta================================================== -->
-     <meta name="twitter:url" content="http://#.com/">
-     <meta name="twitter:card" content="summary">
-     <meta name="twitter:creator" content="@https://twitter.com/#">
-     <meta name="twitter:site" content="www.dlima.art.br/lab/somossbc/">
-     <!-- Mobile================================================== -->
-     <meta name="viewport" content="width=device-width, initial-scale = 1, maximum-scale=1, user-scalable=no" />
-     <!-- Fav and icons================================================== -->
-     <link rel="shortcut icon" type="image/ico" href="/img/favicon.ico">
-     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144x144-precomposed.png">
-     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114-precomposed.png">
-     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72-precomposed.png">
-     <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-precomposed.png">
+    <title>SOMOSSBC</title>
+    <meta name="author" content="Somossbc">
+    <meta name="description" content="Hotsite da campanha #somosSBC" />
+    <meta name="keywords" content="#somossbc, saúde, educação, esporte, desenvolvimento social, infraestutura urbana, prefeitura de são bernardo do campo" />
+    <meta content='Somossbc' name='copyright Prefeitura de São Bernardo do Campo'>
+    <!-- Mobile================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale = 1, maximum-scale=1, user-scalable=no" />
+    <!-- Fav and icons================================================== -->
+    <link rel="shortcut icon" type="image/ico" href="/img/favicon.ico">
+     
      <!-- CSS & Js================ -->
 
 
@@ -123,13 +106,13 @@
     <section class="mobile-nav-bg">
         <nav class='mobile-nav-links'>
              <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/saude">Saúde</a></li>
+                   <li><a href="/saude">Saúde</a></li>
                     <li><a href="/educacao">Educação</a></li>
                     <li><a href="/cidadania">Cidadania</a></li>
                     <li><a href="/infraestrutura">Infraestrutura</a></li>
                     <li><a href="/meioambiente">Meio Ambiente</a></li>
                     <li><a href="/esporte">Esporte, Cultura e Lazer</a></li>
+                    <li><a href="/videos">Vídeos</a></li>
             </ul>
         </nav>
         <footer class="mobile-nav-footer">
@@ -158,13 +141,13 @@
              <nav role="navigation">
                  <ul>
                      
-                   <li><a href="/">Home</a></li>
-                    <li><a href="/saude">Saúde</a></li>
+                   <li><a href="/saude">Saúde</a></li>
                     <li><a href="/educacao">Educação</a></li>
                     <li><a href="/cidadania">Cidadania</a></li>
                     <li><a href="/infraestrutura">Infraestrutura</a></li>
                     <li><a href="/meioambiente">Meio Ambiente</a></li>
                     <li><a href="/esporte">Esporte, Cultura e Lazer</a></li>
+                    <li><a href="/videos">Vídeos</a></li>
 
                     <li style="padding-right:20px;">   </li>
                     <li><a href="http://www.saobernardo.sp.gov.br/home" title="Site da Prefeitura" target="_blank"><i class="fa fa-globe"></i></a></li>

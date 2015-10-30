@@ -17,13 +17,14 @@ class SaudeController extends Controller
      */
     public function index()
     {
-        $titulo = 'Saúde';  
+        $titulo = 'Saúde'; 
+        $video = 'Saúde'; 
         $cor = '#60a69d'; 
         $classe = 'peep-wrapd';
 
         $posts = DB::table('posts')->where('categoria', '=', 1)->get();
 
-        return view('programas.categoria', compact('posts', 'titulo', 'cor', 'classe'));
+        return view('programas.categoria', compact('posts', 'titulo', 'cor', 'classe', 'video'));
 
     }
 }
