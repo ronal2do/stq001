@@ -17,7 +17,7 @@
      <section class="sect-intro intro-work">
             <div class="row g-full">
                 <header>
-                    <h2>Somos nossas conquistas e realizações <br/></h2>
+                    <h2>Somos nossas conquistas e realizações. <br/></h2>
                     
                     <p>Somos nossas conquistas e realizações </p>
           			<p>Escolher 1 dos 2 parágrafos</p>

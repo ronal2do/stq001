@@ -18,7 +18,6 @@
     <meta name="viewport" content="width=device-width, initial-scale = 1, maximum-scale=1, user-scalable=no" />
     <!-- Fav and icons================================================== -->
     <link rel="shortcut icon" type="image/ico" href="/img/favicon.ico">
-     
      <!-- CSS & Js================ -->
 
 

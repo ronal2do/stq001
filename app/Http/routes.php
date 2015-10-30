@@ -42,6 +42,7 @@ Route::post('cadastrar', 'PostController@store');
 //contatos
 
 Route::post('mensagem', 'MenController@store');
+Route::post('videos', 'VdController@index');
 
 Route::post('news', 'News@store');
 

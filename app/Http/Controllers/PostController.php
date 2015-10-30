@@ -127,4 +127,5 @@ class PostController extends Controller
 
         return redirect("artigos");
     }
+    
 }
