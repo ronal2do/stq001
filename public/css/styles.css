@@ -3,7 +3,14 @@ Lumino Admin Bootstrap Template
 Version 1.0
 */
 
-
+.imagem-mascara {
+   width:100px; /* largura da imagem máscara */
+   height:68px; /* altura da imagem máscara */
+   position:absolute;
+   top:0;
+   left:0;
+   background:url(http://somossbc.com.br/img/play-icon.png) 0 0 no-repeat; /* imagem máscara */
+}
 /*Global Styles*/
 
 body {

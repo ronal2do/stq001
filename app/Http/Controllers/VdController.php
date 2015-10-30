@@ -15,24 +15,13 @@ class VdController extends Controller
      */
     public function index()
     {   
-        $cor = '#60a69d';
-        $videod = DB::table('videos')
-            ->where('vid_categoria', '=', 2)
-            ->take(4)
+       
+        $videos= DB::table('videos')
             ->orderBy('id', 'desc')
             ->get();
-         $videoc = DB::table('videos')
-            ->where('vid_categoria', '=', 1)
-            ->take(4)
-            ->orderBy('id', 'desc')
-            ->get();
-         $videom = DB::table('videos')
-            ->where('vid_categoria', '=', 3)
-            ->take(4)
-            ->orderBy('id', 'desc')
-            ->get();
-        return view('templates/videos', compact('videod','videoc','videom', 'cor' ));
+        return view('templates/videos', compact('videos'));
     }
+
     public function lista()
     {   
         $cor = '#60a69d';
@@ -51,8 +40,8 @@ class VdController extends Controller
      */
     public function create()
     {
-        $vid_categoria = VidCategoria::lists('name');
-        return view('cadastrar.video', compact('vid_categoria'));
+       
+        return view('templates.video');
     }
     /**
      * Store a newly created resource in storage.
@@ -82,9 +71,8 @@ class VdController extends Controller
      */
     public function show($id)
     {
-        $post = Video::find($id);
-        $vid_categoria = VidCategoria::lists('name');
-        return view('templates.video', compact('post', 'vid_categoria'));
+        $video = Video::find($id);
+        return view('templates.video', compact('video'));
     }
     /**
      * Show the form for editing the specified resource.

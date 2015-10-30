@@ -42,7 +42,8 @@ Route::post('cadastrar', 'PostController@store');
 //contatos
 
 Route::post('mensagem', 'MenController@store');
-Route::post('videos', 'VdController@index');
+Route::get('nvideos', 'VdsController@index');
+Route::post('_video/{id}', 'VdController@show');
 
 Route::post('news', 'News@store');
 
@@ -62,13 +63,7 @@ Route::group(['middleware' => 'auth' ], function()
     Route::get('postagem/{id}/deletar', 'PostController@destroy');
     Route::post('postagem/{id}/deletar', 'PostController@destroy');
 // video
-    Route::get('editarvideo', 'VdController@lista');
-    Route::get('cadastrarvideo', 'VdController@create');
-    Route::post('cadastrarvideo', 'VdController@store');
-    Route::get('video/{id}/editar', 'VdController@edit');
-    Route::post('video/{id}/editar', 'VdController@update');
-    Route::get('video/{id}/deletar', 'VdController@destroy');
-    Route::post('video/{id}/deletar', 'VdController@destroy');  
+    
 });
 
 Route::get('email', function(){
