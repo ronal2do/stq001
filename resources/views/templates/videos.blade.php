@@ -5,21 +5,20 @@
 <div>
 		<div class="row">
 			<div class="g-10 cols centered">
-				<h1 style="color:#000;"> Videos</h1>
+				<h1 > Vídeos</h1>
 			</div>
 	</div>
 </div>
 </section>
 <div class="row">
 	<div class="g-8 offset2 cols">
-		<h2>Photography</h2>
-		<p>We directed a photo shoot at Watson’s HQ to ensure the site’s hero and banner regions showcased the products in a stunning and visually enticing way.</p>
-	</div></div>
+		
+		</div></div>
 </section>
 <div class="img-grid has-sep">
   @forelse ($videos as $video) 
   <a href="/nvideo/{{$video->id}}">
-  	<img class="left" src="/img/upload/{{$video->foto}}" alt="{{$video->nome}}">
+  	<img class="left" src="http://img.youtube.com/vi/{{$video->url}}/0.jpg" alt="{{$video->nome}}">
   </a>
 		
 
