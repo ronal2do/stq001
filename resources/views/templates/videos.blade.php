@@ -19,7 +19,7 @@
 <div class="img-grid has-sep">
   @forelse ($videos as $video) 
   <a href="/nvideo/{{$video->id}}">
-  	<img class="left" src="http://urbaninfluence.com/images/work/watson/watson-half1.min.jpg" alt="{{$video->nome}}">
+  	<img class="left" src="/img/upload/{{$video->foto}}" alt="{{$video->nome}}">
   </a>
 		
 
