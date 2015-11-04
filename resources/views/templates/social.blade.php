@@ -10,6 +10,6 @@
 </li>
 <li><img src="{{asset('img/logo_footer.jpg')}}"
                          style="border: 5px solid white;
-                         width:105px; " 
+                         width:120px; " 
                          >    </li>
                          
