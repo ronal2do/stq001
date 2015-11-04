@@ -122,17 +122,7 @@
         <section id="sect-video" class="sect-masthead v-center center-all js-height">
             <div id="bgVideo" class="bg-vid" style="background:url(img/home/somossbc.jpg); "></div>
             <div>
-                <div class="row intro">
-                <img src="img/somos.png" style="width:75%;" alt="#somossbc">
-                    <hr class="sep"  />
-                    <h4>Uma cidade cada vez melhor de se viver</h4>
-                    <br />
-                 
-                    <div>  
-                        <a href="{{ URL::route('welcome', '#realizacoes') }}"> <img src="img/arrow.png" style="width:45px;" alt="#somossbc"></a>
-                    </div>
-                    <br/>
-                </div>
+                @include('templates.banner')
             </div>
             <div class="overlay alpha"></div>
         </section>
