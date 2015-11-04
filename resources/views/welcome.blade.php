@@ -106,7 +106,7 @@
     <header class="header-main">
         <div class="row">
             <!--- Logo -->
-            <h1 id="logo"> <div class="logocontainer"> <a href="/"> <span>#S</span> <span>O</span> <span>M</span> <span>O</span> <span>S</span> <span>S</span> <span>Ã</span> <span>O</span> <span> </span> <span>B</span> <span>E</span> <span>R</span> <span>N</span> <span>A</span> <span>R</span> <span>D</span> <span>O</span></a> 
+            <h1 id="logo" style="margin-top: 2rem;"> <div class="logocontainer"> <a href="/"> <span>#S</span> <span>O</span> <span>M</span> <span>O</span> <span>S</span> <span>S</span> <span>Ã</span> <span>O</span> <span> </span> <span>B</span> <span>E</span> <span>R</span> <span>N</span> <span>A</span> <span>R</span> <span>D</span> <span>O</span></a> 
              </div> </h1>
             <!-- Main Nav -->
             <nav role="navigation">
@@ -121,20 +121,13 @@
     <main role="main">
         <section id="sect-video" class="sect-masthead v-center center-all js-height">
             <div id="bgVideo" class="bg-vid" style="background:url(img/home/somossbc.jpg); "></div>
-            <div> <br><br>
-                <div class="row intro"
-                    style="padding:30px;" 
-                    >
-             
-                <img src="img/somos.png" 
-                     style="width:75%; padding:30px;" 
-                     alt="#somossbc"
-                     >
-                 <br/><br/>
-                    <img src="{{asset('img/logo_footer.jpg')}}"
-                         style="border: 15px solid white;" 
-                         >
-                    <br />                 
+            <div>
+                <div class="row intro">
+                <img src="img/somos.png" style="width:75%;" alt="#somossbc">
+                    <hr class="sep"  />
+                    <h4>Uma cidade cada vez melhor de se viver</h4>
+                    <br />
+                 
                     <div>  
                         <a href="{{ URL::route('welcome', '#realizacoes') }}"> <img src="img/arrow.png" style="width:45px;" alt="#somossbc"></a>
                     </div>
