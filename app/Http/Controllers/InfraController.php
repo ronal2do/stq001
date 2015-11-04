@@ -19,7 +19,7 @@ class InfraController extends Controller
     {
         $titulo = 'Infraestrutura';  
         $video = 'https://www.youtube.com/embed/paVxXhZmXZM'; 
-        $video_nome = 'Jardim Silvina se transforma com novas moradias e urbanização'; 
+        $video_nome = 'Jardim Silvina se transforma com novas moradias'; 
         $cor = '#8cbac9'; 
         $classe = 'peep-wrapd';
 
