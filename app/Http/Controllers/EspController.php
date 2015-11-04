@@ -18,8 +18,8 @@ class EspController extends Controller
     public function index()
     {
         $titulo = 'Educação';  
-        $video = 'https://www.youtube.com/embed/h9nE2spOw_o'; 
-        $video_nome = 'The Archies - Sugar, Sugar ';
+        $video = 'https://www.youtube.com/embed/Rt-F83gzFyM'; 
+        $video_nome = 'Alfabetizar é paixão que exige dedicação';
         $cor = '#f8c3a5'; 
         $classe = 'peep-wrapd';
 

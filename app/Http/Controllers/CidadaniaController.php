@@ -17,8 +17,8 @@ class CidadaniaController extends Controller
     public function index()
     {   
         $titulo = 'Desenvolvimento social e cidadania';  
-        $video = 'https://www.youtube.com/embed/5vBGOrI6yBk'; 
-        $video_nome = 'System Of A Down - Sugar'; 
+        $video = 'https://www.youtube.com/embed/Rt-F83gzFyM'; 
+        $video_nome = 'Alfabetizar é paixão que exige dedicação'; 
         $cor    = '#f6acb3'; 
         $classe = 'peep-wrapd';
         $posts  = DB::table('posts')->where('categoria', '=', 3)->get();
