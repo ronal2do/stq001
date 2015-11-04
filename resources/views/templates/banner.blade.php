@@ -7,9 +7,10 @@
                      alt="#somossbc"
                      >
                  <br/><br/>
+                    <a href="http://www.saobernardo.sp.gov.br/home" title="Site da Prefeitura" target="_blank">
                     <img src="{{asset('img/Logo-sbc.jpg')}}"
                          style="width:170px; " 
-                         >
+                         ></a>
                     <br />                 
                     <div>  
                         <a href="{{ URL::route('welcome', '#realizacoes') }}"> <img src="img/arrow.png" style="width:45px;" alt="#somossbc"></a>
