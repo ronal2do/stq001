@@ -8,8 +8,13 @@
 </iframe>   
 
 </li>
-<li><a href="http://www.saobernardo.sp.gov.br/home" title="Site da Prefeitura" target="_blank"><img src="{{asset('img/logo_footer.jpg')}}"
-                         style="border: 5px solid white;
-                         width:120px; " 
-                         >  </a>  </li>
+<li><a href="http://www.saobernardo.sp.gov.br/home" 
+	   title="Site da Prefeitura" 
+	   target="_blank"
+	   >
+	  <img src="{{asset('img/Logo-sbc.png')}}"
+           style="width:120px; " 
+           >
+     </a>  
+</li>
                          
