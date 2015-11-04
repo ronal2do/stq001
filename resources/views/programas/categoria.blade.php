@@ -16,15 +16,10 @@
                         <iframe width="480" height="260" src="{{$video}}?rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="g-6 cols">
-                        <span class="peep-name">
-                            <h2>{{$video_nome}}</h2>
+                       <span> <h1 style="font-size:4.5rem;">{{$video_nome}}</h1></span>
+                           
                           
-                        </span>
-                        <span class="peep-bio">
-                            <h4>{{$video_nome}}</h4>
-                            <hr class="sep-thin">
-                            <p>{{$titulo}}</p>
-                        </span>
+                       
                     </div>
                 </div>
             </div>                                   

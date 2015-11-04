@@ -18,8 +18,8 @@ class MeioController extends Controller
     public function index()
     {
         $titulo = 'Meio ambiente';  
-        $video = 'https://www.youtube.com/embed/bvC_0foemLY'; 
-        $video_nome = 'Robin Schulz - Sugar'; 
+        $video = 'https://www.youtube.com/embed/WMnr85Tin0o'; 
+        $video_nome = 'Visite o Zoologico do Parque Estoril'; 
         $cor = '#60a69d';
         $classe = 'peep-wrapd';
         

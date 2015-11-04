@@ -18,8 +18,8 @@ class EsporteController extends Controller
     public function index()
     {
         $titulo = 'Esporte, cultura e lazer'; 
-        $video = 'https://www.youtube.com/embed/uhG-vLZrb-g'; 
-        $video_nome = 'Fall Out Boy - Sugar, We"re Goin Down'; 
+        $video = 'https://www.youtube.com/embed/ja5bfEZ-Pp8'; 
+        $video_nome = 'São Bernardo 462 anos'; 
         $cor = '#c6c2d9'; 
         $classe = 'peep-wrapd';
         $posts = DB::table('posts')->where('categoria', '=', 4)->get();

@@ -18,8 +18,8 @@ class InfraController extends Controller
     public function index()
     {
         $titulo = 'Infraestrutura';  
-        $video = 'https://www.youtube.com/embed/uhG-vLZrb-g'; 
-        $video_nome = 'Fall Out Boy - Sugar, We"re Goin Down'; 
+        $video = 'https://www.youtube.com/embed/paVxXhZmXZM'; 
+        $video_nome = 'Jardim Silvina se transforma com novas moradias e urbanização'; 
         $cor = '#8cbac9'; 
         $classe = 'peep-wrapd';
 
