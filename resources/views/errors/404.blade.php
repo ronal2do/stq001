@@ -42,7 +42,7 @@
         <div class="container">
             <div class="content">
                 <div class="title">#<b>somos</b>sbc.</div>
-                <p>Porém está página é umovelha desgarrada. </p>
+                <p>Porém está página é uma ovelha desgarrada. </p>
             </div>
         </div>
     </body>
