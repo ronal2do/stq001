@@ -120,7 +120,7 @@
     </header>
     <main role="main">
         <section id="sect-video" class="sect-masthead v-center center-all js-height">
-            <div id="bgVideo" class="bg-vid" style="background:url(img/home/somossbc.jpg); "></div>
+            <div id="bgVideo" class="bg-vid" style="background:url(_videos/videonovo.jpg); "></div>
             <div>
                 @include('templates.banner')
             </div>
