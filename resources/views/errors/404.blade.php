@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+   <meta charset="UTF-8">
         <title>Be right back.</title>
 
         <link href="//fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
@@ -41,6 +42,7 @@
         <div class="container">
             <div class="content">
                 <div class="title">#<b>somos</b>sbc.</div>
+                <p>página404</p>
             </div>
         </div>
     </body>
