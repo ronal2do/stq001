@@ -314,7 +314,12 @@
             <aside></aside>
             <nav>
                  <ul class="social">
-                    @include('templates.social')
+                     <li><a href="http://www.saobernardo.sp.gov.br/home" title="Site da Prefeitura" target="_blank"><i class="fa fa-globe"></i></a></li>
+                    <li><a href="https://www.facebook.com/prefsbc" title="Facebook" target="_blank"><i class="icon icon-facebooks"></i></a></li>
+                    <li><a href="https://twitter.com/@pref_sbc" title="Twitter" target="_blank"><i class="icon icon-twitters"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCDPNAIYv6IvCkCNiFGDPynw" title="Youtube" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://twitter.com/prefeitura_sbc" title="Instagram" target="_blank"><i class="icon icon-instagram"></i></a></li>
+           
                     
                  </ul>
             </nav>
