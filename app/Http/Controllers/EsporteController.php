@@ -19,7 +19,7 @@ class EsporteController extends Controller
     {
         $titulo = 'Esporte, cultura e lazer'; 
         $video = 'https://www.youtube.com/embed/G9wYHaTmpFI'; 
-        $video_nome = 'Feira Literária de São Bernardo no <br>Cenforpe já é sucesso de público'; 
+        $video_nome = 'Feira Literária de São Bernardo no Cenforpe já é sucesso de público'; 
         $cor = '#c6c2d9'; 
         $classe = 'peep-wrapd';
         $posts = DB::table('posts')->where('categoria', '=', 4)->get();
