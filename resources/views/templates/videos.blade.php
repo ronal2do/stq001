@@ -6,7 +6,7 @@
 <div>
 		<div class="row">
 			<div class="g-10 cols centered">
-				<h1 > Vídeos</h1>
+				<h1>Vídeos</h1>
 			</div>
 	</div>
 </div>
@@ -21,11 +21,8 @@
                     </div>
                     <div class="g-6 cols">
                         <span><br><br>
-                            <p>{{$video->nome}}</p>
-                            
-                                                    
+                            <p>{{$video->nome}}</p>            
                         </span>
-
                     </div>
                 </div>
             </div>   

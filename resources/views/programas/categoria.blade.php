@@ -16,10 +16,9 @@
                         <iframe width="480" height="260" src="{{$video}}?rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="g-6 cols">
-                       <span> <h1 style="font-size:4.5rem;">{{$video_nome}}</h1></span>
-                           
-                          
-                       
+                       <span> 
+                            <h1 style="font-size:4.5rem;">{{$video_nome}}</h1>
+                       </span>
                     </div>
                 </div>
             </div>                                   
@@ -62,8 +61,6 @@
     @empty
         <p>Nenhuma postagem</p>
     @endforelse
-
-
     </section>
  </div>
  
