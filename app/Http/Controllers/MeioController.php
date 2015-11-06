@@ -19,7 +19,7 @@ class MeioController extends Controller
     {
         $titulo = 'Meio ambiente';  
         $video = 'https://www.youtube.com/embed/WMnr85Tin0o'; 
-        $video_nome = 'Visite o Zoologico do Parque Estoril'; 
+        $video_nome = 'Visite o Zoológico do Parque Estoril'; 
         $cor = '#60a69d';
         $classe = 'peep-wrapd';
         
