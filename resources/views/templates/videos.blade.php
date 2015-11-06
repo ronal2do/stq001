@@ -16,11 +16,11 @@
             @forelse ($videos as $video)
             <div class="peep-wrapd">
                 <div class="row">
-                    <div class="g-6 cols"><br><br>
+                    <div class="g-6 cols"><br>
                         <iframe width="480" height="260" src="https://www.youtube.com/embed/{{$video->url}}?rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="g-6 cols">
-                        <span>
+                        <span><br><br>
                             <p>{{$video->nome}}</p>
                             
                                                     
