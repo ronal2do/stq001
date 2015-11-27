@@ -7,7 +7,7 @@
                      alt="#somossbc"
                      >
                  <br/><br/>
-                    <a href="http://www.saobernardo.sp.gov.br/home" title="Site da Prefeitura" target="_blank">
+                    <a href="http://www.saobernardo.sp.gov.br/home?utm_source=Hotsite&utm_mediumhotsite&utm_content=SomosSBC_hot&utm_campaign=Hotsite%20SOMOSSBC" title="Site da Prefeitura" target="_blank">
                     <img src="{{asset('img/Logo-sbc.jpg')}}"
                          style="width:170px; " 
                          ></a>

@@ -157,7 +157,7 @@
                      <li>
                        
                          <div class="logocontainer">
-                            <a href=" http://www.saobernardo.sp.gov.br/home">   <img src="{{ URL::asset('img/logo_footer.jpg') }}" alt="SomosSbc" /></a>
+                            <a href=" http://www.saobernardo.sp.gov.br/home?utm_source=Hotsite&utm_mediumhotsite&utm_content=SomosSBC_hot&utm_campaign=Hotsite%20SOMOSSBC">   <img src="{{ URL::asset('img/logo_footer.jpg') }}" alt="SomosSbc" /></a>
                           
                         </div>
                      </li>
