@@ -46,18 +46,6 @@
                    
                     </div>
                     <div class="g-6 cols">
-                   
-                        <span >
-                            <h2 style="font-size:3em;">#{{$post->nome}}</h2>
-                        </span>
-                   
-                        <span  >
-                            <p style="color: #000;">{!!$post->resumo!!}</p>
-                        </span>
-                   
-                    </div>
-                    <!--
-                    <div class="g-6 cols">
                     <a href="/postagem/{{$post->id}}">
                         <span >
                             <h2 style="font-size:3em;">#{{$post->nome}}</h2>
@@ -69,6 +57,20 @@
                         </a>
                     </div>                 
 
+                    <!--
+                     <div class="g-6 cols">
+                   
+                        <span >
+                            <h2 style="font-size:3em;">#{{$post->nome}}</h2>
+                        </span>
+                   
+                        <span  >
+                            <p style="color: #000;">{!!$post->resumo!!}</p>
+                        </span>
+                   
+                    </div>
+
+                   
                     -->
                 </div>
             </div>
