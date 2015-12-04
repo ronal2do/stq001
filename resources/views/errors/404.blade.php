@@ -41,8 +41,9 @@
     <body>
         <div class="container">
             <div class="content">
+                <div class="title">#<b>erro</b>404.</div>
                 <div class="title">#<b>somos</b>sbc.</div>
-                <p>Porém está página é uma ovelha desgarrada. </p>
+                <div class="title"><a href="http://somossbc.com.br/">Clique aqui para voltar</a></div>
             </div>
         </div>
     </body>
