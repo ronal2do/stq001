@@ -2,7 +2,7 @@
 <html>
     <head>
    <meta charset="UTF-8">
-        <title>Be right back.</title>
+        <title>Erro 404.</title>
 
         <link href="//fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
@@ -35,6 +35,10 @@
             .title {
                 font-size: 72px;
                 margin-bottom: 40px;
+            }
+            a, a:hover{
+                text-decoration: none;
+                font-size: 50px;
             }
         </style>
     </head>
