@@ -32,8 +32,6 @@ class VideoController extends CrudController{
 			$this->edit->label('Editar Videos');
 			$this->edit->add('nome', 'Nome', 'text');
 			$this->edit->add('description', 'Descrição', 'text');
-			$this->edit->add('foto', 'Foto', 'image')->move('img/upload/');
-			//$this->edit->add('categoria','Categoria','select')->options(\App\VidCategoria::lists("name", "id")->all());
 			$this->edit->add('url', 'url', 'text');
        
         return $this->returnEditView();
