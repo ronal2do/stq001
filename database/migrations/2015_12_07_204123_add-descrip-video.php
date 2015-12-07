@@ -12,7 +12,7 @@ class AddDescripVideo extends Migration
      */
     public function up()
     {
-       Schema::create('videos', function (Blueprint $table) {
+       Schema::table('videos', function (Blueprint $table) {
             $table->string('description');
         });
     }
