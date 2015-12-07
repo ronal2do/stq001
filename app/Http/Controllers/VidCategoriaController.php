@@ -22,6 +22,7 @@ class VidCategoriaController extends CrudController{
 			$this->grid = \DataGrid::source($this->filter);
 			$this->grid->add('id', 'ID');
 			$this->grid->add('name', 'Nome');
+			$this->grid->add('description', 'Descrição');
 			
 			$this->addStylesToGrid();
 

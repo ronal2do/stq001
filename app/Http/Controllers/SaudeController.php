@@ -18,8 +18,8 @@ class SaudeController extends Controller
     public function index()
     {
         $titulo = 'Saúde'; 
-        $video = 'https://www.youtube.com/embed/QXWhV_TkxaU'; 
-        $video_nome = 'Nova UBS Silvina';
+        $video = 'https://www.youtube.com/embed/SMrKiD57ckw'; 
+        $video_nome = 'O cuidado com a vida no Hospital de Clínicas';
         $cor = '#60a69d'; 
         $classe = 'peep-wrapd';
 

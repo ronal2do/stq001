@@ -21,7 +21,8 @@
                     </div>
                     <div class="g-6 cols">
                         <span><br><br>
-                            <p>{{$video->nome}}</p>            
+                        <h1 style="font-size:3rem;">{{$video->nome}}</h1>
+                            <p>{{$video->description}}</p>            
                         </span>
                     </div>
                 </div>
