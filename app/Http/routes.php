@@ -1,7 +1,9 @@
 <?php
 
 Route::get('/', ['as' => 'welcome', function(){
-    return view('welcome');
+    $posts = \App\Posts::latest()->get();
+    // dd($posts);
+    return view('welcome',compact('posts'));
 }]);
 
 Route::get('saude', 'SaudeController@index');

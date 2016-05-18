@@ -1,4 +1,27 @@
-﻿
+﻿@font-face {
+  font-family: 'Gotham-Book';
+  src: url('../fonts/gothan-book/Gotham-Book.eot');
+  src: url('../fonts/gothan-book/Gotham-Book.woff2') format('woff2'),
+       url('../fonts/gothan-book/Gotham-Book.woff') format('woff'),
+       url('../fonts/gothan-book/Gotham-Book.ttf') format('truetype'),
+       url('../fonts/gothan-book/Gotham-Book.svg#Gotham-Book') format('svg'),
+       url('../fonts/gothan-book/Gotham-Book.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-Black';
+  src: url('../fonts/gothan-black/Gotham-Black.eot');
+  src: url('../fonts/gothan-black/Gotham-Black.woff2') format('woff2'),
+       url('../fonts/gothan-black/Gotham-Black.woff') format('woff'),
+       url('../fonts/gothan-black/Gotham-Black.ttf') format('truetype'),
+       url('../fonts/gothan-black/Gotham-Black.svg#Gotham-Black') format('svg'),
+       url('../fonts/gothan-black/Gotham-Black.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body,
 template {
     display: none
@@ -346,7 +369,7 @@ only screen and (max-width: 767px) {
 .btn {
     padding: .4em 1.25em .3em;
     border-radius: 4px;
-    font-family: tungsten;
+    font-family: "Gotham-Black";
     letter-spacing: .09em;
     color: #fff;
     transition: all 1s ease
@@ -727,7 +750,7 @@ abbr {
 .caps,
 .div-link,
 header h2 {
-    text-transform: uppercase
+    /*text-transform: uppercase;*/
 }
 .token.cdata,
 .token.comment,
@@ -873,7 +896,7 @@ openings a:hover::after {
     background: #c5a47e;
     color: #fff;
     padding: .8em 0 .6em;
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2.5em;
     transition: all 1.5s ease
 }
@@ -2043,15 +2066,15 @@ p {
 }
 h1,
 h2 {
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 h3,
 h4 {
-    font-family: verlag, "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: "Gotham-Book", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 header h2 {
     font-weight: 600;
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 3.3em;
     letter-spacing: .05em;
     margin: .3em auto .1em;
@@ -3336,7 +3359,7 @@ header.header-main .row {
     }
 }
 header.header-main h1#logo {
-    font-family: "tungsten", Helvetica, Arial, sans-serif;
+    font-family: ""Gotham-Black"", Helvetica, Arial, sans-serif;
     font-size: 0.6em;
     margin-top: 1.2em;
     display: inline-block;
@@ -3359,10 +3382,13 @@ header.header-main .logocontainer a div.uilogo {
 header.header-main .logocontainer a span {
     color: #353535;
     display: inline;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-size: 3.2em;
-    padding-left: .099em;
+/*    padding-left: .099em;*/
     vertical-align: middle
+}
+header.header-main .logocontainer a span.dif {
+    font-family: 'Gotham-Book';
 }
 header.header-main .logocontainer a span:hover {
     color: #c5a47e
@@ -3419,7 +3445,7 @@ header.header-main nav ul>li a.btn {
 header.header-main.sticky {
     position: fixed;
     top: 0;
-    padding: .13em 0 .4em;
+    padding:.13em 0 0.2em;
     width: 100%;
     background: #fff;
     box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
@@ -3531,7 +3557,7 @@ header h1 a span:nth-of-type(6) {
     -webkit-transition-delay: .225s;
     -moz-transition-delay: .225s;
     transition-delay: .225s;
-    margin-left: .15em
+   /* margin-left: .15em*/
 }
 header h1 a span:nth-of-type(7) {
     -webkit-transition-delay: .25s;
@@ -4197,9 +4223,9 @@ article.box {
     z-index: 6
 }
 .sect-hero h1 {
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 3.3em;
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: .05em;
     margin: .3em auto .1em;
     line-height: 1;
@@ -4231,7 +4257,7 @@ article.box {
     }
 }
 .sect-hero header a {
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2.3em;
     text-transform: lowercase;
     letter-spacing: .05em;
@@ -4503,7 +4529,7 @@ article.box {
 }
 .sect-posts article .content h3,
 .sect-work article .content h3 {
-    text-transform: uppercase;
+/*    text-transform: uppercase;*/
     font-size: 1.5em
 }
 @media (min-width: 54em) {
@@ -5809,7 +5835,7 @@ ul.instagram li img:hover {
     max-width: 50%
 }
 .sect-hero-archive h2 {
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 3.3em;
     text-transform: uppercase;
     letter-spacing: .05em;
@@ -5846,7 +5872,7 @@ ul.instagram li img:hover {
 }
 .sect-signup,
 .sect-signup h4 {
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 .sect-posts-simple article {
     padding: 2em 0;
@@ -5902,8 +5928,8 @@ ul.instagram li img:hover {
     padding: 0 .5em
 }
 .sect-signup h4 {
-    text-transform: uppercase;
-    font-size: 2.25em;
+  /*  text-transform: uppercase;
+*/    font-size: 2.25em;
     letter-spacing: .07em;
     margin: 0;
     line-height: 1.35
@@ -6133,7 +6159,7 @@ ul.instagram li img:hover {
     }
 }
 .home .sect-intro h2 {
-    font-family: verlag, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gothan-Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-size: 1.5em;
     letter-spacing: .02em
@@ -6233,6 +6259,9 @@ ul.instagram li img:hover {
     box-shadow: 0 0 1px rgba(0, 0, 0, .7)
 }
 .home .sect-posts .box .bg {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
     position: absolute;
     left: 0;
     right: 0;
@@ -6240,8 +6269,8 @@ ul.instagram li img:hover {
     bottom: 0;
     background-size: cover;
     background-position: center;
-    -webkit-filter: grayscale(.9);
-    filter: grayscale(.9)
+    -webkit-filter: grayscale(.8);
+    filter: grayscale(.8)
 }
 .home .sect-posts .box .content {
     padding: 0 4%;
@@ -6262,7 +6291,7 @@ ul.instagram li img:hover {
 .culture .sect-intro h2,
 .culture .sect-masthead h1 {
     line-height: 1;
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fff;
     text-align: center
 }
@@ -6289,7 +6318,7 @@ ul.instagram li img:hover {
 }
 .home .sect-posts .box .overlay {
     opacity: 1;
-    background-color: rgba(0, 0, 0, .6);
+    /*background-color: rgba(0, 0, 0, .6);*/
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     transition: all 1s ease
@@ -6371,7 +6400,7 @@ ul.instagram li img:hover {
     max-width: 90%
 }
 .culture .sect-masthead .subtitle h2 {
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 3.3em;
     margin: .3em auto .1em;
     line-height: 1;
@@ -7099,7 +7128,7 @@ ul.instagram li img:hover {
 }
 .careers h1:not(#logo),
 .careers h2 {
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: .05em;
     margin: .3em auto .1em;
@@ -7209,7 +7238,7 @@ ul.instagram li img:hover {
 .careers article h3,
 .careers article h4 {
     text-transform: uppercase;
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: .05em;
     font-weight: 400;
     margin: 0 auto
@@ -7558,7 +7587,7 @@ ul.instagram li img:hover {
 }
 .project-starter fieldset legend,
 .project-starter form fieldset legend {
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1
 }
 .project-starter::-webkit-input-placeholder {
@@ -8053,7 +8082,7 @@ ul.instagram li img:hover {
     transition: all 1s ease-out
 }
 .brand .sect-brand .brand-content h3 {
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: .05em;
     font-size: 3em;
@@ -8124,7 +8153,7 @@ ul.instagram li img:hover {
     z-index: 99
 }
 .error404 .sect-masthead h1 {
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 3.3em;
     text-transform: uppercase;
     letter-spacing: .05em;
@@ -8229,7 +8258,7 @@ ul.instagram li img:hover {
 .arctic-club h2,
 .endurance h2 {
     line-height: 1;
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: .05em
 }
@@ -8485,7 +8514,7 @@ ul.instagram li img:hover {
 .polaris h2 {
     text-transform: uppercase;
     line-height: 1;
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: .05em
 }
 @media (min-width: 54em) {
@@ -8973,7 +9002,7 @@ ul.instagram li img:hover {
 .revelry h2 {
     text-transform: uppercase;
     line-height: 1;
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: .05em;
     margin: .3em auto .1em
 }
@@ -9778,7 +9807,7 @@ ul.instagram li img:hover {
 .amos-morgan h2 {
     text-transform: uppercase;
     line-height: 1;
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: .05em;
     margin: .3em auto .1em
 }
@@ -9875,7 +9904,7 @@ ul.instagram li img:hover {
     background: #f5f3ee
 }
 .new-sheridan h2 {
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 3.3em;
     text-transform: uppercase;
     letter-spacing: .05em;
@@ -9958,7 +9987,7 @@ ul.instagram li img:hover {
     }
 }
 .juno h2 {
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 3.3em;
     text-transform: uppercase;
     letter-spacing: .05em;
@@ -10038,7 +10067,7 @@ ul.instagram li img:hover {
 .the-point h2 {
     text-transform: uppercase;
     line-height: 1;
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: .05em
 }
 @media (min-width: 54em) {
@@ -10419,7 +10448,7 @@ ul.instagram li img:hover {
     display: block
 }
 .woodshed-production h2 {
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 3.3em;
     text-transform: uppercase;
     letter-spacing: .05em;
@@ -10458,7 +10487,7 @@ ul.instagram li img:hover {
 .odds-ends .sect-masthead h1,
 .odds-ends h2,
 .old-creek h2 {
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: .05em;
     line-height: 1;
@@ -10590,7 +10619,7 @@ ul.instagram li img:hover {
     padding-right: 1em
 }
 .sprout h2 {
-    font-family: tungsten, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 3.3em;
     text-transform: uppercase;
     letter-spacing: .05em;
@@ -10625,4 +10654,8 @@ ul.instagram li img:hover {
     padding: 0;
     width: 98%;
     max-width: 21em
+}
+.home .sect-posts .box .bg:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
 }

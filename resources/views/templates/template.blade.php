@@ -19,10 +19,6 @@
     <!-- Fav and icons================================================== -->
     <link rel="shortcut icon" type="image/ico" href="/img/favicon.ico">
      <!-- CSS & Js================ -->
-
-
-   
-     
      <script type="text/javascript">
          window._wpemojiSettings = {
              "baseUrl": "http:\/\/s.w.org\/img\/core\/emoji\/72x72\/",
@@ -117,38 +113,12 @@
         </footer>
      </section>
      <!-- Header-Main================================================== -->
-     <header class="header-main">
-         <div class="row">
-             <!--- Logo -->
-             <h1 id="logo"> <div class="logocontainer"> <a href="/"> <span>#S</span> <span>O</span> <span>M</span> <span>O</span> <span>S</span> <span>S</span> <span>Ã</span> <span>O</span> <span> </span> <span>B</span> <span>E</span> <span>R</span> <span>N</span> <span>A</span> <span>R</span> <span>D</span> <span>O</span></a> 
-              </div> </h1>
-             <!-- Main Nav -->
-             <nav role="navigation">
-                 <ul>
-                     
-                   @include('templates.menu')
-
-                    <li style="padding-right:20px;">   </li>
-                    @include('templates.social')
-             </ul>
-             </nav>
-         </div>
-     </header>
-  
- 
- 
- 
+@include('templates.header')
      <!-- Main================================================== -->
      <main role="main">
- 
- 
-     @yield('content')
- 
-     
-        
+     @yield('content')   
      </main>
-   
- 
+
      <!-- Footer================================================== -->
      <footer class="footer-main">
          <div class="row g-full">

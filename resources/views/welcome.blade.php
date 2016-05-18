@@ -9,7 +9,7 @@
     <!-- Title and Meta================================================== -->
     <meta charset="UTF-8">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><![endif]-->
-    <title>SOMOSSBC</title>
+    <title>somossbc</title>
     <meta name="author" content="Somossbc">
     <meta name="description" content="Hotsite da campanha #somosSBC" />
     <meta name="keywords" content="#somossbc, saúde, educação, esporte, desenvolvimento social, infraestutura urbana, prefeitura de são bernardo do campo" />
@@ -103,21 +103,7 @@
             </nav>
         </footer>
     </section>
-    <header class="header-main">
-        <div class="row">
-            <!--- Logo -->
-            <h1 id="logo"> <div class="logocontainer"> <a href="/"> <span>#S</span> <span>O</span> <span>M</span> <span>O</span> <span>S</span> <span>S</span> <span>Ã</span> <span>O</span> <span> </span> <span>B</span> <span>E</span> <span>R</span> <span>N</span> <span>A</span> <span>R</span> <span>D</span> <span>O</span></a> 
-             </div> </h1>
-            <!-- Main Nav -->
-            <nav role="navigation">
-                <ul>                    
-                    @include('templates.menu')       
-                    <li style="padding-right:20px;">   </li>
-                    @include('templates.social')
-            </ul>
-            </nav>
-        </div>
-    </header>
+@include('templates.header')
     <main role="main">
         <section id="sect-video" class="sect-masthead v-center center-all js-height">
             <div id="bgVideo" class="bg-vid" style="background:url(_videos/videonovo.jpg); "></div>
@@ -137,8 +123,9 @@
                 </header>
             </div>
         </section>
+
         <div class="culture center-all">
-        <section id="realizacoes" class="sect-work sect-peeps bg-white" >                                   
+          <!--   <section id="realizacoes" class="sect-work sect-peeps bg-white" >                                   
             <div class="peep-wrap"> 
                 <div class="row">
                     <div class="g-6 cols reverse">
@@ -292,39 +279,265 @@
                     </div>
                 </div>
                 </div>
-            </section>
+            </section> -->
 
         </div>
+
+
+<section class="sect-posts cf bg-lightgrey xl">  
+            <div class="row">
+                @foreach($posts as $p)
+                    <article class="g-4 cols">
+                      <a class="box" rel="external" href="/postagem/{{ $p->id }}">
+                        <div class="bg" style="background-image:url('/img/upload/{{ $p->foto }}');"></div>
+                      
+                        <div class="overlay"></div> 
+                       <div class="content"> 
+                            <small class="meta-date">Novidade</small>
+                            <h4>{{ $p->nome }}</h4>
+                            <!--<p class="">Dear Proud Business Owner, Messaging today can wear any mask it chooses to serve very different purposes. Some...</p>-->
+                 
+                            <p class="meta-author"></p>
+                        </div>
+                      </a>  
+                    </article>
+                @endforeach    
+                
+            </div>
+</section>
+
+
+
+    <section class="sect-intro intro-posts bg-lightgrey">
+        <div class="row g-full">
+            <header>
+                <h2>Seminário</h2>
+                <hr class="sep">
+                <p>¿Quién eres tú en Plaza Sésamo ?</p>
+            </header>
+            <a class="btn-pill btn-grey" href="#">Visite á Página</a>
+        </div>
+    </section>
+
+
+
+<section class="sect-posts cf bg-lightgrey xl">  
+            <div class="row">
+                    <article class="g-3 cols">
+                      <a class="box" rel="external" href="#">
+                        <div class="bg" style="background-image:url('/img/Perfil1.jpg');"></div>
+                      
+                       <!--  <div class="overlay"></div>  -->
+                      </a>  
+                    </article>
+                    <article class="g-3 cols">
+                      <a class="box" rel="external" href="#">
+                        <div class="bg" style="background-image:url('/img/Perfil2.jpg');"></div>
+                        
+                       <!--  <div class="overlay"></div>  -->
+                      </a>  
+                    </article>
+                    <article class="g-3 cols">
+                      <a class="box" rel="external" href="#">
+                        <div class="bg" style="background-image:url('/img/Perfil3.jpg');"></div>
+                       
+                       <!--  <div class="overlay"></div>  -->
+                      </a>  
+                    </article>
+                    <article class="g-3 cols">
+                      <a class="box" rel="external" href="#">
+                        <div class="bg" style="background-image:url('/img/Perfil4.jpg');"></div>
+                       
+                       <!--  <div class="overlay"></div>  -->
+                      </a>  
+                    </article>
+            </div>
+</section>
+
+       <section class="sect-intro intro-posts bg-lightgrey">
+        <div class="row g-full">
+            <header>
+                <h2>Outros perfis</h2>
+                <hr class="sep">
+
+            </header>
+   
+        </div>
+    </section>
+
+
+
+<section class="sect-posts cf bg-lightgrey xl">  
+            <div class="row">
+                   
+                    <article class="g-12 cols">
+                      <a class="box" rel="external" href="#">
+                        <div class="bg" style="background-image:url('/img/Perfil2.jpg');"></div>
+                        
+                       <!--  <div class="overlay"></div>  -->
+                      </a>  
+                    </article>
+                    <article class="g-4 cols">
+                      <a class="box" rel="external" href="#">
+                        <div class="bg" style="background-image:url('/img/Perfil3.jpg');"></div>
+                       
+                       <!--  <div class="overlay"></div>  -->
+                      </a>  
+                    </article>
+                    <article class="g-4 cols">
+                      <a class="box" rel="external" href="#">
+                        <div class="bg" style="background-image:url('/img/Perfil1.jpg');"></div>
+                      
+                       <!--  <div class="overlay"></div>  -->
+                      </a>  
+                    </article>
+                    <article class="g-4 cols">
+                      <a class="box" rel="external" href="#">
+                        <div class="bg" style="background-image:url('/img/Perfil4.jpg');"></div>
+                       
+                       <!--  <div class="overlay"></div>  -->
+                      </a>  
+                    </article>
+            </div>
+</section>
+
+
+       <section class="sect-intro intro-posts bg-lightgrey">
+        <div class="row g-full">
+            <header>
+                <h2>Outros perfis</h2>
+                <hr class="sep">
+
+            </header>
+   
+        </div>
+    </section>
+
+
+
+<section class="sect-posts cf bg-lightgrey xl">  
+            <div class="row">
+                    <article class="g-6 cols">
+                      <a class="box" rel="external" href="#">
+                        <div class="bg" style="background-image:url('/img/Perfil1.jpg');"></div>
+                      
+                       <!--  <div class="overlay"></div>  -->
+                      </a>  
+                    </article>
+                    <article class="g-3 cols">
+                      <a class="box" rel="external" href="#">
+                        <div class="bg" style="background-image:url('/img/Perfil2.jpg');"></div>
+                        
+                       <!--  <div class="overlay"></div>  -->
+                      </a>  
+                    </article>
+                     <article class="g-3 cols">
+                      <a class="box" rel="external" href="#">
+                        <div class="bg" style="background-image:url('/img/Perfil2.jpg');"></div>
+                        
+                       <!--  <div class="overlay"></div>  -->
+                      </a>  
+                    </article>
+                    <article class="g-3 cols">
+                      <a class="box" rel="external" href="#">
+                        <div class="bg" style="background-image:url('/img/Perfil3.jpg');"></div>
+                       
+                       <!--  <div class="overlay"></div>  -->
+                      </a>  
+                    </article>
+                    <article class="g-6 cols">
+                      <a class="box" rel="external" href="#">
+                        <div class="bg" style="background-image:url('/img/Perfil2.jpg');"></div>
+                        
+                       <!--  <div class="overlay"></div>  -->
+                      </a>  
+                    </article>
+                    <article class="g-3 cols">
+                      <a class="box" rel="external" href="#">
+                        <div class="bg" style="background-image:url('/img/Perfil4.jpg');"></div>
+                       
+                       <!--  <div class="overlay"></div>  -->
+                      </a>  
+                    </article>
+            </div>
+</section>
+
+
+
+
+        <section class="sect-intro intro-work" style="background-color: #fff;">
+            <div class="row">
+               <a href="/saude">Saúde</a> /
+               <a href="/educacao">Educação</a> /
+               <a href="/infraestrutura">Infraestrutura</a> /
+               <a href="/cidadania">Cidadania</a> /                    
+               <a href="/meioambiente">Meio Ambiente</a> /
+               <a href="/esporte">Esporte, Cultura e Lazer</a> /
+               <a href="/videos">Vídeos</a>
+            </div>
+        </section>
         @include('contato.news')
-       
+        <section class="sect-intro intro-work" style="background-color: #fff;">
+            <div class="row">
+               <div class="g-4 cols" style="text-align:left;">Eixos
+                    <ul>
+                        <li><a href="/saude">Saúde</a></li>
+                        <li><a href="/educacao">Educação</a> </li>
+                        <li><a href="/infraestrutura">Infraestrutura</a></li>
+                        <li><a href="/cidadania">Cidadania</a></li>
+                        <li><a href="/meioambiente">Meio Ambiente</a></li>
+                        <li><a href="/esporte">Esporte, Cultura e Lazer</a></li>
+                        <li><a href="/videos">Vídeos</a></li>
+                    </ul>
+                </div>
+                <div class="g-4 cols" style="text-align:left;">Sites da Prefeitura
+                    <ul>
+                        <li><a href="">1</a></li>
+                        <li><a href="">2</a></li>
+                        <li><a href="">3</a></li>
+                        <li><a href="">4</a></li>
+                        <li><a href="">5</a></li>
+                    </ul>
+                </div>
+                <div class="g-4 cols" style="text-align:left;">Seminário
+                    <ul>
+                        <li><a href="">1</a></li>
+                        <li><a href="">2</a></li>
+                        <li><a href="">3</a></li>
+                        <li><a href="">4</a></li>
+                        <li><a href="">5</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
     </main>
     <!-- Footer================================================== -->
     <footer class="footer-main">
-        <div class="row g-full">
-            <nav class="btn-nav">
-                <ul>
-                    <li>
-                        <div class="logocontainer">
-                            <a href=" http://www.saobernardo.sp.gov.br/home?utm_source=Hotsite&utm_mediumhotsite&utm_content=SomosSBC_hot&utm_campaign=Hotsite%20SOMOSSBC">   <img src="{{ URL::asset('img/logo_footer.jpg') }}" alt="SomosSbc" /></a>
+            
+             <div class="row g-full">
 
-                          
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-            <aside></aside>
-            <nav>
-                 <ul class="social">
-                     <li><a href="http://www.saobernardo.sp.gov.br/home" title="Site da Prefeitura" target="_blank"><i class="fa fa-globe"></i></a></li>
-                    <li><a href="https://www.facebook.com/prefsbc" title="Facebook" target="_blank"><i class="icon icon-facebooks"></i></a></li>
-                    <li><a href="https://twitter.com/@pref_sbc" title="Twitter" target="_blank"><i class="icon icon-twitters"></i></a></li>
-                    <li><a href="https://www.youtube.com/channel/UCDPNAIYv6IvCkCNiFGDPynw" title="Youtube" target="_blank"><i class="fa fa-youtube"></i></a></li>
-                    <li><a href="https://twitter.com/prefeitura_sbc" title="Instagram" target="_blank"><i class="icon icon-instagram"></i></a></li>
-           
-                    
-                 </ul>
-            </nav>
-        </div>
+                <nav class="btn-nav">
+                    <ul>
+                        <li>
+                            <div class="logocontainer">
+                                <a href=" http://www.saobernardo.sp.gov.br/home?utm_source=Hotsite&utm_mediumhotsite&utm_content=SomosSBC_hot&utm_campaign=Hotsite%20SOMOSSBC">   <img src="{{ URL::asset('img/logo_footer.jpg') }}" alt="SomosSbc" /></a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <nav>
+                     <ul class="social">
+                        <li><a href="http://www.saobernardo.sp.gov.br/home" title="Site da Prefeitura" target="_blank"><i class="fa fa-globe"></i></a></li>
+                        <li><a href="https://www.facebook.com/prefsbc" title="Facebook" target="_blank"><i class="icon icon-facebooks"></i></a></li>
+                        <li><a href="https://twitter.com/@pref_sbc" title="Twitter" target="_blank"><i class="icon icon-twitters"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCDPNAIYv6IvCkCNiFGDPynw" title="Youtube" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="https://twitter.com/prefeitura_sbc" title="Instagram" target="_blank"><i class="icon icon-instagram"></i></a></li>
+                     </ul>
+                </nav><br><br>
+            </div>
+
     </footer>
     <!-- Le javascript================================================== -->
     <script type='text/javascript' src='assets/js/jquery.js'></script>
