@@ -3,8 +3,19 @@
 Route::get('/', ['as' => 'welcome', function(){
     $posts = \App\Posts::latest()->get();
     // dd($posts);
-    return view('welcome',compact('posts'));
+    return view('selection',compact('posts'));
 }]);
+
+Route::get('/realizacoes', ['as' => 'realizacoes', function(){
+    $posts = \App\Posts::latest()->get();
+    // dd($posts);
+    return view('templates.realizacoes',compact('posts'));
+}]);
+Route::get('jovem', 'PagesController@jovem');
+Route::get('mulher', 'PagesController@mulher');
+Route::get('homem', 'PagesController@homem');
+Route::get('idoso', 'PagesController@idoso');
+
 
 Route::get('saude', 'SaudeController@index');
 

@@ -36,12 +36,7 @@
                             <div style="text-align: center" >
                                 <img src="/img/upload/{{$post->foto}}" >                           
                             </div>
-                            <div style="text-align: center" >
-                                <img src="/img/upload/{{$post->descricao2}}" >                                
-                            </div>
-                            <div style="text-align: center" >
-                                <img src="/img/upload/{{$post->foto2}}" >
-                            </div>
+                        
                         </div>
                    
                     </div>
@@ -57,21 +52,6 @@
                         </a>
                     </div>                 
 
-                    <!--
-                     <div class="g-6 cols">
-                   
-                        <span >
-                            <h2 style="font-size:3em;">#{{$post->nome}}</h2>
-                        </span>
-                   
-                        <span  >
-                            <p style="color: #000;">{!!$post->resumo!!}</p>
-                        </span>
-                   
-                    </div>
-
-                   
-                    -->
                 </div>
             </div>
     @empty
@@ -79,6 +59,5 @@
     @endforelse
     </section>
  </div>
- 
-@include('contato.news') 
+
   @endsection

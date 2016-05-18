@@ -10659,3 +10659,6 @@ ul.instagram li img:hover {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
 }
+.Lista{
+    font-size: 0.6em;
+}
