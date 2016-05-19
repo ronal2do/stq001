@@ -21,7 +21,7 @@
                     <hr class="sep">
                     <p>Quer conhecer mais?</p>
 
-                <a class="btn-pill btn-grey" href="#">Visite á Página</a>
+                <a class="btn-pill btn-grey" href="/realizacoes">Visite á Página</a>
             </div>
         </section>
 
