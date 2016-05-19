@@ -11,6 +11,7 @@ Route::get('/realizacoes', ['as' => 'realizacoes', function(){
     // dd($posts);
     return view('templates.realizacoes',compact('posts'));
 }]);
+
 Route::get('jovem', 'PagesController@jovem');
 Route::get('mulher', 'PagesController@mulher');
 Route::get('homem', 'PagesController@homem');
@@ -62,7 +63,9 @@ Route::post('news', 'News@store');
 
 //fim do contatos
 
-Route::get('/postagem/{id}','PostController@show');
+Route::get('/postagem/{slug}','PostController@show');
+Route::get('/programas/{slug}','PostController@programa');
+
 
 // Painel (ADMIN)
 Route::group(['middleware' => 'auth' ], function() 
@@ -89,3 +92,4 @@ Route::get('email', function(){
 });
 
 
+Route::get('/buscar', ['uses' => 'PagesController@busca', 'as' => 'busca']);

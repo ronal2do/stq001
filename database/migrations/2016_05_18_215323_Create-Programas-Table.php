@@ -22,6 +22,7 @@ class CreateProgramasTable extends Migration
                                     ->onDelete('restrict');
             $table->string('foto');
             $table->string('resumo');
+            $table->string('classe')->default(3);;
             $table->string('descricao');
             $table->string('descricao2');
             $table->timestamps();

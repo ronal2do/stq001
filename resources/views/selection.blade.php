@@ -28,19 +28,19 @@
             
             <li>
           
-                <a href="#">
+                <a href="/mulher">
                     <img src="./img/Perfil2.jpg"/>
                 </a>
             </li>
             <li>
           
-                <a href="#">
+                <a href="/homem">
                     <img src="./img/Perfil3.jpg"/>
                 </a>
             </li>
             <li>
           
-                <a href="#">
+                <a href="/idoso">
                     <img src="./img/Perfil4.jpg"/>
                 </a>
             </li>

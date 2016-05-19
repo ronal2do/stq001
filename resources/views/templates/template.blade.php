@@ -66,8 +66,8 @@
         }
     </style>
 
-    <link rel="stylesheet" href="assets/css/app.css">
-    <link rel="stylesheet" href="assets/css/fonts.min.css">
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="stylesheet" href="/assets/css/fonts.min.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel='canonical' href='#' />
    
@@ -99,6 +99,7 @@
             <nav>
                 <ul>
                     @include('templates.social')
+                    
                 </ul>
             </nav>
         </footer>
@@ -114,10 +115,10 @@
         
     </main>
     <!-- Le javascript================================================== -->
-    <script type='text/javascript' src='assets/js/jquery.js'></script>
-    <script type='text/javascript' src='assets/js/modernizr.js'></script>
-    <script type='text/javascript' src='assets/js/plugins.min.js'></script>
-    <script type='text/javascript' src='assets/js/scripts.min.js'></script>
+    <script type='text/javascript' src='/assets/js/jquery.js'></script>
+    <script type='text/javascript' src='/assets/js/modernizr.js'></script>
+    <script type='text/javascript' src='/assets/js/plugins.min.js'></script>
+    <script type='text/javascript' src='/assets/js/scripts.min.js'></script>
 </body>
 
 </html>

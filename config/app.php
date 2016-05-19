@@ -149,6 +149,7 @@ return [
         /* painel */
         Serverfireteam\Panel\PanelServiceProvider::class,
         
+        'Cviebrock\EloquentSluggable\SluggableServiceProvider',
         
 
     ],

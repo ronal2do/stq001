@@ -1,11 +1,23 @@
-<?php
+<?php 
 
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Post extends Model
-{
-	protected $table = 'posts';
-    protected $guarded = ['id'];
+use Cviebrock\EloquentSluggable\SluggableInterface;
+use Cviebrock\EloquentSluggable\SluggableTrait;
+
+class Post extends Model implements SluggableInterface{
+ 	
+ 	use SluggableTrait;
+
+    protected $table = 'posts';
+	
+	protected $sluggable = [
+        'build_from' => 'nome',
+        'save_to'    => 'slug',
+    ];
+
+    
+
 }

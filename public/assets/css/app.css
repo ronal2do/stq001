@@ -419,7 +419,7 @@ input[type=submit]:hover {
     cursor: pointer;
     display: inline-block;
     text-align: center;
-    font-family: verlag, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "Gothan-Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fff;
     font-size: 1em;
     line-height: 1em;
@@ -1488,7 +1488,7 @@ label,
 p,
 select,
 textarea {
-    font-family: quadon, "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: "Gothan-Book", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 ul.vert-list {
     line-height: 2;
@@ -3422,7 +3422,7 @@ header.header-main nav ul>li {
     vertical-align: middle
 }
 header.header-main nav ul>li a {
-    font-family: verlag, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "Gothan-Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
     display: block;
     color: #fff;
     letter-spacing: .02
@@ -4821,7 +4821,7 @@ article.box {
 .single-work .work-details,
 .work-nav,
 article.box .hover p {
-    font-family: verlag, "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family:  "Gothan-Book", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 @media (min-width: 32em) {
     .sect-posts article.block-full h3,
@@ -5867,7 +5867,7 @@ ul.instagram li img:hover {
 }
 .sect-posts-simple .posts-title-rule {
     color: #999;
-    font-family: verlag, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "Gothan-Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: capitalize
 }
 .sect-signup,
@@ -7272,7 +7272,7 @@ ul.instagram li img:hover {
 .contact .block-contact h3,
 .contact .block-contact p,
 .project-starter .form-numbs {
-    font-family: verlag, "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family:  "Gothan-Book", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 @media (min-width: 54em) {
     .careers article h4 {
@@ -7577,7 +7577,7 @@ ul.instagram li img:hover {
     border: 2px solid #dcbc96;
     background-color: #fff;
     color: #c5a47e;
-    font-family: verlag, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "Gothan-Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: .075em;
     padding: 1.2em 1em 1em;
     margin: .3em 0 2em;
@@ -7640,7 +7640,7 @@ ul.instagram li img:hover {
 .project-starter fieldset#options input[type=checkbox]+label,
 .project-starter input.wpcf7-form-control.wpcf7-submit.btn {
     text-align: center;
-    font-family: verlag, "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family:  "Gothan-Book", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 .project-starter fieldset#options ul {
     list-style: none;
@@ -8137,7 +8137,7 @@ ul.instagram li img:hover {
     line-height: 2.2;
     color: #fff;
     font-size: 120%;
-    font-family: verlag, "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family:  "Gothan-Book", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 .error404 .sect-masthead {
     padding: 0;
@@ -8463,7 +8463,7 @@ ul.instagram li img:hover {
 .arctic-club .sect-masthead h1,
 .arctic-club .sect-masthead h2,
 .arctic-club .sect-masthead h3 {
-    font-family: verlag, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "Gothan-Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-bottom: 0
 }
 .arctic-club .sect-masthead p {
@@ -8501,7 +8501,7 @@ ul.instagram li img:hover {
     background: #addfea
 }
 .molly-moons h1:not(#logo) {
-    font-family: verlag, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "Gothan-Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2.25em;
     letter-spacing: .02em;
     line-height: 1;
@@ -8811,7 +8811,7 @@ ul.instagram li img:hover {
 }
 .watson h1:not(#logo),
 .watson h2 {
-    font-family: verlag, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "Gothan-Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: .02em
 }
 @media (min-width: 32em) {
@@ -9039,7 +9039,7 @@ ul.instagram li img:hover {
 .mac-washing-machine h2,
 .single-work.pronto h1:not(#logo),
 .single-work.pronto h2 {
-    font-family: verlag, "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family:  "Gothan-Book", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 @media (min-width: 32em) {
     .revelry h2 {
@@ -9969,7 +9969,7 @@ ul.instagram li img:hover {
     background-position: 50%
 }
 .juno h1:not(#logo) {
-    font-family: verlag, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "Gothan-Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2.25em;
     letter-spacing: .02em;
     line-height: 1;
@@ -10056,7 +10056,7 @@ ul.instagram li img:hover {
     background-color: #3686b9
 }
 .seomoz h2 {
-    font-family: verlag, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "Gothan-Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.5em;
     letter-spacing: .02em;
     color: #063c4a
@@ -10175,7 +10175,7 @@ ul.instagram li img:hover {
 .intego h2,
 .seattle-met h1:not(#logo),
 .seattle-met h2 {
-    font-family: verlag, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "Gothan-Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: .02em
 }
 @media (min-width: 32em) {

@@ -26,10 +26,8 @@ class PostsController extends CrudController{
 			$this->grid->add('categoria', 'Categoria');
 			$this->grid->add('resumo', 'Resumo');
 			$this->grid->add('foto', 'Foto ');
-			$this->grid->add('descricao2', 'Foto 2');
-			$this->grid->add('foto2', 'Foto 3');
 			$this->grid->add('descricao', 'Descrição');
-			
+			$this->grid->add('descricao2', 'Descrição 2');
 
 			$this->addStylesToGrid();
                  
@@ -48,10 +46,9 @@ class PostsController extends CrudController{
 			$this->edit->add('categoria','Categoria','select')->options(\App\Categoria::lists("name", "id")->all());
 			$this->edit->add('resumo', 'Resumo', 'text')->rule('required'); 
 			$this->edit->add('foto', 'Foto', 'image')->move('img/upload/');
-			$this->edit->add('descricao2', 'Foto 2', 'image')->move('img/upload/');
-			$this->edit->add('foto2', 'Foto 3', 'image')->move('img/upload/');
+
 			$this->edit->add('descricao', 'Descrição', 'redactor');
-			
+			$this->edit->add('descricao2', 'Descrição 2', 'redactor');
        
         return $this->returnEditView();
     }    

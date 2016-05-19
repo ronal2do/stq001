@@ -20,9 +20,7 @@ class PostController extends Controller
     {   
         $cor = '#60a69d';
 
-
         $post = DB::table('posts')
-            
             ->take(10)
             ->orderBy('id', 'desc')
             ->get();
@@ -70,17 +68,27 @@ class PostController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  int  $slug
      * @return Response
      */
-    public function show($id)
+    public function show($slug)
     {
-        $post = Post::find($id);
+        $post = Post::findBySlug($slug);
         $categoria = Categoria::lists('name');
-
         return view('templates.post', compact('post', 'categoria'));
     }
-
+     /**
+     * Display the specified resource.
+     *
+     * @param  int  $slug
+     * @return Response
+     */
+    public function programa($slug)
+    {
+        $post = \App\Programas::findBySlug($slug);
+        $categoria = Categoria::lists('name');
+        return view('templates.post', compact('post', 'categoria'));
+    }
     /**
      * Show the form for editing the specified resource.
      *

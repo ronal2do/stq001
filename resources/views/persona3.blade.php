@@ -1,52 +1,19 @@
 @extends('templates.persona')
 @section('destaques')
-    <section class="sect-posts cf bg-lightgrey xl">  
-                <div class="row">
-                <br>
-                        <article class="g-6 cols">
-                          <a class="box" rel="external" href="#">
-                            <div class="bg" style="background-image:url('/img/Perfil1.jpg');"></div>
-                          
-                           <!--  <div class="overlay"></div>  -->
-                          </a>  
-                        </article>
-                        <article class="g-3 cols">
-                          <a class="box" rel="external" href="#">
-                            <div class="bg" style="background-image:url('/img/Perfil4.jpg');"></div>
-                            
-                           <!--  <div class="overlay"></div>  -->
-                          </a>  
-                        </article>
-                         <article class="g-3 cols">
-                          <a class="box" rel="external" href="#">
-                            <div class="bg" style="background-image:url('/img/Perfil2.jpg');"></div>
-                            
-                           <!--  <div class="overlay"></div>  -->
-                          </a>  
-                        </article>
-                        <article class="g-3 cols">
-                          <a class="box" rel="external" href="#">
-                            <div class="bg" style="background-image:url('/img/Perfil3.jpg');"></div>
-                           
-                           <!--  <div class="overlay"></div>  -->
-                          </a>  
-                        </article>
-                        <article class="g-6 cols">
-                          <a class="box" rel="external" href="#">
-                            <div class="bg" style="background-image:url('/img/Perfil2.jpg');"></div>
-                            
-                           <!--  <div class="overlay"></div>  -->
-                          </a>  
-                        </article>
-                        <article class="g-3 cols">
-                          <a class="box" rel="external" href="#">
-                            <div class="bg" style="background-image:url('/img/Perfil4.jpg');"></div>
-                           
-                           <!--  <div class="overlay"></div>  -->
-                          </a>  
-                        </article>
-                </div>
-    </section>
+        <section class="sect-posts cf bg-lightgrey xl">  
+            <div class="row">
+            <br>
+            @foreach( $programas as $pr )
+                    <article class="g-{{ $pr->class or '3' }} cols">
+                      <a class="box" rel="external" href="/programas/{{ $pr->slug }}">
+                        <div class="bg" style="background-image:url('/img/upload/{{ $pr->foto }}');"></div>
+                      
+                        <div class="content"><h2 style="color:#fff;">{{ $pr->nome }}</h2></div> 
+                      </a>  
+                    </article>
+            @endforeach       
+            </div>
+        </section>
 @endsection
 @section('perfis')
     <section class="sect-posts cf bg-lightgrey xl">  

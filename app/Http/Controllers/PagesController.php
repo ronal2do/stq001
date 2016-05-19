@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Input;
 
 class PagesController extends Controller
 {
@@ -16,35 +17,47 @@ class PagesController extends Controller
      */
     public function jovem()
     {
-        $posts = \App\Posts::latest()->get();
-        $numero = 1;
-    // dd($posts);
-        return view('persona',compact('posts', 'numero'));
+        $posts = \App\Posts::latest()->take(4)->get();
+        $numero = 1;    
+        $programas = \App\Programas::orderBy('id', 'desc')->take(6)->where('categoria', '=', $numero)->get();
+    // dd($programas);
+        return view('persona',compact('posts', 'numero', 'programas'));
     }
 
-        public function mulher()
+    public function mulher()
     {
-        $posts = \App\Posts::latest()->get();
+        $posts = \App\Posts::latest()->take(4)->get();
         $numero = 2;
+       $programas = \App\Programas::orderBy('id', 'desc')->take(6)->where('categoria', '=', $numero)->get();
     // dd($posts);
-        return view('persona2',compact('posts', 'numero'));
+        return view('persona2',compact('posts', 'numero', 'programas'));
     }
 
-        public function homem()
+    public function homem()
     {
-        $posts = \App\Posts::latest()->get();
+        $posts = \App\Posts::latest()->take(4)->get();
         $numero = 3;
+        $programas = \App\Programas::orderBy('id', 'desc')->take(6)->where('categoria', '=', $numero)->get();
     // dd($posts);
-        return view('persona3',compact('posts', 'numero'));
+        return view('persona3',compact('posts', 'numero', 'programas'));
     }
 
-        public function idoso()
+    public function idoso()
     {
-        $posts = \App\Posts::latest()->get();
+        $posts = \App\Posts::latest()->take(4)->get();
         $numero = 4;
+        $programas = \App\Programas::orderBy('id', 'desc')->take(6)->where('categoria', '=', $numero)->get();
     // dd($posts);
-        return view('persona4',compact('posts', 'numero'));
+        return view('persona4',compact('posts', 'numero', 'programas'));
     }
-
+     public function busca()
+    {
+        $posts = \App\Posts::orderBy('id', 'desc')->get();
+        $categorias = \App\Categoria::orderBy('id', 'desc')->get();
+        $str = Input::get('str');
+        $postquerys = \App\Posts::like('descricao', $str)->get();
+        
+        return view('blog.busca', compact('categorias', 'postquerys', 'posts', 'str'));
+    }
     
 }

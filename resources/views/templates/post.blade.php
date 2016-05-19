@@ -2,11 +2,11 @@
 
 @section('content')										
 
-<section class="sect-hero center-all purple" style="background-color: #88c8d3;"  >
+<section class="sect-hero center-all purple" style="background-color:#123456;background-image: url('/img/upload/{{$post->foto}}'); background-size: cover;"  >
 <div>
 		<div class="row">
 			<div class="g-10 cols centered">
-				<h1 style="color:#000;"> {!!$post->nome!!}</h1>
+				<h1 style="color:#000;letter-spacing: -5px;"> {!!$post->nome!!}</h1>
 			</div>
 	</div>
 </div>
@@ -27,7 +27,7 @@
 
 <div class="row">
 <div class="row center-all"><br />
-	<img src="{{ URL::asset('/') }}img/upload/{{$post->foto}}">
+	<!-- <img src="{{ URL::asset('/') }}img/upload/{{$post->foto}}"> -->
 </div>
 <div class="row center-all">
 <p>{!!$post->descricao!!}</p>
@@ -46,8 +46,6 @@
 </div>
 </div>
 </section>
-
-@include('contato.news') 
 
 
 @endsection
