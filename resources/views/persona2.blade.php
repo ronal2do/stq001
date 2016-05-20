@@ -4,7 +4,7 @@
             <div class="row">
             <br>
             @foreach( $programas as $pr )
-                    <article class="g-{{ $pr->class or '3' }} cols">
+                    <article class="g-{{ $pr->classe or '3' }} cols">
                       <a class="box" rel="external" href="/programas/{{ $pr->slug }}">
                         <div class="bg" style="background-image:url('/img/upload/{{ $pr->foto }}');"></div>
                       
@@ -19,7 +19,7 @@
   <section class="sect-posts cf bg-lightgrey xl">  
               <div class="row">
                       <article id="2" class="g-4 cols">
-                        <a class="box" rel="external" href="/mulher">
+                        <a class="box" rel="external" href="/jovem">
                           <div class="bg" style="background-image:url('/img/Perfil{{ $numero - 1 }}.jpg');"></div>
                          
                          <!--  <div class="overlay"></div>  -->

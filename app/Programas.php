@@ -17,5 +17,14 @@ class Programas extends Model implements SluggableInterface{
         'build_from' => 'nome',
         'save_to'    => 'slug',
     ];
+    public function grupo()
+    {
+    	return $this->belongsTo(CatProgramas::class);
+    }
+    public function categoria()
+    {
+        return $this->belongsTo(Categoria::class);
+    }
+
 
 }

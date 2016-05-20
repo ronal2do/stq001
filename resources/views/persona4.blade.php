@@ -4,7 +4,7 @@
             <div class="row">
             <br>
             @foreach( $programas as $pr )
-                    <article class="g-{{ $pr->class or '3' }} cols">
+                    <article class="g-{{ $pr->classe or '3' }} cols">
                       <a class="box" rel="external" href="/programas/{{ $pr->slug }}">
                         <div class="bg" style="background-image:url('/img/upload/{{ $pr->foto }}');"></div>
                       

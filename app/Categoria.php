@@ -8,4 +8,9 @@ class Categoria extends Model {
 
     protected $table = 'categoria';
 
+    public function posts()
+    {
+    	return $this->hasMany(Post::class);
+    }
+
 }

@@ -19,8 +19,8 @@ class PagesController extends Controller
     {
         $posts = \App\Posts::latest()->take(4)->get();
         $numero = 1;    
-        $programas = \App\Programas::orderBy('id', 'desc')->take(6)->where('categoria', '=', $numero)->get();
-    // dd($programas);
+        $programas = \App\Programas::orderBy('id', 'desc')->take(6)->where('grupo_id', '=', $numero)->get();
+     // dd($posts );
         return view('persona',compact('posts', 'numero', 'programas'));
     }
 
@@ -28,7 +28,7 @@ class PagesController extends Controller
     {
         $posts = \App\Posts::latest()->take(4)->get();
         $numero = 2;
-       $programas = \App\Programas::orderBy('id', 'desc')->take(6)->where('categoria', '=', $numero)->get();
+       $programas = \App\Programas::orderBy('id', 'desc')->take(6)->where('grupo_id', '=', $numero)->get();
     // dd($posts);
         return view('persona2',compact('posts', 'numero', 'programas'));
     }
@@ -37,7 +37,7 @@ class PagesController extends Controller
     {
         $posts = \App\Posts::latest()->take(4)->get();
         $numero = 3;
-        $programas = \App\Programas::orderBy('id', 'desc')->take(6)->where('categoria', '=', $numero)->get();
+        $programas = \App\Programas::orderBy('id', 'desc')->take(6)->where('grupo_id', '=', $numero)->get();
     // dd($posts);
         return view('persona3',compact('posts', 'numero', 'programas'));
     }
@@ -46,7 +46,7 @@ class PagesController extends Controller
     {
         $posts = \App\Posts::latest()->take(4)->get();
         $numero = 4;
-        $programas = \App\Programas::orderBy('id', 'desc')->take(6)->where('categoria', '=', $numero)->get();
+        $programas = \App\Programas::orderBy('id', 'desc')->take(6)->where('grupo_id', '=', $numero)->get();
     // dd($posts);
         return view('persona4',compact('posts', 'numero', 'programas'));
     }

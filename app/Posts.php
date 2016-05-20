@@ -17,5 +17,10 @@ class Posts extends Model implements SluggableInterface{
         'build_from' => 'nome',
         'save_to'    => 'slug',
     ];
+  	
+  	public function categoria()
+    {
+    	return $this->belongsTo(Categoria::class);
+    }
 
 }

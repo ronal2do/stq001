@@ -2,11 +2,11 @@
 
 @section('content')										
 
-<section class="sect-hero center-all purple" style="background-color:#123456;background-image: url('/img/upload/{{$post->foto}}'); background-size: cover;"  >
+<section class="sect-hero center-all purple" style="background-color:#123456;background-image: url('/img/upload/{{$post->foto}}'); background-size:cover;background-position: center;"  >
 <div>
 		<div class="row">
 			<div class="g-10 cols centered">
-				<h1 style="color:#000;letter-spacing: -5px;"> {!!$post->nome!!}</h1>
+				<h1 style="color:#fff;letter-spacing: -5px;"> {!!$post->nome!!}</h1>
 			</div>
 	</div>
 </div>

@@ -18,6 +18,9 @@ class Post extends Model implements SluggableInterface{
         'save_to'    => 'slug',
     ];
 
-    
+    public function categoria()
+    {
+        return $this->belongsTo(Categoria::class);
+    }
 
 }

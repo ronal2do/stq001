@@ -15,11 +15,12 @@ class CreatePostsTable extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nome');
-            $table->integer('categoria')->unsigned();
-            $table->foreign('categoria')->references('id')
+            $table->integer('categoria_id')->unsigned();
+            $table->foreign('categoria_id')->references('id')
                                     ->on('categoria')
                                     ->onDelete('restrict');
             $table->string('foto');
+            $table->string('slug');
             $table->text('resumo');
             $table->text('descricao');
             $table->timestamps();
