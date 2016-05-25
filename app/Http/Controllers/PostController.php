@@ -49,20 +49,19 @@ class PostController extends Controller
     {
         //dd($request->all());
         $dadosForm = $request->all();
-
         //upload
-        $file = $request->file('foto');
+        if ($request->file('foto')!= NULL) {
+            $file = $request->file('foto');
 
-        if( $request->hasFile('foto') && $file->isValid() ){
-
-            $file->move('img/upload', $file->getClientOriginalName());
+            if( $request->hasFile('foto') && $file->isValid() ){
+                $file->move('img/upload', $file->getClientOriginalName());
+            }
+            $dadosForm['foto'] = $file->getClientOriginalName();
         }
 
-        $dadosForm['foto'] = $file->getClientOriginalName();
-
+        //dd($dadosForm);
         $post = Post::create($dadosForm);        
-        
-        return redirect("postagem/$post->id");
+        return redirect("/historia/$post->slug");
     }
 
     /**
@@ -85,7 +84,19 @@ class PostController extends Controller
      */
     public function programa($slug)
     {
-        $post = \App\Programas::findBySlug($slug);
+        $post = \App\Post::findBySlug($slug);
+        $categoria = Categoria::lists('name');
+        return view('templates.post', compact('post', 'categoria'));
+    }
+     /**
+     * Display the specified resource.
+     *
+     * @param  int  $slug
+     * @return Response
+     */
+    public function historia($slug)
+    {
+        $post = \App\Post::findBySlug($slug);
         $categoria = Categoria::lists('name');
         return view('templates.post', compact('post', 'categoria'));
     }

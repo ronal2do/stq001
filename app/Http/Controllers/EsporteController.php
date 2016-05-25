@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use DB;
+use App\Post;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -22,7 +22,7 @@ class EsporteController extends Controller
         $video_nome = 'Feira Literária de São Bernardo no Cenforpe já é sucesso de público'; 
         $cor = '#c6c2d9'; 
         $classe = 'peep-wrapd';
-        $posts = DB::table('posts')->where('categoria', '=', 4)->get();
+        $posts = Post::where('categoria_id', '=', 4)->get();
 
         return view('programas.categoria', compact('posts', 'titulo', 'cor', 'classe', 'video','video_nome'));
 

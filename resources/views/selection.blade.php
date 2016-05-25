@@ -34,7 +34,7 @@
             </li>
             <li>
           
-                <a href="/homem">
+                <a href="/geral">
                     <img src="./img/Perfil3.jpg"/>
                 </a>
             </li>

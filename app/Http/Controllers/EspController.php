@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use DB;
+use App\Post;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -23,7 +23,7 @@ class EspController extends Controller
         $cor = '#f8c3a5'; 
         $classe = 'peep-wrapd';
 
-        $posts = DB::table('posts')->where('categoria', '=', 2)->get();
+        $posts = Post::where('categoria_id', '=', 2)->get();
 
         return view('programas.categoria', compact('posts', 'titulo', 'cor','classe', 'video','video_nome'));
 

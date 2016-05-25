@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use DB;
+use App\Video;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -16,8 +16,7 @@ class VdsController extends Controller
      */
     public function index()
     {   
-        $videos= DB::table('videos')
-            ->orderBy('id', 'desc')
+        $videos= Video::orderBy('id', 'desc')
             ->get();
         return view('templates/videos', compact('videos'));
 

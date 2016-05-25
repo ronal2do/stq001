@@ -31,18 +31,13 @@ class UsersController extends CrudController{
         
         parent::edit($entity);
 
-       
 	
 			$this->edit = \DataEdit::source(new \App\Users());
 
 			$this->edit->label('Editar redatores');
 
 			$this->edit->add('name', 'Nome', 'text');
-		
-			
-
-
-      
+    
        
         return $this->returnEditView();
     }    

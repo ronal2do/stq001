@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use DB;
+use App\Post;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -23,7 +23,7 @@ class MeioController extends Controller
         $cor = '#60a69d';
         $classe = 'peep-wrapd';
         
-        $posts = DB::table('posts')->where('categoria', '=', 6)->get();
+        $posts = Post::where('categoria_id', '=', 6)->get();
 
         return view('programas.categoria', compact('posts', 'titulo', 'cor', 'classe', 'video','video_nome'));
 

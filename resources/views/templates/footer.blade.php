@@ -1,7 +1,7 @@
-     <section class="sect-intro intro-work" style="background-color: #fff;">
+     <section class="sect-intro intro-work bg-lightgrey">
             <div class="row">
                <div class="g-3 cols" style="text-align:left;">Eixos
-                    <ul>
+                    <ul class="Lista">
                         <li><a href="/saude">Saúde</a></li>
                         <li><a href="/educacao">Educação</a> </li>
                         <li><a href="/infraestrutura">Infraestrutura</a></li>
@@ -11,12 +11,12 @@
                     </ul>
                 </div>
                 <div class="g-3 cols" style="text-align:left;">Sites da Prefeitura
-                    <ul>
+                    <ul class="Lista">
                     @include('templates.menu')
                     </ul>
                 </div>
                 <div class="g-3 cols" style="text-align:left;">Seminário
-                    <ul>
+                    <ul class="Lista">
                         <li><a href="">1</a></li>
                         <li><a href="">2</a></li>
                         <li><a href="">3</a></li>
@@ -57,7 +57,7 @@
 
 
     <!-- Footer================================================== -->
-    <footer class="footer-main">
+    <footer class="footer-main Bolinha">
             
              <div class="row g-full">
 
@@ -65,7 +65,7 @@
                     <ul>
                         <li>
                             <div class="logocontainer">
-                                <a href=" http://www.saobernardo.sp.gov.br/home?utm_source=Hotsite&utm_mediumhotsite&utm_content=SomosSBC_hot&utm_campaign=Hotsite%20SOMOSSBC">   <img src="{{ URL::asset('img/logo_footer.jpg') }}" alt="SomosSbc" /></a>
+                                <a href="http://www.saobernardo.sp.gov.br/home?utm_source=Hotsite&utm_mediumhotsite&utm_content=SomosSBC_hot&utm_campaign=Hotsite%20SOMOSSBC"><img src="{{ URL::asset('img/logo_footer.png') }}" alt="SomosSbc" /></a>
                             </div>
                         </li>
                     </ul>
@@ -73,11 +73,11 @@
                 
                 <nav>
                      <ul class="social">
-                        <li><a href="http://www.saobernardo.sp.gov.br/home" title="Site da Prefeitura" target="_blank"><i class="fa fa-globe"></i></a></li>
+                        <li><a href="http://www.saobernardo.sp.gov.br/home?utm_source=Hotsite&utm_mediumhotsite&utm_content=SomosSBC_hot&utm_campaign=Hotsite%20SOMOSSBC" title="Site da Prefeitura" target="_blank"><i class="fa fa-globe"></i></a></li>
                         <li><a href="https://www.facebook.com/prefsbc" title="Facebook" target="_blank"><i class="icon icon-facebooks"></i></a></li>
-                        <li><a href="https://twitter.com/@pref_sbc" title="Twitter" target="_blank"><i class="icon icon-twitters"></i></a></li>
+                       
                         <li><a href="https://www.youtube.com/channel/UCDPNAIYv6IvCkCNiFGDPynw" title="Youtube" target="_blank"><i class="fa fa-youtube"></i></a></li>
-                        <li><a href="https://twitter.com/prefeitura_sbc" title="Instagram" target="_blank"><i class="icon icon-instagram"></i></a></li>
+                        <li><a href="https://instagram.com/pref_sbc" title="Instagram" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                      </ul>
                 </nav><br><br>
             </div>

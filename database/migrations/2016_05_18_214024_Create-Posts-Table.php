@@ -15,14 +15,20 @@ class CreatePostsTable extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nome');
-            $table->integer('categoria_id')->unsigned();
+            $table->string('tipo');
+            $table->string('slug');
+            $table->integer('categoria_id')->unsigned()->nullable();
             $table->foreign('categoria_id')->references('id')
                                     ->on('categoria')
                                     ->onDelete('restrict');
-            $table->string('foto');
-            $table->string('slug');
-            $table->text('resumo');
-            $table->text('descricao');
+            $table->integer('grupo_id')->unsigned()->nullable();
+            $table->foreign('grupo_id')->references('id')
+                                    ->on('grupos')
+                                    ->onDelete('restrict');
+            $table->string('foto')->nullable();
+            $table->longText('resumo');
+            $table->string('classe')->default(3);
+            $table->string('link')->nullable();
             $table->timestamps();
         });
     }

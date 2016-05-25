@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use DB;
 use Illuminate\Http\Request;
 use App\Post;
 use App\Http\Requests;
@@ -19,11 +18,9 @@ class PoController extends Controller
     public function index()
     {    
 
-        $posts = DB::table('posts')
-            ->take(4)
+        $posts = Post::take(4)
             ->orderBy('id', 'desc')
             ->get();
-
         return view('painel.postagens.postagens', compact('posts'));
     }
 

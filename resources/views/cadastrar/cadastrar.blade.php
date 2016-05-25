@@ -6,7 +6,7 @@
 <section class="sect-hero center-all" style="background-color: #60a69d;"  >
     <div class="row g-full" >
         <header >
-            <h1> Publique </h1>
+            <h1> Conte sua história </h1>
             <hr class="sep">
         </header>
     </div>
@@ -26,8 +26,7 @@
 <section class="sect-content" style="background-color: white;">
 <div class="block-half block-form">
       <div>             
-       <h3>Publique sua história!</h3>
-       <hr class="sep">
+
        <div class="row"> 
 
        @if( isset($post) )
@@ -39,18 +38,23 @@
                 {!!Form::text('nome', isset($post->nome) ? $post->nome : null , ['placeholder' => 'Título'] )!!}
               </div>
              
-             <div class="g-6 cols">
-                 {!!Form::file('foto' )!!}
+          
+              <div class="g-6 cols">
+                {!!Form::text('link', isset($post->link) ? $post->link : null , ['placeholder' => 'Seu nome e email para contato'] )!!}
+             </div>   
+              <div class="g-12 cols">
+                 {!!Form::file('foto')!!}
              </div>
               <div class="g-12 cols">
-                {!!Form::text('resumo', isset($post->resumo) ? $post->resumo : null , ['placeholder' => 'Seu nome e email para contato'] )!!}
+                {!!Form::textarea('resumo', isset($post->resumo) ? $post->resumo : null , ['placeholder' => 'Descrição', 'rows' => '10' ] )!!}
+             </div>
+             <div class="g-12 cols">
+                <input type="hidden" name="categoria_id" value="7">
+                <input type="hidden" name="grupo_id" value="1">
+                <input type="hidden" name="tipo" value="historia">
              </div>
               <div class="g-12 cols">
-                {!!Form::textarea('descricao', isset($post->descricao) ? $post->descricao : null , ['placeholder' => 'Descrição', 'rows' => '10' ] )!!}
-             </div>
-              
-              <div class="g-12 cols">
-                 {!!Form::submit('Publicar')!!}
+                <input type="submit" value="Publicar" class="btn-pill btn-grey">
              </div>
         {!!Form::close()!!}
        </div>
@@ -74,9 +78,5 @@
 </div>
 </div>
 </section>
-
-
-
-
 
 @endsection

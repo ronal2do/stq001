@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use DB;
+use App\User;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -19,8 +19,7 @@ class UsuariosController extends Controller
     {
         $titulo = 'Usuarios'; 
 
-        $users = DB::table('users')
-        	->get();
+        $users = User::get();
 
        //dd($users);
 

@@ -26,7 +26,6 @@ class MensagemController extends CrudController{
 			$this->grid->add('bairro', 'Bairro');
 			$this->grid->add('telefone', 'Telefone');
 			$this->grid->add('created_at', 'Data');
-			$this->grid->add('mensagem', 'Mensagem');
 			$this->addStylesToGrid();
         
 
@@ -45,7 +44,6 @@ class MensagemController extends CrudController{
 			$this->edit->add('email', 'Email', 'text')->rule('required');
 			$this->edit->add('bairro', 'Bairro', 'text')->rule('required');
 			$this->edit->add('telefone', 'Telefone', 'text')->rule('required');
-			$this->edit->add('mensagem', 'Mensagem', 'redactor')->rule('required');
 
         return $this->returnEditView();
     } 

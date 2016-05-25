@@ -1,7 +1,7 @@
-<li><a href="/jovem">Jovem</a></li>
-<li><a href="/mulher">Mulher</a></li>
-<li><a href="/homem">Homem</a></li>
-<li><a href="/idoso">Idoso</a></li>                    
-<li><a href="/realizacoes">Realizações</a></li>                    
-<li><a href="/videos">Vídeos</a></li>
-<li><a href="/seminario">Seminário</a></li>
+<li><a href="/jovem"><strong>somos</strong>juventude</a></li>
+<li><a href="/mulher"><strong>somos</strong>mulheres</a></li>
+<li><a href="/geral"><strong>somos</strong>bem-estar</a></li>
+<li><a href="/idoso"><strong>somos</strong>3ªidade</a></li>                    
+<li><a href="/realizacoes">realizações</a></li>                    
+<li><a href="/videos">vídeos</a></li>
+<!-- <li><a href="/seminario">seminário</a></li> -->
