@@ -35,8 +35,16 @@ class PostController extends Controller
      */
     public function create()
     {
+         $rand=array_rand([
+            "#f77985"=>"saude",
+            "#be1039"=>"educacao",
+            "#69b843"=>"infra",
+            "#f87e3a"=>"cidadania",
+            "#2a9fe0"=>"meio",
+            "#ad4b9e"=>"esporte"
+        ]);
         $categoria = Categoria::lists('name');
-        return view('cadastrar.cadastrar', compact('categoria'));
+        return view('cadastrar.cadastrar', compact('categoria', 'rand'));
     }
 
     /**
@@ -72,9 +80,17 @@ class PostController extends Controller
      */
     public function show($slug)
     {
+        $rand=array_rand([
+            "#f77985"=>"saude",
+            "#be1039"=>"educacao",
+            "#69b843"=>"infra",
+            "#f87e3a"=>"cidadania",
+            "#2a9fe0"=>"meio",
+            "#ad4b9e"=>"esporte"
+        ]);
         $post = Post::findBySlug($slug);
         $categoria = Categoria::lists('name');
-        return view('templates.post', compact('post', 'categoria'));
+        return view('templates.post', compact('post', 'categoria', 'rand'));
     }
      /**
      * Display the specified resource.
@@ -84,9 +100,17 @@ class PostController extends Controller
      */
     public function programa($slug)
     {
+         $rand=array_rand([
+            "#f77985"=>"saude",
+            "#be1039"=>"educacao",
+            "#69b843"=>"infra",
+            "#f87e3a"=>"cidadania",
+            "#2a9fe0"=>"meio",
+            "#ad4b9e"=>"esporte"
+        ]);
         $post = \App\Post::findBySlug($slug);
         $categoria = Categoria::lists('name');
-        return view('templates.post', compact('post', 'categoria'));
+        return view('templates.post', compact('post', 'categoria', 'rand'));
     }
      /**
      * Display the specified resource.

@@ -18,7 +18,16 @@ class VdsController extends Controller
     {   
         $videos= Video::orderBy('id', 'desc')
             ->get();
-        return view('templates/videos', compact('videos'));
+        
+        $rand=array_rand([
+            "#f77985"=>"saude",
+            "#be1039"=>"educacao",
+            "#69b843"=>"infra",
+            "#f87e3a"=>"cidadania",
+            "#2a9fe0"=>"meio",
+            "#ad4b9e"=>"esporte"
+        ]);
+        return view('templates/videos', compact('videos', 'rand'));
 
     }
 }

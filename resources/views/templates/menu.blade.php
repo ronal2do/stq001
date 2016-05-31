@@ -4,4 +4,3 @@
 <li><a href="/idoso"><strong>somos</strong>3ªidade</a></li>                    
 <li><a href="/realizacoes">realizações</a></li>                    
 <li><a href="/videos">vídeos</a></li>
-<!-- <li><a href="/seminario">seminário</a></li> -->

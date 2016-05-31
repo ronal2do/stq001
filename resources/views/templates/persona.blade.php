@@ -7,9 +7,6 @@
             </div>
             <div class="overlay alpha"></div>
         </section>
-
-      
-
         @yield('destaques')
 
         @include('templates.seminario')
@@ -23,8 +20,6 @@
                 <a class="btn-pill btn-grey" href="/realizacoes">Visite á Página</a>
             </div>
         </section>
-       
-
-        @include('templates.obras')
+        @include('templates.obras-dest')
        
    @endsection

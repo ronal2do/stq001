@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use DB;
+use App\Post;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -19,10 +19,17 @@ class CidadaniaController extends Controller
         $titulo = 'Desenvolvimento social e cidadania';  
         $video = 'https://www.youtube.com/embed/8beAf5UC1vo'; 
         $video_nome = 'Afetividade e atividade contribuem para a saúde dos idosos'; 
-        $cor    = '#f6acb3'; 
-        $classe = 'peep-wrapd';
-        $posts  = DB::table('posts')->where('categoria', '=', 3)->get();
-        return view('programas.categoria', compact('posts', 'titulo', 'cor', 'classe', 'video','video_nome'));
+        $cor   = '#f87e3a';
+        $posts = Post::where('categoria_id', '=', 3)->get();    
+        $rand=array_rand([
+            "#f77985"=>"saude",
+            "#be1039"=>"educacao",
+            "#69b843"=>"infra",
+            "#f87e3a"=>"cidadania",
+            "#2a9fe0"=>"meio",
+            "#ad4b9e"=>"esporte"
+        ]); 
+        return view('programas.categoria', compact('posts', 'titulo', 'cor', 'rand', 'video','video_nome'));
 
     }
 }

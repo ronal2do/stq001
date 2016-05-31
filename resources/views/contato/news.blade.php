@@ -17,7 +17,7 @@
           {!!Form::open( ['url' => '/mensagem'])!!}
               <div class="g-6 cols input-field">
                 <span class="">
-                     {!!Form::text('name', isset($post->name) ? $post->nome : null , ['placeholder' => 'Nome', 'required'] )!!}
+                     {!!Form::text('nome', isset( $post->nome) ? $post->nome : null , ['placeholder' => 'Nome', 'required'] )!!}
                 </span>
               </div>
               <div class="g-6 cols input-field">

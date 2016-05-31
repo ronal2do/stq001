@@ -14,14 +14,14 @@ class MensagemController extends CrudController{
         parent::all($entity); 
 
 			$this->filter = \DataFilter::source(new \App\Mensagem);
-			$this->filter->add('name', 'Nome', 'text');
+			$this->filter->add('nome', 'Nome', 'text');
 			$this->filter->submit('Buscar');
 			$this->filter->reset('resetar');
 			$this->filter->build();
 
 			$this->grid = \DataGrid::source($this->filter);
 			$this->grid->add('id', 'ID');
-			$this->grid->add('name', 'Nome');
+			$this->grid->add('nome', 'Nome');
 			$this->grid->add('email', 'Email');
 			$this->grid->add('bairro', 'Bairro');
 			$this->grid->add('telefone', 'Telefone');
@@ -40,7 +40,7 @@ class MensagemController extends CrudController{
 
 			$this->edit->label('Editar Mensagem');
 
-			$this->edit->add('name', 'Nome', 'text')->rule('required');
+			$this->edit->add('nome', 'Nome', 'text')->rule('required');
 			$this->edit->add('email', 'Email', 'text')->rule('required');
 			$this->edit->add('bairro', 'Bairro', 'text')->rule('required');
 			$this->edit->add('telefone', 'Telefone', 'text')->rule('required');

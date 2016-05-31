@@ -8,11 +8,14 @@
         </section>
         <section class="sect-posts cf bg-lightgrey xl">  
             <div class="row">
-<br>
             @foreach( $programas as $p )
                     <article class="g-{{ $p->classe or '3' }} cols">
                       <a class="box" rel="external" href="/programas/{{ $p->slug }}">
-                        <div class="bg" style="background-image:url('/img/upload/{{ $p->foto }}');"></div>
+                        <div class="bg" style="  
+                        @if ( $p->foto !== '' )
+                        background-image: url('/img/upload/{{$p->foto}}'); background-size:cover;background-position: center;
+                        @endif
+                        background-color:#123455;"></div>
                         <div class="overlay-{{$p->categoria->slug}}"></div>
                         <div class="content">
                           <h2 class="Programas__categoria">{{ $p->categoria->name }}</h2>

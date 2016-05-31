@@ -3,10 +3,10 @@
 @section('content')
 
 
-<section class="sect-hero center-all" style="background-color: #60a69d;"  >
+<section class="sect-hero center-all" style="background-color: {{ $rand }};"  >
     <div class="row g-full" >
         <header >
-            <h1> Conte sua história </h1>
+            <h1> Conte sua história</h1>
             <hr class="sep">
         </header>
     </div>

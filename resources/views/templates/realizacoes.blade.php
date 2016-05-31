@@ -1,16 +1,15 @@
 @extends('templates.template')
-
-@section('content')	
-									
-<section class="sect-hero center-all purple" style="background-color: #88c8d3;"  >
+@section('content')									
+<section class="sect-hero center-all purple" style="background-color: {{ $rand }};"  >
 <div>
 		<div class="row">
 			<div class="g-10 cols centered">
-				<h1>Realizacões</h1>
+				<h1>{{$titulo}}</h1>
 			</div>
 	</div>
 </div>
 </section>
-<br>
-@include('templates.obras')
+@include('templates.obras-dest')
+<!-- 
+@include('templates.obras') -->
 @endsection

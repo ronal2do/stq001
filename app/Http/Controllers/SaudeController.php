@@ -20,12 +20,17 @@ class SaudeController extends Controller
         $titulo = 'Saúde'; 
         $video = 'https://www.youtube.com/embed/SMrKiD57ckw'; 
         $video_nome = 'O cuidado com a vida no Hospital de Clínicas';
-        $cor = '#60a69d'; 
-        $classe = 'peep-wrapd';
-
+        $cor = '#f77985'; 
         $posts = Post::where('categoria_id', '=', 1)->get();
-
-        return view('programas.categoria', compact('posts', 'titulo', 'cor', 'classe', 'video','video_nome'));
+        $rand=array_rand([
+            "#f77985"=>"saude",
+            "#be1039"=>"educacao",
+            "#69b843"=>"infra",
+            "#f87e3a"=>"cidadania",
+            "#2a9fe0"=>"meio",
+            "#ad4b9e"=>"esporte"
+        ]); 
+        return view('programas.categoria', compact('posts', 'titulo', 'cor', 'rand', 'video','video_nome'));
 
     }
 }

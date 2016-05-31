@@ -6112,12 +6112,13 @@ ul.instagram li img:hover {
 
     position: absolute;
 
-}.gray{
+}
+.gray{
      -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     transition: all 1s ease;
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1)
+    -webkit-filter: grayscale(0.8);
+    filter: grayscale(0.8)
 }
 .gray:hover{
     -webkit-filter: grayscale(0);
@@ -6983,6 +6984,13 @@ input[type=search]{
 .home .sect-posts article:hover .overlay-4 {
     opacity: .9;
     background-color: #ED6E22;}
+
+.home .sect-posts article .overlay-cinza {
+    opacity: .4;
+    background-color: #000;}
+.home .sect-posts article:hover .overlay-cinza {
+    opacity: .4;
+    background-color: #084296;}
 header.header-main nav ul>li a strong {
     font-family: 'Gotham-Black';
     font-weight: 300;}

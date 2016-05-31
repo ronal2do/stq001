@@ -20,11 +20,17 @@ class EsporteController extends Controller
         $titulo = 'Esporte, cultura e lazer'; 
         $video = 'https://www.youtube.com/embed/G9wYHaTmpFI'; 
         $video_nome = 'Feira Literária de São Bernardo no Cenforpe já é sucesso de público'; 
-        $cor = '#c6c2d9'; 
-        $classe = 'peep-wrapd';
+        $cor = '#ad4b9e'; 
         $posts = Post::where('categoria_id', '=', 4)->get();
-
-        return view('programas.categoria', compact('posts', 'titulo', 'cor', 'classe', 'video','video_nome'));
+        $rand=array_rand([
+            "#f77985"=>"saude",
+            "#be1039"=>"educacao",
+            "#69b843"=>"infra",
+            "#f87e3a"=>"cidadania",
+            "#2a9fe0"=>"meio",
+            "#ad4b9e"=>"esporte"
+        ]); 
+        return view('programas.categoria', compact('posts', 'titulo', 'cor', 'rand', 'video','video_nome'));
 
     }
 }

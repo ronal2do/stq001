@@ -7,9 +7,17 @@ Route::get('/', ['as' => 'welcome', function(){
 }]);
 
 Route::get('/realizacoes', ['as' => 'realizacoes', function(){
-    $posts = \App\Posts::latest()->get();
-    // dd($posts);
-    return view('templates.realizacoes',compact('posts'));
+    $posts = \App\Posts::where('tipo', '!=', 'historia')->where('tipo', '!=', 'NULL' )->latest()->get();
+    $titulo = 'Realizações';
+    $rand=array_rand([
+            "#f77985"=>"saude",
+            "#be1039"=>"educacao",
+            "#69b843"=>"infra",
+            "#f87e3a"=>"cidadania",
+            "#2a9fe0"=>"meio",
+            "#ad4b9e"=>"esporte"
+        ]);
+    return view('templates.realizacoes',compact('posts', 'rand', 'titulo'));
 }]);
 
 Route::get('jovem', 'PagesController@jovem');
@@ -21,9 +29,9 @@ Route::get('/seminario', ['as' => 'seminario', function(){
     return view('templates.pseminario');
 }]);
 
-Route::get('saude', 'SaudeController@index');
+Route::get('/saude', 'SaudeController@index');
 
-Route::get('educacao', 'EspController@index');
+Route::get('/educacao', 'EspController@index');
 
 Route::get('/infraestrutura', 'InfraController@index');
 

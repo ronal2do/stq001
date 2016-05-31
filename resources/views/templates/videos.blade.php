@@ -2,7 +2,7 @@
 
 @section('content')	
 									
-<section class="sect-hero center-all purple" style="background-color:#c5c5c5;"  >
+<section class="sect-hero center-all purple" style="background-color:{{ $rand }};"  >
 <div>
 		<div class="row">
 			<div class="g-10 cols centered">

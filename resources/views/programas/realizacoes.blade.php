@@ -11,9 +11,7 @@
     </div>
 </section>
  @include('contato.news')
-
-<!-- sect Peeps
-================================================== -->		
+	
     <div id="ancora" class="culture center-all">
 <section class="sect-work sect-peeps bg-white" >                                   
             <div class="peep-wrap"> 
