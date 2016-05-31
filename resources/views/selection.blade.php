@@ -1,6 +1,6 @@
-
 <meta charset="utf-8">
- <link rel="stylesheet" href="assets/css/accordion.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/css/accordion.css">
 <style>
     .container{
         height: 100%;
@@ -15,8 +15,31 @@
         margin-top: -230px;
         z-index: 10}
     h1{color: #fff}
+    @media screen and (min-width:320px) {
+        .container:{
+            display: none;
+        }
+     }
+    @media screen and (min-width:480px) {
+        .container:{
+            display: none;
+        }
+     }
+    @media screen and (min-width:600px) {
+        .container:{
+            display: none;
+        }
+     }
+    @media screen and (min-width:768px) { #container:{
+            display: visible;
+        }
+    }
+    @media screen and (min-width:992px) { #container:{
+            display: visible;
+        }
+    }
 </style>
-<div class="container">
+<div id="container" class="container">
     <div class="accordian" style="z-index:1;">
         <ul>
             <li>
@@ -52,3 +75,4 @@
         <!-- <h1 style="font-size: 8em;"><span>na vila sésamo</span>?</h1> -->
     </div>
 </div>
+

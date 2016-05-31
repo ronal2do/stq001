@@ -37,7 +37,7 @@
     @include('fb')
 
 </head>
-<!-- Começa o body                        -->
+<!-- Começa o body -->
 <body id="top" class="home page page-template page-template-homepage page-template-homepage-php">
 @include('aw')
     <div class='mobile-nav-toggle right'>
@@ -47,8 +47,8 @@
     </div>
     <section class="mobile-nav-bg">
         <nav class='mobile-nav-links'>
-             <ul>                
-                    @include('templates.menu')
+            <ul>                
+                @include('templates.menu')
             </ul>
         </nav>
         <footer class="mobile-nav-footer">
@@ -59,17 +59,13 @@
             </nav>
         </footer>
     </section>
-@include('templates.header')
-
+    @include('templates.header')
     <main role="main">
         @yield('content')
-
         @include('contato.news')
-
         @include('templates.footer')
-        
     </main>
-    <!-- Le javascript================================================== -->
+    <!-- Le javascript -->
     <script type='text/javascript' src='/assets/js/jquery.js'></script>
     <script type='text/javascript' src='/assets/js/modernizr.js'></script>
     <script type='text/javascript' src='/assets/js/plugins.min.js'></script>

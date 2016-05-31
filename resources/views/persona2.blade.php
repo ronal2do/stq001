@@ -29,9 +29,7 @@
     <div class="g-7 cols">
                <h1 style="color:#fff;font-weight:100;letter-spacing: -0.1em;font-size: 3.5em;">somos<span style="font-family: 'Gotham-Book';font-weight:100;">mulheres</span></h1>
     </div>
-            <div class="g-1 cols">
-              <img src="{{asset('img/Bola-logo.png')}}" style="width:170px;position:absolute;top:310px;">
-            </div>     
+              
               
 </div>
 @endsection

@@ -9,7 +9,6 @@
     </div>
 </div>
 </section>
-      
       <section class="sect-posts cf bg-lightgrey xl">  
             <div class="row">
             @if( $posts->count() != 0 )
@@ -27,19 +26,19 @@
                     @else ( $posts->count() > 5 )
                         <article class="g-3 cols">
                     @endif
-                              <a class="box" rel="external" href="/{{ $p->tipo }}/{{ $p->slug }}">
-                                <div class="bg" style="
-                                @if( $p->foto !== '' )
-                                    background-image:url('img/upload/{{$p->foto}}');
-                                @else
-                                    background-color:{{ $rand }};
-                                @endif   
-                                "></div>
-                              <span class="overlay-{{ $p->categoria->slug }}"></span>
-                                <div class="content">                              
-                                    <h2 style="color:#fff;font-family: 'Gotham-Book';">{{ $p->nome }}</h2>
-                                </div> 
-                              </a>  
+                          <a class="box" rel="external" href="/{{ $p->tipo }}/{{ $p->slug }}">
+                            <div class="bg" style="
+                            @if( $p->foto !== '' )
+                                background-image:url('img/upload/{{$p->foto}}');
+                            @else
+                                background-color:{{ $rand }};
+                            @endif   
+                            "></div>
+                            <span class="cinza overlay-{{ $p->categoria->slug }}"></span>
+                            <div class="content">                              
+                                <h2 style="color:#fff;font-family: 'Gotham-Black';">{{ $p->nome }}</h2>
+                            </div> 
+                          </a>  
                         </article>
                 @endforeach
             @endif

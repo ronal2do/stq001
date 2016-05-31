@@ -6957,6 +6957,28 @@ input[type=search]{
     font-weight: 100;
     letter-spacing: -0.09em;
 }
+.home .sect-posts article .overlay-cultura,
+.home .sect-posts article .overlay-1{
+    opacity: .6;
+        -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    transition: 1s ease;
+    background-color: #682A7D;}
+
+.home .sect-posts article .overlay-seguranca-publica{
+    opacity: .6;
+        -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    transition: 1s ease;
+    background-color: #084296;}
+
+.home .sect-posts article .overlay-saude{
+    opacity: .6;
+        -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    transition: 1s ease;
+    background-color: #E35768;}
+
 .home .sect-posts article:hover .overlay-cultura,
 .home .sect-posts article:hover .overlay-1{
     opacity: .9;
@@ -6970,11 +6992,32 @@ input[type=search]{
     opacity: .9;
     background-color: #E35768;}
 
+.home .sect-posts article .overlay-educacao,
+.home .sect-posts article .overlay-2 {
+    opacity: .6;
+        -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    transition: 1s ease;
+    background-color: #852035;}
 .home .sect-posts article:hover .overlay-educacao,
 .home .sect-posts article:hover .overlay-2 {
     opacity: .9;
     background-color: #852035;}
+.home .sect-posts article .overlay-habitacao,
+.home .sect-posts article .overlay-3 {
+    opacity: .6;
+        -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    transition: 1s ease;
+    background-color: #95C63C;}
 
+.home .sect-posts article .overlay-esporte,
+.home .sect-posts article .overlay-4 {
+    opacity: .6;
+        -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    transition: 1s ease;
+    background-color: #ED6E22;}
 .home .sect-posts article:hover .overlay-habitacao,
 .home .sect-posts article:hover .overlay-3 {
     opacity: .9;
@@ -6986,10 +7029,13 @@ input[type=search]{
     background-color: #ED6E22;}
 
 .home .sect-posts article .overlay-cinza {
-    opacity: .4;
+    opacity: .6;
+        -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    transition: 1s ease;
     background-color: #000;}
 .home .sect-posts article:hover .overlay-cinza {
-    opacity: .4;
+    opacity: .6;
     background-color: #084296;}
 header.header-main nav ul>li a strong {
     font-family: 'Gotham-Black';
@@ -7025,3 +7071,8 @@ header.header-main nav ul>li a strong {
         color: green;
         color: rgba(0, 0, 0, 0.5);
     }  
+
+.cinza {
+    opacity: .4;
+    background-color: #000;
+}

@@ -2,12 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use DB;
 use Illuminate\Http\Request;
-use App\Mensagem;
+
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Mail;
+use Validator;
+use App\Mensagem;
 
 class MenController extends Controller
 {
@@ -21,14 +22,24 @@ class MenController extends Controller
      */
     public function store(Request $request)
     {
-       //dd($request->all());
+        //dd($request->all());
+        $validator = Validator::make($request->all(), [
+            'nome' => 'required|min:3',
+            'email' => 'email',
+            'telefone' => 'numeric'
+        ]);
+
+        if ($validator->fails()) {
+            return redirect()->back()
+                        ->withErrors($validator)
+                        ->withInput();
+        }
+
         $dadosForm = $request->all();
 
         Mensagem::create($dadosForm); 
-
-      //  $this->disparaEmail($dadosForm['name']);
        
-        return redirect("/");
+        return redirect()->back();
     }
 
     /**
