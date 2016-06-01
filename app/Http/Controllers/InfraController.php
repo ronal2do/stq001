@@ -21,7 +21,7 @@ class InfraController extends Controller
         $video = 'https://www.youtube.com/embed/paVxXhZmXZM'; 
         $video_nome = 'Jardim Silvina se transforma com novas moradias'; 
         $cor = '#69b843'; 
-        $posts = Post::where('categoria_id', '=', 5)->get();
+        $posts = Post::where('categoria_id', '=', 4)->get();
         $rand=array_rand([
             "#f77985"=>"saude",
             "#be1039"=>"educacao",

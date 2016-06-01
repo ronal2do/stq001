@@ -20,7 +20,7 @@ class CidadaniaController extends Controller
         $video = 'https://www.youtube.com/embed/8beAf5UC1vo'; 
         $video_nome = 'Afetividade e atividade contribuem para a saúde dos idosos'; 
         $cor   = '#f87e3a';
-        $posts = Post::where('categoria_id', '=', 3)->get();    
+        $posts = Post::where('categoria_id', '=', 6)->get();    
         $rand=array_rand([
             "#f77985"=>"saude",
             "#be1039"=>"educacao",

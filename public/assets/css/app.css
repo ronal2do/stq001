@@ -6958,7 +6958,7 @@ input[type=search]{
     letter-spacing: -0.09em;
 }
 .home .sect-posts article:hover .overlay-infraestrutura,
-.home .sect-posts article:hover .overlay-1{
+.home .sect-posts article:hover .overlay-3{
     opacity: .6;
     background-color: #69b843;}
 
@@ -6974,14 +6974,14 @@ input[type=search]{
     opacity: .6;
     background-color: #852035;}
 .home .sect-posts article:hover .overlay-cidadania,
-.home .sect-posts article:hover .overlay-3 {
+.home .sect-posts article:hover .overlay-4 {
     opacity: .6;
     background-color: #f87e3a;}
 
 .home .sect-posts article:hover .overlay-esporte,
 .home .sect-posts article:hover .overlay-cultura,
 .home .sect-posts article:hover .overlay-lazer,
-.home .sect-posts article:hover .overlay-4 {
+.home .sect-posts article:hover .overlay-1 {
     opacity: .6;
     background-color: #ad4b9e;}
 

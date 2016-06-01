@@ -22,7 +22,7 @@ class MeioController extends Controller
         $video_nome = 'Visite o Zoológico do Parque Estoril'; 
         $cor = '#2a9fe0';
         
-        $posts = Post::where('categoria_id', '=', 6)->get();
+        $posts = Post::where('categoria_id', '=', 9)->get();
         $rand=array_rand([
             "#f77985"=>"saude",
             "#be1039"=>"educacao",
