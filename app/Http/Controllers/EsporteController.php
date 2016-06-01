@@ -12,7 +12,6 @@ class EsporteController extends Controller
 {
     /**
      * Display a listing of the resource.
-     *Fall Out Boy - Sugar, We're Goin Down
      * @return Response
      */
     public function index()
@@ -21,7 +20,7 @@ class EsporteController extends Controller
         $video = 'https://www.youtube.com/embed/G9wYHaTmpFI'; 
         $video_nome = 'Feira Literária de São Bernardo no Cenforpe já é sucesso de público'; 
         $cor = '#ad4b9e'; 
-        $posts = Post::whereIn('categoria_id', '=',[3, 5, 8])->get();
+        $posts = Post::whereIn('categoria_id', [3, 5, 8])->get();
         $rand=array_rand([
             "#f77985"=>"saude",
             "#be1039"=>"educacao",
