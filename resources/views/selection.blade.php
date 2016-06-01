@@ -21,6 +21,19 @@
         color: #fff;
         font-size: 3em;
         text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+        
+}
+.titulo2{
+    font-size: 0.7em;
+    position: fixed;
+    z-index: 3;
+    bottom: 1;
+    margin: 30px;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 110%;
+    height: auto;
 }
 </style>
 <div class="container hidden-phone hidden-tablet visible-md visible-lg-block">
@@ -51,5 +64,37 @@
     <div class="titulo">
         <h1 style="font-size: 3em;"><span>Qual desses </span>sorrisos <span>tem a </span> sua cara <span>?</span></h1>
     </div>
-</div>
 
+
+</div>
+<div class="container row visible-phone visible-tablet hidden-lg">
+    <div class="ct">
+        <a href="/jovem">
+            <div class="col-md-6 col-sm-6">
+
+                <img src="./img/Perfil1.jpg" class="img-responsive" style="width:130%;"  alt="Qual desses sorrisos têm a sua cara?" title="Qual desses sorrisos têm a sua cara?" />
+            </div>
+        </a>
+        <a href="/mulher">
+            <div class="col-md-6 col-sm-6">
+
+                <img src="./img/Perfil2.jpg" class="img-responsive" style="width:130%;" alt="Qual desses sorrisos têm a sua cara?" title="Qual desses sorrisos têm a sua cara?" />
+            </div>
+        </a>
+        <a href="/geral">
+            <div class="col-md-6 col-sm-6">
+
+                <img src="./img/Perfil3.jpg" class="img-responsive" style="width:130%;"  alt="Qual desses sorrisos têm a sua cara?" title="Qual desses sorrisos têm a sua cara?" />
+            </div>
+        </a>
+        <a href="/idoso">
+            <div class="col-md-6 col-sm-6">
+
+                <img src="./img/Perfil4.jpg" class="img-responsive" style="width:130%;"  alt="Qual desses sorrisos têm a sua cara?" title="Qual desses sorrisos têm a sua cara?" />
+            </div>
+        </a>
+    </div>
+     <div class="titulo2">
+        <h1><span>Qual desses </span>sorrisos <span>tem a </span> sua cara <span>?</span></h1>
+    </div>
+</div>
