@@ -15,9 +15,9 @@
         <section class="sect-posts intro-posts Bolinha Seminario" style="text-align:center;background-color: #fff;">
             <div class="row g-full Confira">
           
-                <h2 class="Confira--frase">Confira mais <strong class="Confira--strong">realizações</strong>.</h2>
+                <h2 class="Confira--frase"><strong class="Confira--strong">Programas</strong> e <strong class="Confira--strong">ações</strong> em <strong class="Confira--strong">destaque</strong>.</h2>
             
-                <a class="btn-pill btn-grey" href="/realizacoes">Visite á Página</a>
+                <a class="btn-pill btn-grey" href="/realizacoes">Confira</a>
             </div>
         </section>
         @include('templates.obras-dest')

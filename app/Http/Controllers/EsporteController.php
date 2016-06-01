@@ -21,7 +21,7 @@ class EsporteController extends Controller
         $video = 'https://www.youtube.com/embed/G9wYHaTmpFI'; 
         $video_nome = 'Feira Literária de São Bernardo no Cenforpe já é sucesso de público'; 
         $cor = '#ad4b9e'; 
-        $posts = Post::where('categoria_id', '=', 4)->get();
+        $posts = Post::where('categoria_id', '=', [3, 5, 8])->get();
         $rand=array_rand([
             "#f77985"=>"saude",
             "#be1039"=>"educacao",

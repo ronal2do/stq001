@@ -20,8 +20,6 @@
     <link rel="shortcut icon" type="image/ico" href="/img/favicon.ico">
     <!-- CSS & Js================================================== -->
     @yield('facebook')
-
-
     <link rel="stylesheet" href="/assets/css/app.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
@@ -35,7 +33,6 @@
     </script>
     @include('ga')
     @include('fb')
-
 </head>
 <!-- Começa o body -->
 <body id="top" class="home page page-template page-template-homepage page-template-homepage-php">
