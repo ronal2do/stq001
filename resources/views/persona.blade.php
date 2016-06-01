@@ -28,7 +28,7 @@
 <div class="row intro" style="padding:30px;">
     <div class="g-5 cols"></div>
     <div class="g-7 cols">
-               <h1 style="color:#fff;font-weight:100;letter-spacing: -0.1em;font-size: 3.5em;">somos<span style="font-family: 'Gotham-Book';font-weight:100;">juventude</span></h1>
+               <h1 style="color:#fff;font-weight:100;letter-spacing: -0.1em;font-size: 2.5em;">somos<span style="font-family: 'Gotham-Book';font-weight:100;">juventude</span></h1>
     </div>
                  
 

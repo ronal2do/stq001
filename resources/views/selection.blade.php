@@ -67,7 +67,7 @@
 
 
 </div>
-<div class="container row visible-phone visible-tablet hidden-lg">
+<div class="container row visible-phone visible-tablet hidden-md hidden-lg">
     <div class="ct">
         <a href="/jovem">
             <div class="col-md-6 col-sm-6">
