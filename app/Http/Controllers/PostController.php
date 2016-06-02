@@ -122,7 +122,15 @@ class PostController extends Controller
     {
         $post = \App\Post::findBySlug($slug);
         $categoria = Categoria::lists('name');
-        return view('templates.post', compact('post', 'categoria'));
+        $rand=array_rand([
+            "#f77985"=>"saude",
+            "#be1039"=>"educacao",
+            "#69b843"=>"infra",
+            "#f87e3a"=>"cidadania",
+            "#2a9fe0"=>"meio",
+            "#ad4b9e"=>"esporte"
+        ]);
+        return view('templates.post', compact('post', 'categoria', 'rand'));
     }
     /**
      * Show the form for editing the specified resource.
