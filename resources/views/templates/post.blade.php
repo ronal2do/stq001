@@ -35,17 +35,20 @@
             <hr>
 
                     <br>
-                   
-           	@if ( $post->link !== '' )
-            	 <a class="btn-pill btn-grey" href="{{ $post->link }}">Site da prefeitura <i class="fa fa-external-link"></i></a>
+            @if( $post->link == '' )  
+                <a class="btn-pill btn-grey" 
+                target="_blank" 
+                href="http://www.saobernardo.sp.gov.br/busca?p_p_id=3&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&_3_struts_action=%2Fsearch%2Fsearch&_3_cur=1&_3_format=&_3_keywords={{$post->nome}}&_3_groupId=0&_3_entryClassName=&_3_modifiedselection=0">mais <i class="fa fa-external-link"></i></a>   
+           	@elseif ( $post->link !== '' )
+            	 <a class="btn-pill btn-grey" href="{{ $post->link }}">mais <i class="fa fa-external-link"></i></a>
             @elseif( $post->link == NULL )
             	<a class="btn-pill btn-grey" 
             	target="_blank" 
-            	href="http://www.saobernardo.sp.gov.br/busca?p_p_id=3&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&_3_struts_action=%2Fsearch%2Fsearch&_3_cur=1&_3_format=&_3_keywords={{$post->nome}}&_3_groupId=0&_3_entryClassName=&_3_modifiedselection=0">Site da prefeitura <i class="fa fa-external-link"></i></a>
+            	href="http://www.saobernardo.sp.gov.br/busca?p_p_id=3&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&_3_struts_action=%2Fsearch%2Fsearch&_3_cur=1&_3_format=&_3_keywords={{$post->nome}}&_3_groupId=0&_3_entryClassName=&_3_modifiedselection=0">mais <i class="fa fa-external-link"></i></a>
             @else
             	<a class="btn-pill btn-grey" 
             	target="_blank" 
-            	href="http://www.saobernardo.sp.gov.br/busca?p_p_id=3&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&_3_struts_action=%2Fsearch%2Fsearch&_3_cur=1&_3_format=&_3_keywords={{$post->nome}}&_3_groupId=0&_3_entryClassName=&_3_modifiedselection=0">Site da prefeitura <i class="fa fa-external-link"></i></a>
+            	href="http://www.saobernardo.sp.gov.br/busca?p_p_id=3&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&_3_struts_action=%2Fsearch%2Fsearch&_3_cur=1&_3_format=&_3_keywords={{$post->nome}}&_3_groupId=0&_3_entryClassName=&_3_modifiedselection=0">mais <i class="fa fa-external-link"></i></a>
             @endif
             </div><br>
                                <h2>Compartilhar</h2>
