@@ -5,7 +5,7 @@
             <div>
                @yield('banner')
             </div>
-            <div class="overlay alpha"></div>
+          
         </section>
         @yield('destaques')
 
