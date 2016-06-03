@@ -7,12 +7,11 @@
         $("#trigger-nav, .siteoverlay").click(function(e) {
             $("body, header.header-main, .mobile-nav-bg, #trigger-nav, .siteoverlay").toggleClass("js-nav-open"), e.preventDefault()
         }), $(window).width() > 567 && ($("#bgVideo").vide({
-            mp4: "http://104.131.170.108/wp-content/uploads/2015/08/somossbc21.mp4", 
-            ogv: "http://104.131.170.108/wp-content/uploads/2015/08/somossbc1.ogv", /* ogv: "file:///Applications/XAMPP/xamppfiles/htdocs/dlima/public_html/lab/somossbc/videos/video-home.ogv", */
-            webm: "http://104.131.170.108/wp-content/uploads/2015/08/somossbc1.webm", /* webm: "file:///Applications/XAMPP/xamppfiles/htdocs/dlima/public_html/lab/somossbc/videos/somossbc.mp4", */
+            mp4: "http://somossbc.com.br/_videos/videonovo.mp4", 
+            webm: "http://somossbc.com.br/_videos/videonovo.webm", /* webm: "file:///Applications/XAMPP/xamppfiles/htdocs/dlima/public_html/lab/somossbc/videos/somossbc.mp4", */
             poster: "http://www.dlima.art.br/lab/somossbc/img/home/somossbc.jpg" /* poster: "file:///Applications/XAMPP/xamppfiles/htdocs/dlima/public_html/lab/somossbc/img/home/somossbc.jpg"  */
         }), $(".bg-vid").fadeIn(3e3), $("#sect-video .overlay").stop().animate({
-            opacity: .4
+            opacity: .2
         })), $(".wpcf7-list-item-label").click(function(e) {
             $(this).toggleClass("checked"), e.preventDefault()
         }), $(".wpcf7-list-item-label, label").bind("click", function() {

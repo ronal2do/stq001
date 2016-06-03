@@ -12,7 +12,6 @@ class MeioController extends Controller
 {
     /**
      * Display a listing of the resource.
-     *  https://www.youtube.com/embed/bvC_0foemLY
      * @return Response
      */
     public function index()

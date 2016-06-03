@@ -20,7 +20,7 @@
     <link rel="shortcut icon" type="image/ico" href="/img/favicon.ico">
     <!-- CSS & Js================================================== -->
     @yield('facebook')
-    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="stylesheet" href="/assets/css/app.min.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
     <link rel='canonical' href='#' />
@@ -63,10 +63,7 @@
         @include('templates.footer')
     </main>
     <!-- Le javascript -->
-    <script type='text/javascript' src='/assets/js/jquery.js'></script>
-    <script type='text/javascript' src='/assets/js/modernizr.js'></script>
-    <script type='text/javascript' src='/assets/js/plugins.min.js'></script>
-    <script type='text/javascript' src='/assets/js/scripts.min.js'></script>
+    <script type='text/javascript' src='/assets/js/all.min.js'></script>
 </body>
 
 </html>
