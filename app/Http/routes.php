@@ -26,7 +26,15 @@ Route::get('geral', 'PagesController@geral');
 Route::get('idoso', 'PagesController@idoso');
 
 Route::get('/seminario', ['as' => 'seminario', function(){
-    return view('templates.pseminario');
+    $rand=array_rand([
+            "#f77985"=>"saude",
+            "#be1039"=>"educacao",
+            "#69b843"=>"infra",
+            "#f87e3a"=>"cidadania",
+            "#2a9fe0"=>"meio",
+            "#ad4b9e"=>"esporte"
+        ]);
+    return view('templates.pseminario', compact('rand'));
 }]);
 
 Route::get('/saude', 'SaudeController@index');

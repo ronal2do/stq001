@@ -1,4 +1,4 @@
-<section class="sect-posts intro-posts Bolinha" style="text-align:center;background-color: #fff;">
+<!-- <section class="sect-posts intro-posts Bolinha" style="text-align:center;background-color: #fff;">
             <div class="row g-full Seminario">
    				<h3 class="Seminario__h3">SEMINÁRIO MUNICIPAL</h3>
                 <h2 class="Seminario__h2">São Bernardo que cuida da gente</h2>
@@ -8,5 +8,13 @@
                 </figure>
                 
             	<a class="btn-pill btn-grey" href="/seminario">SAIBA MAIS</a>
+            </div>
+</section> -->
+
+<section class="sect-posts intro-posts Bolinha" style="text-align:center;background-color: #fff;">
+            <div class="row g-full Seminario">
+   				<h3 class="Seminario__h3">Veja outros Sorrisos</h3>
+                <h2 class="Seminario__h2">São Bernardo que cuida da gente</h2>
+              
             </div>
 </section>
