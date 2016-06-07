@@ -19,7 +19,7 @@ Route::get('/realizacoes', ['as' => 'realizacoes', function(){
         ]);
     return view('templates.realizacoes',compact('posts', 'rand', 'titulo'));
 }]);
-
+Route::get('/download', 'PagesController@getDownload');
 Route::get('jovem', 'PagesController@jovem');
 Route::get('mulher', 'PagesController@mulher');
 Route::get('geral', 'PagesController@geral');

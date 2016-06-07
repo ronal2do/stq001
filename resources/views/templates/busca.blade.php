@@ -51,9 +51,9 @@
             @endif
             </div>
     </section>
+@include('templates.seminario')
 
-
-
+    @include('templates.obras-dest')
    @endsection
 
 

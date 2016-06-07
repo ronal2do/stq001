@@ -17,8 +17,8 @@
             <br>
 				@foreach ($videos as $video)
                   
-                    <article class="g-3 cols">
-                     	<iframe class="video" width="100%" height="300" src="https://www.youtube.com/embed/{{ $video->url }}?rel=0" frameborder="0" allowfullscreen=""></iframe>
+                    <article class="g-4 cols">
+                     	<iframe class="video" width="100%" height="280" src="https://www.youtube.com/embed/{{ $video->url }}?rel=0" frameborder="0" allowfullscreen=""></iframe>
                     </article>
                @endforeach     
             </div>

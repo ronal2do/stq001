@@ -62,4 +62,16 @@ class PagesController extends Controller
     // dd($posts);
         return view('persona4',compact('posts', 'numero', 'programas'));
     }
+
+    public function getDownload()
+    {
+        //PDF file is stored under project/public/download/info.pdf
+        $file= public_path(). "/downloads/info.pdf";
+
+        $headers = array(
+                  'Content-Type: application/pdf',
+                );
+
+        return response()->download($file, 'revista-op.pdf', $headers);
+    }
 }
